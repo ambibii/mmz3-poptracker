@@ -1,0 +1,105 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
+  {
+    "name": "Resistance Base",
+    "location_size": 30,
+    "location_border_thickness": 4,
+    "img": "images/maps/resistance-base.png"
+  },
+  {
+    "name": "Derelict Spacecraft",
+    "location_size": 50,
+    "location_border_thickness": 4,
+    "img": "images/maps/spacecraft.png"
+  },
+  {
+    "name": "Aegis Volcano Base",
+    "location_size": 50,
+    "location_border_thickness": 4,
+    "img": "images/maps/volcano-base.png"
+  },
+  {
+    "name": "Oceanic Highway Ruins",
+    "location_size": 60,  
+    "location_border_thickness": 4,
+    "img": "images/maps/highway-ruins.png"
+  },
+  {
+    "name": "Weapons Repair Factory",
+    "location_size": 40,
+    "location_border_thickness": 4,
+    "img": "images/maps/weapons-factory.png"
+  },
+  {
+    "name": "Old Residential",
+    "location_size": 50,
+    "location_border_thickness": 4,
+    "img": "images/maps/old-residential.png"
+  },
+  {
+    "name": "Missile Factory",
+    "location_size": 50,
+    "location_border_thickness": 4,
+    "img": "images/maps/missile-factory.png"
+  },
+  {
+    "name": "Twilight Desert",
+    "location_size": 50,
+    "location_border_thickness": 4,
+    "img": "images/maps/twilight-desert.png"
+  },
+  {
+    "name": "Frontline Ice Base",
+    "location_size": 60,
+    "location_border_thickness": 4,
+    "img": "images/maps/frontline-ice-base.png"
+  },
+  {
+    "name": "Forest of Anatre",
+    "location_size": 30,
+    "location_border_thickness": 4,
+    "img": "images/maps/forest-of-anatre.png"
+  },
+  {
+    "name": "Area X-2",
+    "location_size": 50,
+    "location_border_thickness": 4,
+    "img": "images/maps/area-x-2.png"
+  },
+  {
+    "name": "Energy Facility",
+    "location_size": 60,
+    "location_border_thickness": 4,
+    "img": "images/maps/energy-facility.png"
+  },
+  {
+    "name": "Snowy Plains",
+    "location_size": 90,
+    "location_border_thickness": 4,
+    "img": "images/maps/snowy-plains.png"
+  },
+  {
+    "name": "Sunken Library",
+    "location_size": 50,
+    "location_border_thickness": 4,
+    "img": "images/maps/sunken-library.png"
+  },
+  {
+    "name": "Giant Elevator",
+    "location_size": 30,
+    "location_border_thickness": 4,
+    "img": "images/maps/giant-elevator.png"
+  },
+  {
+    "name": "Sub Arcadia",
+    "location_size": 50,
+    "location_border_thickness": 4,
+    "img": "images/maps/sub-arcadia.png"
+  },
+  {
+    "name": "Abandoned Research Laboratory",
+    "location_size": 30,
+    "location_border_thickness": 4,
+    "img": "images/maps/research-lab.png"
+  }
+]

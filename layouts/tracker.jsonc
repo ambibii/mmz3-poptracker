@@ -1,0 +1,471 @@
+{
+  //sets the trackers layout
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Weapons",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "weapons_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Chips",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "chips_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Disks",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "disks_grid"
+              }
+            },
+            {
+                "type": "group",
+                "header": "Access Codes",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "access_grid"
+                }
+            }
+          ]
+        },
+        
+        {
+          "type": "tabbed",
+          "tabs": [
+            { "title": "Resistance Base",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Resistance Base"
+                ]
+              }
+            },
+            { "title": "First Mission Set",
+              "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                    { "title": "Aegis Volcano Base",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "Aegis Volcano Base"
+                        ]
+                      }
+                    },
+                    { "title": "Oceanic Highway Ruins",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "Oceanic Highway Ruins"
+                            ]
+                        }
+                    },
+                    { "title": "Weapons Repair Factory",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "Weapons Repair Factory"
+                            ]
+                        }
+                    },
+                    { "title": "Old Residential",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "Old Residential"
+                            ]
+                        }
+                    }
+                  ]
+              }
+            },
+            { "title": "Second Mission Set",
+              "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                      { "title": "Twilight Desert",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Twilight Desert"
+                              ]
+                          }
+                      },
+                      { "title": "Frontline Ice Base",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Frontline Ice Base"
+                              ]
+                          }
+                      },
+                      {
+                          "title": "Forest of Anatre",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Forest of Anatre"
+                              ]
+                          }
+                      },
+                      { "title": "Area X-2",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Area X-2"
+                              ]
+                          }
+                      }
+                  ]
+              }
+            },
+            { "title": "Third Mission Set",
+              "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                      { "title": "Energy Facility",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Energy Facility"
+                              ]
+                          }
+                      },
+                      {
+                          "title": "Snowy Plains",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Snowy Plains"
+                              ]
+                          }
+                      },
+                      {
+                          "title": "Sunken Library",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Sunken Library"
+                              ]
+                          }
+                      },
+                      {
+                          "title": "Giant Elevator",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Giant Elevator"
+                              ]
+                          }
+                      }
+                  ]
+              }
+          },
+          {
+              "title": "Special Missions",
+              "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                    { "title": "Derelict Spacecraft",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "Derelict Spacecraft"
+                            ]
+                        }
+                    },
+                      { "title": "Missile Factory",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Missile Factory"
+                              ]
+                          }
+                      },
+                      {
+                          "title": "Sub Arcadia",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Sub Arcadia"
+                              ]
+                          }
+                      },
+                      {
+                          "title": "Abandoned Research Laboratory",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Abandoned Research Laboratory"
+                              ]
+                          }
+                      }
+                  ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Weapons",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "weapons_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Chips",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "chips_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Disks",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "disks_grid"
+              }
+            },
+            {
+            "type": "group",
+            "header": "Access Codes",
+            "dock": "top",
+            "content": {
+                "type": "layout",
+                "key": "access_grid"
+            }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            { "title": "Resistance Base",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Resistance Base"
+                ]
+              }
+            },
+            { "title": "First Mission Set",
+              "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                    { "title": "Aegis Volcano Base",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "Aegis Volcano Base"
+                        ]
+                      }
+                    },
+                    { "title": "Oceanic Highway Ruins",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "Oceanic Highway Ruins"
+                            ]
+                        }
+                    },
+                    { "title": "Weapons Repair Factory",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "Weapons Repair Factory"
+                            ]
+                        }
+                    },
+                    { "title": "Old Residential",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "Old Residential"
+                            ]
+                        }
+                    }
+                  ]
+              }
+            },
+            { "title": "Second Mission Set",
+              "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                      { "title": "Twilight Desert",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Twilight Desert"
+                              ]
+                          }
+                      },
+                      { "title": "Frontline Ice Base",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Frontline Ice Base"
+                              ]
+                          }
+                      },
+                      {
+                          "title": "Forest of Anatre",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Forest of Anatre"
+                              ]
+                          }
+                      },
+                      { "title": "Area X-2",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Area X-2"
+                              ]
+                          }
+                      }
+                  ]
+              }
+            },
+            { "title": "Third Mission Set",
+              "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                      { "title": "Energy Facility",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Energy Facility"
+                              ]
+                          }
+                      },
+                      {
+                          "title": "Snowy Plains",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Snowy Plains"
+                              ]
+                          }
+                      },
+                      {
+                          "title": "Sunken Library",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Sunken Library"
+                              ]
+                          }
+                      },
+                      {
+                          "title": "Giant Elevator",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Giant Elevator"
+                              ]
+                          }
+                      }
+                  ]
+              }
+          },
+          {
+              "title": "Special Missions",
+              "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                    { "title": "Derelict Spacecraft",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "Derelict Spacecraft"
+                            ]
+                        }
+                    },
+                      { "title": "Missile Factory",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Missile Factory"
+                              ]
+                          }
+                      },
+                      {
+                          "title": "Sub Arcadia",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Sub Arcadia"
+                              ]
+                          }
+                      },
+                      {
+                          "title": "Abandoned Research Laboratory",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Abandoned Research Laboratory"
+                              ]
+                          }
+                      }
+                  ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

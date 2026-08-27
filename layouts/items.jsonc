@@ -1,0 +1,241 @@
+{
+  // sets layouts for shadred items grids
+  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "10, 10",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "Buster",
+                "Saber",
+				"Rod",
+				"Shield"
+              ],
+              [
+                // "consumable",
+                // "progressive_toggle"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weapons_grid": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"item_margin": "0,0",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"rows": [
+							[
+								"Buster",
+								"Null",
+								"Reflect",
+								"V",
+								"Burst",
+								"Blizzard"
+							],
+							[
+								"Saber",
+								"Null",
+								"Gale",
+								"Smash",
+								"Split",
+								"Throw"
+							],
+							[
+								"Rod",
+								"null",
+								"Thousand",
+								"Soul",
+								"Null",
+								"Null"
+							],
+							[
+								"Shield",
+								"Null",
+								"Sweep",
+								"Orbit",
+								"Null",
+								"Sub Tank"
+							]
+						]
+					}
+				]
+			}
+		]
+	},
+	"chips_grid": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"item_margin": "0,0",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"rows": [
+							[
+								"helm",
+								"autocharge",
+								"recover",
+								"quickcharge"
+							],
+							[
+								"chest",
+								"light",
+								"heavy",
+								"Null"
+							],
+							[
+								"Null",
+								"thunder",
+								"ice",
+								"flame"
+							],
+							[
+								"legs",
+								"spike",
+								"quick",
+								"double",
+								"shadow"
+							],
+							[
+								"Null",
+								"frog",
+								"splash",
+								"ultima"
+							]
+						]
+					}
+				]
+			}
+		]
+	},
+	"disks_grid": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "vertical",
+				"margin": "0,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"item_margin": "5,5",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"rows": [
+							// ["Sub Tank","Sub Tank","Sub Tank"],
+							// ["Sub Tank","Sub Tank","Sub Tank"],
+							// ["Sub Tank","Sub Tank","Sub Tank"]
+							[
+								"chip disk",
+								"files",
+								"Null"
+							],
+							[
+								"nurse",
+								"animal",
+								"hacker"
+							],
+							[
+								"ec",
+								"boss",
+								"lore"
+							]
+						]
+					},
+					// {
+					// 	"type": "text",
+					// 	"text": "Total Disks:"
+					// },
+					{
+						"type": "item",
+						"item": "disk",
+						"item_size": 20,
+						"item_margin": "10,10",
+						"h_alignment": "left"
+					}
+				]
+			}
+		]
+	},
+	"access_grid": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "vertical",
+				"margin": "0,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"item_margin": "5,5",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"rows": [
+							// ["Sub Tank","Sub Tank","Sub Tank"],
+							// ["Sub Tank","Sub Tank","Sub Tank"],
+							// ["Sub Tank","Sub Tank","Sub Tank"]
+							[
+								"volcano_access",
+								"oceanic_access",
+								"factory_access",
+								"residential_access"
+							],
+							[
+								"desert_access",
+								"ice_base_access",
+								"forest_access",
+								"areax_access"
+							],
+							[
+								"energy_access",
+								"snowy_access",
+								"library_access",
+								"elevator_access"
+							],
+							[
+								"spacecraft_access",
+								"missile_access",
+								"subarcadia_access"
+							]
+						]
+					}
+				]
+			}
+		]
+	}
+}

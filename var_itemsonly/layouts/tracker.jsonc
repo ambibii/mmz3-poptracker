@@ -1,0 +1,94 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "group",
+          "header": "Weapons",
+          "dock": "top",
+          "content": {
+            "type": "layout",
+            "key": "weapons_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Chips",
+          "dock": "top",
+          "content": {
+            "type": "layout",
+            "key": "chips_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Disks",
+          "dock": "top",
+          "content": {
+            "type": "layout",
+            "key": "disks_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Access Codes",
+          "dock": "top",
+          "content": {
+            "type": "layout",
+            "key": "access_grid"
+          }
+        }
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "group",
+          "header": "Weapons",
+          "dock": "top",
+          "content": {
+            "type": "layout",
+            "key": "weapons_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Chips",
+          "dock": "top",
+          "content": {
+            "type": "layout",
+            "key": "chips_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Disks",
+          "dock": "top",
+          "content": {
+            "type": "layout",
+            "key": "disks_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Access Codes",
+          "dock": "top",
+          "content": {
+            "type": "layout",
+            "key": "access_grid"
+          }
+        }
+      ]
+    }
+  }
+}

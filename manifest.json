@@ -1,0 +1,25 @@
+{
+  "name": "MMZ3 Archipelago Tracker",
+  "game_name": "Mega Man Zero 3",
+  "package_version": "0.1.0",
+  "package_uid": "mmz3",
+  "platform": "gba",
+  "author": "ambibii",
+  // tested against version 0.3.0 of the MMZ3 apworld
+  "min_poptracker_version": "0.25.9",
+  "target_poptracker_version": "0.32.0",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": [
+        "ap"
+      ]
+    },
+    "var_itemsonly": {
+      "display_name": "Items Only",
+      "flags": [
+        "ap"
+      ]
+    }
+  }
+}

@@ -1,0 +1,553 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+ 
+// WEAPONS
+  {
+    "name": "Buster",
+    "type": "toggle",
+    "img": "images/items/buster.png",
+    "codes": "Buster,buster"
+  },
+  {
+    "name": "Z-Saber",
+    "type": "toggle",
+    "img": "images/items/saber.png",
+    "codes": "Saber,z-saber"
+  },
+  {
+    "name": "Recoil Rod",
+    "type": "toggle",
+    "img": "images/items/rod.png",
+    "codes": "Rod,recoilrod"
+  },
+  {
+    "name": "Shield Boomerang",
+    "type": "toggle",
+    "img": "images/items/shield.png",
+    "codes": "Shield,shieldboomerang"
+  },
+
+// EX SKILLS
+  {
+    "name": "Burst Shot",
+    "type": "toggle",
+    "img": "images/items/boom.png",
+    "codes": "Burst,burstshot"
+  },
+  {
+    "name": "Throw Blade",
+    "type": "toggle",
+    "img": "images/items/beam.png",
+    "codes": "Throw,throwblade"
+  },
+  {
+    "name": "Saber Smash",
+    "type": "toggle",
+    "img": "images/items/saber_smash.png",
+    "codes": "Smash,sabersmash"
+  },
+  {
+    "name": "1000 Slash",
+    "type": "toggle",
+    "img": "images/items/thousand.png",
+    "codes": "Thousand,1000slash"
+  },
+  {
+    "name": "Shield Sweep",
+    "type": "toggle",
+    "img": "images/items/wheel.png",
+    "codes": "Sweep,shieldsweep"
+  },
+  {
+    "name": "Split Heavens",
+    "type": "toggle",
+    "img": "images/items/rising.png",
+    "codes": "Split,splitheavens"
+  },
+  {
+    "name": "Blizzard Arrow",
+    "type": "toggle",
+    "img": "images/items/ice_spikes.png",
+    "codes": "Blizzard,blizzardarrow"
+  },
+  {
+    "name": "Reflected Laser",
+    "type": "toggle",
+    "img": "images/items/reflect.png",
+    "codes": "Reflect,reflectedlaser"
+  },
+  {
+    "name": "Soul Launcher",
+    "type": "toggle",
+    "img": "images/items/soul_launcher.png",
+    "codes": "Soul,soullauncher"
+  },
+  {
+    "name": "Orbit Shield",
+    "type": "toggle",
+    "img": "images/items/orbit.png",
+    "codes": "Orbit,orbitshield"
+  },
+  {
+    "name": "V-Shot",
+    "type": "toggle",
+    "img": "images/items/v_shot.png",
+    "codes": "V,vshot"
+  },
+  {
+    "name": "Gale Attack",
+    "type": "toggle",
+    "img": "images/items/thrust.png",
+    "codes": "Gale,galeattack"
+  },
+
+// CHIPS
+    // HEAD
+      // The following chips are technically DISK items, 
+      // but it makes sense for them to be with equipment
+    {
+      "name": "Basic Head Chip",
+      "type": "static",
+      "img": "images/items/helm.png",
+      "codes": "helm"
+    },
+    {
+      "name": "Auto-Charge Head Chip",
+      "type": "toggle",
+      "img": "images/items/headtwo.png",
+      "codes": "autocharge"
+    },
+    {
+      "name": "Auto-Recover Head Chip",
+      "type": "toggle",
+      "img": "images/items/head3.png",
+      "codes": "recover,autorecover"
+    },
+    {
+      "name": "Quick-Charge Head Chip",
+      "type": "toggle",
+      "img": "images/items/head1.png",
+      "codes": "quickcharge"
+    },
+
+    // BODY
+    {
+      "name": "Basic Body Chip",
+      "type": "static",
+      "img": "images/items/chest.png",
+      "codes": "chest"
+    },
+    {
+      "name": "Ice Body Chip",
+      "type": "toggle",
+      "img": "images/items/ice.png",
+      "codes": "ice"
+    },
+    {
+      "name": "Thunder Body Chip",
+      "type": "toggle",
+      "img": "images/items/thunder.png",
+      "codes": "thunder"
+    },
+    {
+      "name": "Flame Body Chip",
+      "type": "toggle",
+      "img": "images/items/flame.png",
+      "codes": "flame"
+    },
+    {
+      "name": "Light Body Chip",
+      "type": "toggle",
+      "img": "images/items/light.png",
+      "codes": "light"
+    },
+    {
+      "name": "Absorber Body Chip",
+      "type": "toggle",
+      "img": "images/items/heavy.png",
+      "codes": "heavy,absorber"
+    },
+
+    // LEGS
+    {
+      "name": "Basic Foot Chip",
+      "type": "static",
+      "img": "images/items/legs.png",
+      "codes": "legs"
+    },
+    {
+      "name": "Spike Foot Chip",
+      "type": "toggle",
+      "img": "images/items/no_slip.png",
+      "codes": "spike"
+    },
+    {
+      "name": "Quick Foot Chip",
+      "type": "toggle",
+      "img": "images/items/swift.png",
+      "codes": "quick"
+    },
+    {
+      "name": "Double Jump Foot Chip",
+      "type": "toggle",
+      "img": "images/items/double_jump.png",
+      "codes": "double,doublejump"
+    },
+    {
+      "name": "Shadow Dash Foot Chip",
+      "type": "toggle",
+      "img": "images/items/shadow.png",
+      "codes": "shadow,shadowdash"
+    },
+
+      // The following chips are technically DISK items, 
+      // but it makes sense for them to be with equipment
+    {
+      "name": "Frog Foot Chip",
+      "type": "toggle",
+      "img": "images/items/wall.png",
+      "codes": "frog"
+    },
+    {
+      "name": "Splash Jump Foot Chip",
+      "type": "toggle",
+      "img": "images/items/foot1.png",
+      "codes": "splash"
+    },
+    {
+      "name": "Ultima Foot Chip",
+      "type": "toggle",
+      "img": "images/items/green.png",
+      "codes": "ultima"
+    },
+
+// SUBTANKS
+  {
+        "name": "Sub Tank",
+        "type": "consumable",
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#A0000000",
+        "img": "images/items/subtank.png",
+        "codes": "sub tank"
+    },
+
+// DISKS
+  {
+        "name": "Chips", 
+        //disks 1-6
+        "type": "consumable",
+        "max_quantity": 6,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#A0000000",
+        "img": "images/items/headtwo.png",
+        "codes": "chip disk, chip"
+        //autocharge,autorecover,quickcharge,frog,splash,ultima
+    },
+  {
+        "name": "Files", //disks 7-t0
+        "type": "consumable",
+        "max_quantity": 13,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#A0000000",
+        "img": "images/items/disk.png",
+        "codes": "files"
+        //filea,fileb,filec,filed,filee,filef,fileg,fileh,filei,filej,filek,filel,filem,filen"
+    },
+
+
+  {
+        "name": "Nurse Elves", //disks t1-47
+        "type": "consumable",
+        "max_quantity": 26,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#A0000000",
+        "img": "images/items/nurse.png",
+        "codes": "nurse"
+        // 021,022,023,024,025,026,027,028,029,030,031,032,033,034,035,036,037,038,039,040,041,042,043,044,045,046,047"
+    },
+  {
+        "name": "Animal Elves", //disks 48-60
+        "type": "consumable",
+        "max_quantity": 12,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#A0000000",
+        "img": "images/items/animal.png",
+        "codes": "animal"
+        //048,049,050,051,052,053,054,055,056,057,058,059,060"
+    },
+  {
+        "name": "Hacker Elves", //disks 61-94
+        "type": "consumable",
+        "max_quantity": 33,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#A0000000",
+        "img": "images/items/hacker.png",
+        "codes": "hacker"
+        //061,062,063,064,065,066,067,068,069,070,071,072,073,074,075,076,077,078,079,080,081,082,083,084,085,086,087,088,089,090,091,092,093,094"
+    },
+    
+
+  {
+        "name": "E-Crystals", //disks 95-110
+        "type": "consumable",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#A0000000",
+        "img": "images/items/crystal.png",
+        "codes": "ec"
+        //095,096,097,098,099,100,101,102,103,104,105,106,107,108,109,110"
+    },
+  {
+        "name": "Boss Info", //disks 111-164
+        "type": "consumable",
+        "max_quantity": 53,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#A0000000",
+        "img": "images/items/omega.png",
+        "codes": "boss"
+        //111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164"
+    },
+  {
+        "name": "NPC Lore File", //disks 165-180
+        "type": "consumable",
+        "max_quantity": 16,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#A0000000",
+        "img": "images/items/ciel.png",
+        "codes": "lore"
+        //165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180"
+    },
+    {
+        "name": "Victory", //disks 165-180
+        "type": "consumable",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "img": "images/items/ciel.png",
+        "codes": "victory"
+    },
+    {
+        "name": "Extra Energen", //disks 165-180
+        "type": "consumable",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "img": "images/items/ciel.png",
+        "codes": "100ec"
+    },
+    {
+        "name": "Story Progress", //disks 165-180
+        "type": "consumable",
+        "max_quantity": 15,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "img": "images/items/ciel.png",
+        "codes": "storyprogress"
+    },
+    {
+        "name": "Count", //disks 1-180
+        "type": "consumable",
+        "max_quantity": 180,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 15,
+        "overlay_align": "right",
+        "img": "images/items/total_count.png",
+        "codes": "disk"
+    },
+    
+    //Level Access 
+    {
+      "name": "Derelict Spacecraft Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/spacecraft.png",
+      "codes": "spacecraft_access"
+    },
+    {
+      "name": "Aegis Volcano Base Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/volcano.png",
+      "codes": "volcano_access"
+    },
+    {
+      "name": "Oceanic Highway Ruins Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/oceanic.png",
+      "codes": "oceanic_access"
+    },
+    {
+      "name": "Weapons Repair Factory Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/wrfactory.png",
+      "codes": "factory_access"
+    },
+    {
+      "name": "Old Residential Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/residential.png",
+      "codes": "residential_access"
+    },
+    {
+      "name": "Missile Factory Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/missile.png",
+      "codes": "missile_access"
+    },
+    {
+      "name": "Twilight Desert Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/desert.png",
+      "codes": "desert_access"
+    },
+    {
+      "name": "Forest of Anatre Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/forest.png",
+      "codes": "forest_access"
+    },
+    {
+      "name": "Frontline Ice Base Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/icebase.png",
+      "codes": "ice_base_access"
+    },
+    {
+      "name": "Area X-2 Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/areax.png",
+      "codes": "areax_access"
+    },
+    {
+      "name": "Energy Facility Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/energy.png",
+      "codes": "energy_access"
+    },
+    {
+      "name": "Snowy Plains Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/snowy.png",
+      "codes": "snowy_access"
+    },
+    {
+      "name": "Sunken Library Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/library.png",
+      "codes": "library_access"
+    },
+    {
+      "name": "Giant Elevator Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/elevator.png",
+      "codes": "elevator_access"
+    },
+    {
+      "name": "Sub Arcadia Access",
+      "type": "toggle",
+      "img": "images/items/mugshots/subarcadia.png",
+      "codes": "subarcadia_access"
+    },
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "name": "Progressive",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/progressive.png",
+        "codes": "progressive",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/progressive_2.png",
+        "codes": "progressive_2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Consumable",
+    "type": "consumable",
+    "img": "images/items/consumable.png",
+    "max_quantity": 8,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 1,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "consumable"
+  },
+  {
+    "name": "Progressive Toggle",
+    "type": "progressive_toggle",
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/progressive.png",
+        "codes": "progressive_toggle",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/progressive_2.png",
+        "codes": "progressive_toggle_2",
+        "inherit_codes": false
+      }
+    ]
+  }
+]
