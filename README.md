@@ -1,3 +1,5 @@
+Thank you for checking out the Mega Man Zero 3 AP Poptracker! I hope that this tool helps even more people to feel confident and enjoy playing with the MMZ3 archipelago, whether you're an old hat with the MMZ series or just want to try something new!
+
 # Installation and Usage
 - Download the .zip file from the GitHub Releases
 - Move the downloaded .zip file into your PopTracker packs folder
