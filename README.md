@@ -1,6 +1,7 @@
 Thank you for checking out the Mega Man Zero 3 Poptracker! I hope that this tool helps even more people to feel confident and enjoy playing with the MMZ3 archipelago, whether you're an old hat with the MMZ series or just want to try something new!
 
 Huge thanks to Stingrays110 for their work developing the randomizer. You can find the MMZ3 apworld at https://github.com/brodieberger/MMZero3Archipelago
+
 You will also need to have downloaded Poptracker (https://poptracker.github.io/) and Archipelago (https://github.com/ArchipelagoMW/Archipelago) to use this tracker.
 
 # Installation and Usage
