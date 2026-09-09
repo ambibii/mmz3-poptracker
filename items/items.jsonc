@@ -2,29 +2,145 @@
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
  
 // WEAPONS
-  {
-    "name": "Buster",
-    "type": "toggle",
-    "img": "images/items/buster.png",
-    "codes": "Buster,buster"
+  { "name": "Buster",
+    "type": "progressive",
+    "codes": "Buster,buster",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    //6 stages
+    "stages": [
+      {
+        "img": "images/items/weapons/buster.png",
+        "disabled_img": "images/items/weapons/buster.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/buster t.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/buster 3.png",
+        "codes": "buster_charge",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/buster 4.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/buster 5.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/buster max.png",
+        "inherit_codes": true
+      }
+    ]
   },
-  {
-    "name": "Z-Saber",
-    "type": "toggle",
-    "img": "images/items/saber.png",
-    "codes": "Saber,z-saber"
+  { "name": "Z-Saber",
+    "type": "progressive",
+    "codes": "Saber,saber",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    //7 stages
+    "stages": [
+      {
+        "img": "images/items/weapons/saber.png",
+        "disabled_img": "images/items/weapons/saber.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/saber t.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/saber 3.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/saber 4.png",
+        "codes": "saber_charge",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/saber 5.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/saber 6.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/saber max.png",
+        "inherit_codes": true
+      }
+    ]
   },
-  {
-    "name": "Recoil Rod",
-    "type": "toggle",
-    "img": "images/items/rod.png",
-    "codes": "Rod,recoilrod"
+  { "name": "Recoil Rod",
+    "type": "progressive",
+    "codes": "Rod,rod",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    //5 stages
+    "stages": [
+      {
+        "img": "images/items/weapons/rod.png",
+        "disabled_img": "images/items/weapons/rod.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/rod t.png",
+        "codes": "rod_charge",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/rod 3.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/rod 4.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/rod max.png",
+        "inherit_codes": true
+      }
+    ]
   },
-  {
-    "name": "Shield Boomerang",
-    "type": "toggle",
-    "img": "images/items/shield.png",
-    "codes": "Shield,shieldboomerang"
+  { "name": "Shield Boomerang",
+    "type": "progressive",
+    "codes": "Shield,shieldboomerang",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    //5 stages
+    "stages": [
+      {
+        "img": "images/items/weapons/shield.png",
+        "disabled_img": "images/items/weapons/shield.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/weapons/shield t.png",
+        "name": "Charged Shield Boomerang",
+        "codes": "shield_charge",
+        "inherit_codes": true
+      },
+      {
+        "name": "+1 Charged Shield Boomerang",
+        "img": "images/items/weapons/shield 3.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "+2 Charged Shield Boomerang",
+        "img": "images/items/weapons/shield 4.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "+3 Charged Shield Boomerang",
+        "img": "images/items/weapons/shield max.png",
+        "inherit_codes": true
+      }
+    ]
   },
 
 // EX SKILLS
@@ -246,7 +362,6 @@
         "overlay_background": "#A0000000",
         "img": "images/items/headtwo.png",
         "codes": "chip disk, chip"
-        //autocharge,autorecover,quickcharge,frog,splash,ultima
     },
   {
         "name": "Files", //disks 7-t0
@@ -258,7 +373,6 @@
         "overlay_background": "#A0000000",
         "img": "images/items/disk.png",
         "codes": "files"
-        //filea,fileb,filec,filed,filee,filef,fileg,fileh,filei,filej,filek,filel,filem,filen"
     },
 
 
@@ -272,7 +386,6 @@
         "overlay_background": "#A0000000",
         "img": "images/items/nurse.png",
         "codes": "nurse"
-        // 021,022,023,024,025,026,027,028,029,030,031,032,033,034,035,036,037,038,039,040,041,042,043,044,045,046,047"
     },
   {
         "name": "Animal Elves", //disks 48-60
@@ -284,7 +397,6 @@
         "overlay_background": "#A0000000",
         "img": "images/items/animal.png",
         "codes": "animal"
-        //048,049,050,051,052,053,054,055,056,057,058,059,060"
     },
   {
         "name": "Hacker Elves", //disks 61-94
@@ -296,7 +408,6 @@
         "overlay_background": "#A0000000",
         "img": "images/items/hacker.png",
         "codes": "hacker"
-        //061,062,063,064,065,066,067,068,069,070,071,072,073,074,075,076,077,078,079,080,081,082,083,084,085,086,087,088,089,090,091,092,093,094"
     },
     
 
@@ -310,7 +421,6 @@
         "overlay_background": "#A0000000",
         "img": "images/items/crystal.png",
         "codes": "ec"
-        //095,096,097,098,099,100,101,102,103,104,105,106,107,108,109,110"
     },
   {
         "name": "Boss Info", //disks 111-164
@@ -322,7 +432,6 @@
         "overlay_background": "#A0000000",
         "img": "images/items/omega.png",
         "codes": "boss"
-        //111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164"
     },
   {
         "name": "NPC Lore File", //disks 165-180
@@ -334,7 +443,6 @@
         "overlay_background": "#A0000000",
         "img": "images/items/ciel.png",
         "codes": "lore"
-        //165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180"
     },
     {
         "name": "Victory", //disks 165-180
@@ -357,14 +465,26 @@
         "codes": "100ec"
     },
     {
-        "name": "Story Progress", //disks 165-180
-        "type": "consumable",
-        "max_quantity": 15,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "img": "images/items/ciel.png",
-        "codes": "storyprogress"
+      "name": "0 Story Progress",
+      "type": "progressive",
+      "codes": "storyprogress",
+      "allow_disabled": true,
+      "initial_stage_idx": 0,
+      "stages": [
+        {
+          "name": "1 Story Progress",
+          "img": "images/items/sp one.png",
+          "disabled_img": "images/items/sp zero.png",
+          "codes": "sp1",
+          "inherit_codes": true
+        },
+        {
+          "name": "2 Story Progress",
+          "img": "images/items/sp two.png",
+          "codes": "sp2",
+          "inherit_codes": true
+        }
+      ]
     },
     {
         "name": "Count", //disks 1-180
@@ -512,12 +632,12 @@
       {
         "img": "images/items/progressive.png",
         "codes": "progressive",
-        "inherit_codes": false
+        "inherit_codes": true
       },
       {
         "img": "images/items/progressive_2.png",
         "codes": "progressive_2",
-        "inherit_codes": false
+        "inherit_codes": true
       }
     ]
   },
@@ -541,12 +661,12 @@
       {
         "img": "images/items/progressive.png",
         "codes": "progressive_toggle",
-        "inherit_codes": false
+        "inherit_codes": true
       },
       {
         "img": "images/items/progressive_2.png",
         "codes": "progressive_toggle_2",
-        "inherit_codes": false
+        "inherit_codes": true
       }
     ]
   }

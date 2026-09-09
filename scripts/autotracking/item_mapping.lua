@@ -221,10 +221,10 @@ ITEM_MAPPING = {
 
 	[221] = {{"subtank#1", "toggle"},{"sub tank", "consumable"}},
 	[222] = {{"subtank#2", "toggle"},{"sub tank", "consumable"}},
-	[224] = {{"buster", "toggle"}},
-	[225] = {{"z-saber", "toggle"}},
-	[226] = {{"recoilrod", "toggle"}},
-	[227] = {{"shieldboomerang", "toggle"}},
-	[228] = {{"storyprogress", "toggle"}},
+	[224] = {{"buster", "progressive"}},
+	[225] = {{"saber", "progressive"}},
+	[226] = {{"rod", "progressive"}},
+	[227] = {{"shieldboomerang", "progressive"}},
+	[228] = {{"storyprogress", "progressive"}},
 	[301] = {{"100ec", "consumable"}},
 }

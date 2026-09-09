@@ -230,7 +230,8 @@
 							[
 								"spacecraft_access",
 								"missile_access",
-								"subarcadia_access"
+								"subarcadia_access",
+								"storyprogress"
 							]
 						]
 					}

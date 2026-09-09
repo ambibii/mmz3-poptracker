@@ -12,11 +12,12 @@ You will also need to have downloaded Poptracker (https://poptracker.github.io/)
 
 # Features
 This tracker includes:
-- Item tracking: including weapons, EX Skills, ability chips, total disk counts, and stage access codes
-- Location tracking: maps for every stage with location markers that will auto-clear when found in game, if synced to the AP server
+- Item tracking: including progressive weapons, EX Skills, armor chips, total disk counts, and stage access codes
+- Location tracking: full maps for every stage with logic-adhering location markers that will auto-clear when found in game, if synced to the AP server
 
 # Known Issues
-This tracker is still a work-in-progress, so there are a few features that I intend to change. However, I consider the tracker to be complete enough to be worth testing and helpful for playthroughs of the rando. Please feel free to reach out on the "Mega Man Zero 1 - 4" thread in the Archipelago discord if you notice anything not working as intended. That said, the points below are already on my list for improvements:
-- Location logic is not yet implemented. Every location will show as "available", no matter what items you have or have not collected (this is my first priority)
+This tracker is still a work-in-progress, so there are a few features that I intend to iterate and update in the future. However, I consider the tracker to be in a usable condition and helpful for playthroughs of the rando. Please feel free to reach out to @ambibii on the "Mega Man Zero 3" thread in the Archipelago discord if you notice anything not working as intended! That said, the points below are already on my list for improvements:
 - Enemy kill checks are currently shown in the top left corner of every map. This feels clunky, and I intend to implement a different solution in time
-- This tracker was developed using version 0.3.0 of the MMZ3 apworld. Most items and locations should still register correctly, but there may be a few bugs. 1-UP location checks, some miniboss checks, and progressive weapons have yet to be implemented in the tracker
+- The Second Floor Hall check in Resistance Base does not auto-clear for some reason
+- I would like to make the Level Access tracker progressive, so that you can know which of your available stages you have cleared with just a glance rather than relying on the in-game mission select
+- I would like to add auto-tab switching so that you do not have to click on the tracker each time you enter a level

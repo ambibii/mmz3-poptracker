@@ -86,7 +86,7 @@
   },
   {
     "name": "Giant Elevator",
-    "location_size": 30,
+    "location_size": 60,
     "location_border_thickness": 4,
     "img": "images/maps/giant-elevator.png"
   },

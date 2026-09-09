@@ -14,14 +14,14 @@
             "item_count": 1
           },
           {
-            "name": "Talk to Rocinolle (Mission Set 1)",
+            "name": "Talk to Rocinolle",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           {
-            "name": "Talk to Rocinolle (Mission Set 4)",
-            "access_rules": [],
+            "name": "Talk to Rocinolle - 2 Story Progress",
+            "access_rules": ["sp2"],
             "visibility_rules": [],
             "item_count": 1
           }
@@ -39,8 +39,8 @@
         ],
         "sections": [
           {
-            "name": "Talk to Hibou (Mission Set 2)",
-            "access_rules": [],
+            "name": "Talk to Hibou - 1 Story Progress",
+            "access_rules": ["sp1"],
             "visibility_rules": [],
             "item_count": 1
           }
@@ -63,18 +63,18 @@
             "visibility_rules": [],
             "item_count": 1
           },
+          {
+            "name": "Talk to Cerveau",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+          },
           { "name": "Collect Recoil Rod",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
           },
           { "name": "Collect Shield Boomerang",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-          },
-          {
-            "name": "Talk to Cerveau (Mission Set 1)",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -93,8 +93,8 @@
         ],
         "sections": [
           {
-            "name": "Talk to Hirondelle (Mission Set 2)",
-            "access_rules": [],
+            "name": "Talk to Hirondelle - 1 Story Progress",
+            "access_rules": ["sp1"],
             "visibility_rules": [],
             "item_count": 1
           }
@@ -118,8 +118,8 @@
             "item_count": 1
           },
           {
-            "name": "Talk to Alouette (Mission Set 2)",
-            "access_rules": [],
+            "name": "Talk to Alouette - 1 Story Progress",
+            "access_rules": ["sp1"],
             "visibility_rules": [],
             "item_count": 1
           }
@@ -137,8 +137,8 @@
         ],
         "sections": [
           {
-            "name": "Talk to Andrew (Mission Set 2)",
-            "access_rules": [],
+            "name": "Talk to Andrew - 1 Story Progress",
+            "access_rules": ["sp1"],
             "visibility_rules": [],
             "item_count": 1
           }
@@ -156,8 +156,8 @@
         ],
         "sections": [
           {
-            "name": "Talk to Doigt (Mission Set 2)",
-            "access_rules": [],
+            "name": "Talk to Doigt - 1 Story Progress",
+            "access_rules": ["sp1"],
             "visibility_rules": [],
             "item_count": 1
           }
@@ -175,7 +175,7 @@
         ],
         "sections": [
           {
-            "name": "Talk to Menart (Mission Set 1)",
+            "name": "Talk to Menart",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -213,8 +213,8 @@
         ],
         "sections": [
           {
-            "name": "Room 02D (Mission Set 2)",
-            "access_rules": [],
+            "name": "Room 02D - 1 Story Progress",
+            "access_rules": ["sp1"],
             "visibility_rules": [],
             "item_count": 1
           }
@@ -227,7 +227,7 @@
           }
         ]
       },
-      { "name": "Second Floor Hall",
+      { "name": "Second Floor",
         "access_rules": [
         ],
         "sections": [
@@ -270,7 +270,7 @@
         ],
         "sections": [
           {
-            "name": "Talk to Right Tower Soldier (Mission Set 1)",
+            "name": "Talk to Right Tower Soldier",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -340,13 +340,56 @@
             "y": 384
           }
         ]
+      },
+      { "name": "Locked Room by Andrew",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "1-UP",
+            "access_rules": ["120"],
+            "visibility_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 327,
+            "y": 817
+          }
+        ]
       }
     ]
   },
+
+
+
   { "name": "Derelict Spacecraft",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["spacecraft_access"],
+    
     "children": [
+      { "name": "Complete Derelict Spacecraft",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+          "chest_opened_img": "images/items/rank_a.png",
+          "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Derelict Spacecraft",
+          "x": 2816,
+          "y": 75
+          }
+        ]
+      },
       { "name": "5th Grand Cannon Kill",
         "access_rules": [],
         "sections": [
@@ -363,13 +406,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Derelict Spacecraft",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "3rd Shrimpolin Kill",
         "access_rules": [],
         "sections": [
@@ -386,13 +423,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Derelict Spacecraft",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "4th Shotcounter Kill",
         "access_rules": [],
         "sections": [
@@ -409,13 +440,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Derelict Spacecraft",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "4th Batring Kill",
         "access_rules": [],
         "sections": [
@@ -432,13 +457,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Derelict Spacecraft",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "024",
         "access_rules": [],
         "sections": [
@@ -455,13 +474,7 @@
             "y": 1413
           }
         ]
-      }
-    ]
-  },
-  { "name": "Derelict Spacecraft",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "037",
         "access_rules": [],
         "sections": [
@@ -478,13 +491,7 @@
             "y": 1176
           }
         ]
-      }
-    ]
-  },
-  { "name": "Derelict Spacecraft",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "050",
         "access_rules": [],
         "sections": [
@@ -501,13 +508,7 @@
             "y": 850
           }
         ]
-      }
-    ]
-  },
-  { "name": "Derelict Spacecraft",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "101",
         "access_rules": [],
         "sections": [
@@ -524,13 +525,7 @@
             "y": 694
           }
         ]
-      }
-    ]
-  },
-  { "name": "Derelict Spacecraft",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "111",
         "access_rules": [],
         "sections": [
@@ -547,13 +542,7 @@
             "y": 642
           }
         ]
-      }
-    ]
-  },
-  { "name": "Derelict Spacecraft",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "007",
         "access_rules": [],
         "sections": [
@@ -573,10 +562,39 @@
       }
     ]
   },
+
+  
   { "name": "Aegis Volcano Base",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["volcano_access"],
     "children": [
+      { "name": "Complete Aegis Volcano Base",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Flame Body Chip",
+          "chest_opened_img": "images/items/flame.png",
+          "chest_unopened_img": "images/items/disabled/chest.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Aegis Volcano Base",
+          "x": 3959,
+          "y": 1339
+          }
+        ]
+      },
       { "name": "3rd Volcaire Kill",
         "access_rules": [],
         "sections": [
@@ -593,13 +611,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Aegis Volcano Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "4th Lamplort Kill",
         "access_rules": [],
         "sections": [
@@ -616,13 +628,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Aegis Volcano Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "047",
         "access_rules": [],
         "sections": [
@@ -639,13 +645,7 @@
             "y": 726
           }
         ]
-      }
-    ]
-  },
-  { "name": "Aegis Volcano Base",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "102",
         "access_rules": [],
         "sections": [
@@ -662,18 +662,12 @@
             "y": 915
           }
         ]
-      }
-    ]
-  },
-  { "name": "Aegis Volcano Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "026",
         "access_rules": [],
         "sections": [
             { "name": "Platform Above First Room",
-            "access_rules": [],
+            "access_rules": ["double_jump","ultima","rod_charge"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -685,18 +679,12 @@
             "y": 759
           }
         ]
-      }
-    ]
-  },
-  { "name": "Aegis Volcano Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "114",
         "access_rules": [],
         "sections": [
             { "name": "Push 1st Container",
-            "access_rules": [],
+            "access_rules": ["rod_charge"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -708,18 +696,12 @@
             "y": 1541
           }
         ]
-      }
-    ]
-  },
-  { "name": "Aegis Volcano Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "073",
         "access_rules": [],
         "sections": [
             { "name": "Container Before Miniboss, Platform After",
-            "access_rules": [],
+            "access_rules": ["double_jump","ultima","rod_charge"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -731,22 +713,21 @@
             "y": 1317
           }
         ]
-      }
-    ]
-  },
-  { "name": "Aegis Volcano Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
-      { "name": "152",
+      },
+      { "name": "Miniboss",
         "access_rules": [],
         "sections": [
-            { "name": "10th Crossbyne Kill (Miniboss)",
+            { "name": "Crossbynes",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            },
+            { "name": "152: 10th Crossbyne Kill",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
             }
-          ],
+        ],
         "map_locations": [
           {
             "map": "Aegis Volcano Base",
@@ -754,13 +735,7 @@
             "y": 1834
           }
         ]
-      }
-    ]
-  },
-  { "name": "Aegis Volcano Base",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "072",
         "access_rules": [],
         "sections": [
@@ -777,13 +752,7 @@
             "y": 1552
           }
         ]
-      }
-    ]
-  },
-  { "name": "Aegis Volcano Base",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "008",
         "access_rules": [],
         "sections": [
@@ -803,10 +772,40 @@
       }
     ]
   },
+
+
+
   { "name": "Oceanic Highway Ruins",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["oceanic_access"],
     "children": [
+      { "name": "Complete Oceanic Highway Ruins",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+          "chest_opened_img": "images/items/rank_a.png",
+          "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Ice Body Chip",
+          "chest_opened_img": "images/items/ice.png",
+          "chest_unopened_img": "images/items/disabled/chest.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Oceanic Highway Ruins",
+          "x": 5520,
+          "y": 1343
+          }
+        ]
+      },
       { "name": "4th Sharkseal X Kill",
         "access_rules": [],
         "sections": [
@@ -823,13 +822,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Oceanic Highway Ruins",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "3rd Icebon Kill",
         "access_rules": [],
         "sections": [
@@ -846,13 +839,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Oceanic Highway Ruins",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "4th Shelluno Kill",
         "access_rules": [],
         "sections": [
@@ -869,18 +856,12 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Oceanic Highway Ruins",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "005",
         "access_rules": [],
         "sections": [
             { "name": "1st Pit Breakable",
-            "access_rules": [],
+            "access_rules": ["rod_charge"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -892,13 +873,7 @@
             "y": 280
           }
         ]
-      }
-    ]
-  },
-  { "name": "Oceanic Highway Ruins",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "075",
         "access_rules": [],
         "sections": [
@@ -915,13 +890,7 @@
             "y": 572
           }
         ]
-      }
-    ]
-  },
-  { "name": "Oceanic Highway Ruins",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "009",
         "access_rules": [],
         "sections": [
@@ -938,13 +907,7 @@
             "y": 150
           }
         ]
-      }
-    ]
-  },
-  { "name": "Oceanic Highway Ruins",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "059",
         "access_rules": [],
         "sections": [
@@ -961,22 +924,21 @@
             "y": 330
           }
         ]
-      }
-    ]
-  },
-  { "name": "Oceanic Highway Ruins",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
-      { "name": "079",
+      },
+      { "name": "Miniboss",
         "access_rules": [],
         "sections": [
-            { "name": "Miniboss Kill",
+            { "name": "Modified Pantheon",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            },
+            { "name": "079: Miniboss Kill",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
             }
-          ],
+        ],
         "map_locations": [
           {
             "map": "Oceanic Highway Ruins",
@@ -984,13 +946,7 @@
             "y": 1529
           }
         ]
-      }
-    ]
-  },
-  { "name": "Oceanic Highway Ruins",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "049",
         "access_rules": [],
         "sections": [
@@ -1007,13 +963,7 @@
             "y": 1105
           }
         ]
-      }
-    ]
-  },
-  { "name": "Oceanic Highway Ruins",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "113",
         "access_rules": [],
         "sections": [
@@ -1030,13 +980,60 @@
             "y": 1529
           }
         ]
+      },
+      { "name": "1-UP",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Section Floating Platforms",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 2380,
+            "y": 150
+          }
+        ]
       }
     ]
   },
+
+
+
   { "name": "Weapons Repair Factory",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["factory_access"],
     "children": [
+      { "name": "Complete Weapons Repair Factory",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Thunder Body Chip",
+          "chest_opened_img": "images/items/thunder.png",
+          "chest_unopened_img": "images/items/disabled/chest.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Weapons Repair Factory",
+          "x": 3420,
+          "y": 1530
+          }
+        ]
+      },
       { "name": "5th Lemmingles Kill",
         "access_rules": [],
         "sections": [
@@ -1053,13 +1050,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Weapons Repair Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "5th Deathlock Kill",
         "access_rules": [],
         "sections": [
@@ -1076,13 +1067,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Weapons Repair Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "3rd Lemmingles Generator Kill",
         "access_rules": [],
         "sections": [
@@ -1099,13 +1084,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Weapons Repair Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "012",
         "access_rules": [],
         "sections": [
@@ -1122,18 +1101,12 @@
             "y": 212
           }
         ]
-      }
-    ]
-  },
-  { "name": "Weapons Repair Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "115",
         "access_rules": [],
         "sections": [
             { "name": "Hit 3rd Hammer",
-            "access_rules": [],
+            "access_rules": ["rod_charge"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -1145,13 +1118,7 @@
             "y": 55
           }
         ]
-      }
-    ]
-  },
-  { "name": "Weapons Repair Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "104",
         "access_rules": [],
         "sections": [
@@ -1168,17 +1135,16 @@
             "y": 87
           }
         ]
-      }
-    ]
-  },
-  { "name": "Weapons Repair Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
-      { "name": "093",
+      },
+      { "name": "Miniboss",
         "access_rules": [],
         "sections": [
-            { "name": "Miniboss Kill",
+            { "name": "Bee Server",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            },
+            { "name": "093: Miniboss Kill",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -1191,13 +1157,7 @@
             "y": 1538
           }
         ]
-      }
-    ]
-  },
-  { "name": "Weapons Repair Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "100",
         "access_rules": [],
         "sections": [
@@ -1214,13 +1174,7 @@
             "y": 876
           }
         ]
-      }
-    ]
-  },
-  { "name": "Weapons Repair Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "084",
         "access_rules": [],
         "sections": [
@@ -1237,13 +1191,7 @@
             "y": 1436
           }
         ]
-      }
-    ]
-  },
-  { "name": "Weapons Repair Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "053",
         "access_rules": [],
         "sections": [
@@ -1263,10 +1211,40 @@
       }
     ]
   },
+
+
+  
   { "name": "Old Residential",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["residential_access"],
     "children": [
+      { "name": "Complete Old Residential",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Light Body Chip",
+          "chest_opened_img": "images/items/light.png",
+          "chest_unopened_img": "images/items/disabled/chest.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Old Residential",
+          "x": 3720,
+          "y": 1721
+          }
+        ]
+      },
       { "name": "5th Seimeran Kill",
         "access_rules": [],
         "sections": [
@@ -1283,13 +1261,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Old Residential",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "3rd Pillar Cannon Kill",
         "access_rules": [],
         "sections": [
@@ -1306,18 +1278,12 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Old Residential",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "039",
         "access_rules": [],
         "sections": [
             { "name": "1st Door",
-            "access_rules": [],
+            "access_rules": ["rod_charge"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -1329,18 +1295,12 @@
             "y": 613
           }
         ]
-      }
-    ]
-  },
-  { "name": "Old Residential",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "001",
         "access_rules": [],
         "sections": [
             { "name": "Stump Door",
-            "access_rules": [],
+            "access_rules": ["flame,rod_charge"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -1352,18 +1312,12 @@
             "y": 421
           }
         ]
-      }
-    ]
-  },
-  { "name": "Old Residential",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "112",
         "access_rules": [],
         "sections": [
             { "name": "Floor Breakables",
-            "access_rules": [],
+            "access_rules": ["rod_charge"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -1375,18 +1329,17 @@
             "y": 596
           }
         ]
-      }
-    ]
-  },
-  { "name": "Old Residential",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
-      { "name": "074",
+      },
+      { "name": "Left Fork Door",
         "access_rules": [],
         "sections": [
-            { "name": "Left Fork Door",
-            "access_rules": [],
+            { "name": "074",
+            "access_rules": ["flame"],
+            "visibility_rules": [],
+            "item_count": 1
+            },
+            { "name": "1-UP",
+            "access_rules": ["flame"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -1398,17 +1351,16 @@
             "y": 150
           }
         ]
-      }
-    ]
-  },
-  { "name": "Old Residential",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
-      { "name": "067",
+      },
+      { "name": "Miniboss",
         "access_rules": [],
         "sections": [
-            { "name": "Miniboss Kill",
+            { "name": "Megamilpa",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            },
+            { "name": "067: Miniboss Kill",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -1421,13 +1373,7 @@
             "y": 1718
           }
         ]
-      }
-    ]
-  },
-  { "name": "Old Residential",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "028",
         "access_rules": [],
         "sections": [
@@ -1444,13 +1390,7 @@
             "y": 1225
           }
         ]
-      }
-    ]
-  },
-  { "name": "Old Residential",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "048",
         "access_rules": [],
         "sections": [
@@ -1467,13 +1407,7 @@
             "y": 1068
           }
         ]
-      }
-    ]
-  },
-  { "name": "Old Residential",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "013",
         "access_rules": [],
         "sections": [
@@ -1490,13 +1424,72 @@
             "y": 1919
           }
         ]
+      },
+      { "name": "1-UP",
+        "access_rules": [],
+        "sections": [
+            { "name": "Right of Fork",
+            "access_rules": ["flame"],
+            "visibility_rules": [],
+            "item_count": 1
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 2023,
+            "y": 267
+          }
+        ]
+      },
+      { "name": "Subtank",
+        "access_rules": [],
+        "sections": [
+            { "name": "Subtank",
+            "chest_opened_img": "images/items/subtank.png",
+            "chest_unopened_img": "images/items/disabled/subtank.png",
+            "access_rules": ["double_jump","ultima","rod_charge"],
+            "visibility_rules": [],
+            "item_count": 1
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 791,
+            "y": 1065
+          }
+        ]
       }
     ]
   },
+
+
+
   { "name": "Missile Factory",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["missile_access"],
     "children": [
+      { "name": "Complete Missile Factory",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Missile Factory",
+          "x": 3143,
+          "y": 2264
+          }
+        ]
+      },
       { "name": "4th Eye Cannon Kill",
         "access_rules": [],
         "sections": [
@@ -1513,13 +1506,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Missile Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "4th Pantheon Guardian Kill",
         "access_rules": [],
         "sections": [
@@ -1536,13 +1523,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Missile Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "4th Generator Cannon Kill",
         "access_rules": [],
         "sections": [
@@ -1559,13 +1540,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Missile Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "6th Generator Cannon Spawn Kill",
         "access_rules": [],
         "sections": [
@@ -1582,13 +1557,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Missile Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "057",
         "access_rules": [],
         "sections": [
@@ -1605,13 +1574,7 @@
             "y": 1685
           }
         ]
-      }
-    ]
-  },
-  { "name": "Missile Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "030",
         "access_rules": [],
         "sections": [
@@ -1628,13 +1591,7 @@
             "y": 1334
           }
         ]
-      }
-    ]
-  },
-  { "name": "Missile Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "090",
         "access_rules": [],
         "sections": [
@@ -1651,13 +1608,7 @@
             "y": 1014
           }
         ]
-      }
-    ]
-  },
-  { "name": "Missile Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "055",
         "access_rules": [],
         "sections": [
@@ -1674,13 +1625,7 @@
             "y": 1014
           }
         ]
-      }
-    ]
-  },
-  { "name": "Missile Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "117",
         "access_rules": [],
         "sections": [
@@ -1697,13 +1642,7 @@
             "y": 930
           }
         ]
-      }
-    ]
-  },
-  { "name": "Missile Factory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "021",
         "access_rules": [],
         "sections": [
@@ -1720,13 +1659,52 @@
             "y": 432
           }
         ]
+      },
+      { "name": "1-UP",
+        "access_rules": [],
+        "sections": [
+            { "name": "Towards End Of Missile",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 2338,
+            "y": 2254
+          }
+        ]
       }
     ]
   },
+
+  
   { "name": "Twilight Desert",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["desert_access"],
     "children": [
+      { "name": "Complete Twilight Desert",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Twilight Desert",
+          "x": 2588,
+          "y": 965
+          }
+        ]
+      },
       { "name": "5th Shrimpolin Kill",
         "access_rules": [],
         "sections": [
@@ -1743,13 +1721,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Twilight Desert",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "5th Flopper Kill",
         "access_rules": [],
         "sections": [
@@ -1766,13 +1738,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Twilight Desert",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "5th PurpleNerple Kill",
         "access_rules": [],
         "sections": [
@@ -1789,13 +1755,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Twilight Desert",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "085",
         "access_rules": [],
         "sections": [
@@ -1812,22 +1772,21 @@
             "y": 587
           }
         ]
-      }
-    ]
-  },
-  { "name": "Twilight Desert",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
-      { "name": "089",
+      },
+      { "name": "Miniboss",
         "access_rules": [],
         "sections": [
-            { "name": "Miniboss Kill",
+            { "name": "Or Wormer",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            },
+            { "name": "089: Miniboss Kill",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
             }
-          ],
+        ],
         "map_locations": [
           {
             "map": "Twilight Desert",
@@ -1835,13 +1794,7 @@
             "y": 634
           }
         ]
-      }
-    ]
-  },
-  { "name": "Twilight Desert",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "031",
         "access_rules": [],
         "sections": [
@@ -1858,13 +1811,7 @@
             "y": 578
           }
         ]
-      }
-    ]
-  },
-  { "name": "Twilight Desert",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "022",
         "access_rules": [],
         "sections": [
@@ -1881,13 +1828,7 @@
             "y": 495
           }
         ]
-      }
-    ]
-  },
-  { "name": "Twilight Desert",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "105",
         "access_rules": [],
         "sections": [
@@ -1904,13 +1845,7 @@
             "y": 917
           }
         ]
-      }
-    ]
-  },
-  { "name": "Twilight Desert",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "118",
         "access_rules": [],
         "sections": [
@@ -1927,13 +1862,7 @@
             "y": 867
           }
         ]
-      }
-    ]
-  },
-  { "name": "Twilight Desert",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "065",
         "access_rules": [],
         "sections": [
@@ -1953,10 +1882,33 @@
       }
     ]
   },
+
+
+  
   { "name": "Forest of Anatre",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["forest_access"],
     "children": [
+      { "name": "Complete Forest of Anatre",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Forest of Anatre",
+          "x": 2348,
+          "y": 1265
+          }
+        ]
+      },
       { "name": "5th Mellnet Kill",
         "access_rules": [],
         "sections": [
@@ -1973,13 +1925,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Forest of Anatre",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "7th Tile Cannon Kill",
         "access_rules": [],
         "sections": [
@@ -1996,18 +1942,17 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Forest of Anatre",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
-      { "name": "063",
+      },
+      { "name": "Treetops Above Start",
         "access_rules": [],
         "sections": [
-            { "name": "Treetops Above Start",
-            "access_rules": [],
+            { "name": "063",
+            "access_rules": ["flame"],
+            "visibility_rules": [],
+            "item_count": 1
+            },
+            { "name": "1-UP",
+            "access_rules": ["flame"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -2019,18 +1964,12 @@
             "y": 65
           }
         ]
-      }
-    ]
-  },
-  { "name": "Forest of Anatre",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "002",
         "access_rules": [],
         "sections": [
             { "name": "Ledge Above 1st Door",
-            "access_rules": [],
+            "access_rules": ["flame"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -2042,13 +1981,7 @@
             "y": 43
           }
         ]
-      }
-    ]
-  },
-  { "name": "Forest of Anatre",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "071",
         "access_rules": [],
         "sections": [
@@ -2065,13 +1998,7 @@
             "y": 834
           }
         ]
-      }
-    ]
-  },
-  { "name": "Forest of Anatre",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "014",
         "access_rules": [],
         "sections": [
@@ -2088,13 +2015,7 @@
             "y": 671
           }
         ]
-      }
-    ]
-  },
-  { "name": "Forest of Anatre",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "119",
         "access_rules": [],
         "sections": [
@@ -2111,13 +2032,7 @@
             "y": 851
           }
         ]
-      }
-    ]
-  },
-  { "name": "Forest of Anatre",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "108",
         "access_rules": [],
         "sections": [
@@ -2134,18 +2049,12 @@
             "y": 1586
           }
         ]
-      }
-    ]
-  },
-  { "name": "Forest of Anatre",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "076",
         "access_rules": [],
         "sections": [
             { "name": "Above 9th Button",
-            "access_rules": [],
+            "access_rules": ["double_jump","ultima","rod_charge"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -2157,18 +2066,12 @@
             "y": 1218
           }
         ]
-      }
-    ]
-  },
-  { "name": "Forest of Anatre",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "040",
         "access_rules": [],
         "sections": [
             { "name": "Breakables Below Boss Room",
-            "access_rules": [],
+            "access_rules": ["rod_charge"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -2180,13 +2083,55 @@
             "y": 1443
           }
         ]
+      },
+      { "name": "Subtank",
+        "access_rules": [],
+        "sections": [
+            { "name": "Subtank",
+            "chest_opened_img": "images/items/subtank.png",
+            "chest_unopened_img": "images/items/disabled/subtank.png",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 659,
+            "y": 1264
+          }
+        ]
       }
     ]
   },
+
+
+
   { "name": "Frontline Ice Base",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["ice_base_access"],
     "children": [
+      { "name": "Complete Frontline Ice Base",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Frontline Ice Base",
+          "x": 4165,
+          "y": 1084
+          }
+        ]
+      },
       { "name": "3rd Gyro Cannon Kill",
         "access_rules": [],
         "sections": [
@@ -2203,13 +2148,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Frontline Ice Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "3rd Pantheon Aqua Kill",
         "access_rules": [],
         "sections": [
@@ -2226,13 +2165,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Frontline Ice Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "3rd Heavy Cannon Kill",
         "access_rules": [],
         "sections": [
@@ -2249,18 +2182,12 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Frontline Ice Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "066",
         "access_rules": [],
         "sections": [
             { "name": "Top Route Tower",
-            "access_rules": [],
+            "access_rules": ["double_jump","ultima","rod_charge","splash"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -2272,13 +2199,7 @@
             "y": 137
           }
         ]
-      }
-    ]
-  },
-  { "name": "Frontline Ice Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "109",
         "access_rules": [],
         "sections": [
@@ -2295,13 +2216,7 @@
             "y": 71
           }
         ]
-      }
-    ]
-  },
-  { "name": "Frontline Ice Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "015",
         "access_rules": [],
         "sections": [
@@ -2318,13 +2233,7 @@
             "y": 229
           }
         ]
-      }
-    ]
-  },
-  { "name": "Frontline Ice Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "032",
         "access_rules": [],
         "sections": [
@@ -2341,13 +2250,7 @@
             "y": 1455
           }
         ]
-      }
-    ]
-  },
-  { "name": "Frontline Ice Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "035",
         "access_rules": [],
         "sections": [
@@ -2364,13 +2267,7 @@
             "y": 1296
           }
         ]
-      }
-    ]
-  },
-  { "name": "Frontline Ice Base",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "120",
         "access_rules": [],
         "sections": [
@@ -2387,13 +2284,7 @@
             "y": 1675
           }
         ]
-      }
-    ]
-  },
-  { "name": "Frontline Ice Base",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "068",
         "access_rules": [],
         "sections": [
@@ -2413,10 +2304,40 @@
       }
     ]
   },
+
+
+
   { "name": "Area X-2",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["areax_access"],
     "children": [
+      { "name": "Complete Area X-2",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Quick Foot Chip",
+          "chest_opened_img": "images/items/swift.png",
+          "chest_unopened_img": "images/items/disabled/foot.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Area X-2",
+          "x": 4024,
+          "y": 262
+          }
+        ]
+      },
       { "name": "4th Capsule Cannon Kill",
         "access_rules": [],
         "sections": [
@@ -2433,13 +2354,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Area X-2",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "110",
         "access_rules": [],
         "sections": [
@@ -2456,13 +2371,7 @@
             "y": 2297
           }
         ]
-      }
-    ]
-  },
-  { "name": "Area X-2",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "121",
         "access_rules": [],
         "sections": [
@@ -2479,13 +2388,7 @@
             "y": 2516
           }
         ]
-      }
-    ]
-  },
-  { "name": "Area X-2",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "062",
         "access_rules": [],
         "sections": [
@@ -2502,13 +2405,7 @@
             "y": 2328
           }
         ]
-      }
-    ]
-  },
-  { "name": "Area X-2",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "034",
         "access_rules": [],
         "sections": [
@@ -2525,13 +2422,7 @@
             "y": 2181
           }
         ]
-      }
-    ]
-  },
-  { "name": "Area X-2",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "042",
         "access_rules": [],
         "sections": [
@@ -2548,13 +2439,7 @@
             "y": 1813
           }
         ]
-      }
-    ]
-  },
-  { "name": "Area X-2",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "070",
         "access_rules": [],
         "sections": [
@@ -2571,13 +2456,7 @@
             "y": 1417
           }
         ]
-      }
-    ]
-  },
-  { "name": "Area X-2",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "077",
         "access_rules": [],
         "sections": [
@@ -2594,13 +2473,7 @@
             "y": 1097
           }
         ]
-      }
-    ]
-  },
-  { "name": "Area X-2",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "069",
         "access_rules": [],
         "sections": [
@@ -2617,13 +2490,7 @@
             "y": 441
           }
         ]
-      }
-    ]
-  },
-  { "name": "Area X-2",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "061",
         "access_rules": [],
         "sections": [
@@ -2643,10 +2510,74 @@
       }
     ]
   },
+
+
+
   { "name": "Energy Facility",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["energy_access"],
     "children": [
+      { "name": "Complete Energy Facility",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Double Jump Foot Chip",
+          "chest_opened_img": "images/items/double_jump.png",
+          "chest_unopened_img": "images/items/disabled/foot.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Energy Facility",
+          "x": 5519,
+          "y": 1091
+          }
+        ]
+      },
+      { "name": "Port Room 1",
+        "access_rules": [],
+        "sections": [
+            { "name": "Reactor Core",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 3480,
+            "y": 558
+          }
+        ]
+      },
+      { "name": "Port Room 2",
+        "access_rules": [],
+        "sections": [
+            { "name": "Reactor Core",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 2639,
+            "y": 1406
+          }
+        ]
+      },
       { "name": "9th Mothjiro Kill",
         "access_rules": [],
         "sections": [
@@ -2663,13 +2594,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Energy Facility",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "4th Snakecord Kill",
         "access_rules": [],
         "sections": [
@@ -2686,13 +2611,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Energy Facility",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "056",
         "access_rules": [],
         "sections": [
@@ -2709,13 +2628,7 @@
             "y": 614
           }
         ]
-      }
-    ]
-  },
-  { "name": "Energy Facility",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "124",
         "access_rules": [],
         "sections": [
@@ -2732,13 +2645,7 @@
             "y": 249
           }
         ]
-      }
-    ]
-  },
-  { "name": "Energy Facility",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "082",
         "access_rules": [],
         "sections": [
@@ -2755,22 +2662,21 @@
             "y": 134
           }
         ]
-      }
-    ]
-  },
-  { "name": "Energy Facility",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
-      { "name": "149",
+      },
+      { "name": "Miniboss",
         "access_rules": [],
         "sections": [
-            { "name": "Miniboss Kill",
+            { "name": "Locomo-If",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            },
+            { "name": "149: Miniboss Kill",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
             }
-          ],
+        ],
         "map_locations": [
           {
             "map": "Energy Facility",
@@ -2778,13 +2684,7 @@
             "y": 240
           }
         ]
-      }
-    ]
-  },
-  { "name": "Energy Facility",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "064",
         "access_rules": [],
         "sections": [
@@ -2801,13 +2701,7 @@
             "y": 1133
           }
         ]
-      }
-    ]
-  },
-  { "name": "Energy Facility",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "095",
         "access_rules": [],
         "sections": [
@@ -2824,13 +2718,7 @@
             "y": 1180
           }
         ]
-      }
-    ]
-  },
-  { "name": "Energy Facility",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "078",
         "access_rules": [],
         "sections": [
@@ -2847,17 +2735,16 @@
             "y": 1356
           }
         ]
-      }
-    ]
-  },
-  { "name": "Energy Facility",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
-      { "name": "004",
+      },
+      { "name": "Girder Maze Top Left",
         "access_rules": [],
         "sections": [
-            { "name": "Girder Maze Top Left",
+            { "name": "004",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            },
+            { "name": "1-UP",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
@@ -2873,10 +2760,40 @@
       }
     ]
   },
+
+
+  
   { "name": "Snowy Plains",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["snowy_access"],
     "children": [
+      { "name": "Complete Snowy Plains",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Spike Foot Chip",
+          "chest_opened_img": "images/items/no_slip.png",
+          "chest_unopened_img": "images/items/disabled/foot.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Snowy Plains",
+          "x": 6598,
+          "y": 3031
+          }
+        ]
+      },
       { "name": "4th Shellcrawler Kill",
         "access_rules": [],
         "sections": [
@@ -2893,13 +2810,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Snowy Plains",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "4th Pantheon Base Kill",
         "access_rules": [],
         "sections": [
@@ -2916,13 +2827,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Snowy Plains",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "003",
         "access_rules": [],
         "sections": [
@@ -2939,13 +2844,7 @@
             "y": 983
           }
         ]
-      }
-    ]
-  },
-  { "name": "Snowy Plains",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "029",
         "access_rules": [],
         "sections": [
@@ -2962,13 +2861,7 @@
             "y": 1035
           }
         ]
-      }
-    ]
-  },
-  { "name": "Snowy Plains",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "025",
         "access_rules": [],
         "sections": [
@@ -2985,13 +2878,7 @@
             "y": 1182
           }
         ]
-      }
-    ]
-  },
-  { "name": "Snowy Plains",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "103",
         "access_rules": [],
         "sections": [
@@ -3008,16 +2895,15 @@
             "y": 1535
           }
         ]
-      }
-    ]
-  },
-  { "name": "Snowy Plains",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "Miniboss",
         "access_rules": [],
         "sections": [
+            { "name": "Blanc Wormer",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            },
             { "name": "060: Miniboss Kill",
             "access_rules": [],
             "visibility_rules": [],
@@ -3036,13 +2922,7 @@
             "y": 2173
           }
         ]
-      }
-    ]
-  },
-  { "name": "Snowy Plains",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "123",
         "access_rules": [],
         "sections": [
@@ -3059,13 +2939,7 @@
             "y": 2408
           }
         ]
-      }
-    ]
-  },
-  { "name": "Snowy Plains",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "086",
         "access_rules": [],
         "sections": [
@@ -3082,13 +2956,59 @@
             "y": 2609
           }
         ]
+      },
+      { "name": "1-UP",
+        "access_rules": [],
+        "sections": [
+            { "name": "Pit Before 2nd Rail Set",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Snowy Plains",
+            "x": 2182,
+            "y": 2421
+          }
+        ]
       }
     ]
   },
+
+
   { "name": "Sunken Library",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["library_access"],
     "children": [
+      { "name": "Complete Sunken Library",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Shadow Dash Foot Chip",
+          "chest_opened_img": "images/items/shadow.png",
+          "chest_unopened_img": "images/items/disabled/foot.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Sunken Library",
+          "x": 3433,
+          "y": 1117
+          }
+        ]
+      },
       { "name": "125",
         "access_rules": [],
         "sections": [
@@ -3105,13 +3025,7 @@
             "y": 81
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sunken Library",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "051",
         "access_rules": [],
         "sections": [
@@ -3128,13 +3042,7 @@
             "y": 291
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sunken Library",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "043",
         "access_rules": [],
         "sections": [
@@ -3151,13 +3059,7 @@
             "y": 261
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sunken Library",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "033",
         "access_rules": [],
         "sections": [
@@ -3174,13 +3076,7 @@
             "y": 920
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sunken Library",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "094",
         "access_rules": [],
         "sections": [
@@ -3197,13 +3093,7 @@
             "y": 931
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sunken Library",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "096",
         "access_rules": [],
         "sections": [
@@ -3220,13 +3110,7 @@
             "y": 553
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sunken Library",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "Dr. Weil Data",
         "access_rules": [],
         "sections": [
@@ -3243,13 +3127,7 @@
             "y": 916
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sunken Library",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "Omega Data",
         "access_rules": [],
         "sections": [
@@ -3266,13 +3144,7 @@
             "y": 916
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sunken Library",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "Dark Elf Data",
         "access_rules": [],
         "sections": [
@@ -3289,13 +3161,7 @@
             "y": 916
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sunken Library",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "Elf Wars Data",
         "access_rules": [],
         "sections": [
@@ -3315,10 +3181,39 @@
       }
     ]
   },
+
+
   { "name": "Giant Elevator",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["elevator_access"],
     "children": [
+      { "name": "Complete Giant Elevator",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Absorber Body Chip",
+          "chest_opened_img": "images/items/heavy.png",
+          "chest_unopened_img": "images/items/disabled/chest.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Giant Elevator",
+          "x": 2616,
+          "y": 3648
+          }
+        ]
+      },
       { "name": "5th Cattatank Kill",
         "access_rules": [],
         "sections": [
@@ -3335,13 +3230,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Giant Elevator",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "6th Shotloid Kill",
         "access_rules": [],
         "sections": [
@@ -3358,13 +3247,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Giant Elevator",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "4th Pantheon Fist Kill",
         "access_rules": [],
         "sections": [
@@ -3381,18 +3264,12 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Giant Elevator",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "045",
         "access_rules": [],
         "sections": [
             { "name": "1st Passage High Ledges",
-            "access_rules": [],
+            "access_rules": ["double_jump,rod_charge","ultima,rod_charge"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -3404,18 +3281,12 @@
             "y": 33
           }
         ]
-      }
-    ]
-  },
-  { "name": "Giant Elevator",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "041",
         "access_rules": [],
         "sections": [
             { "name": "1st Passage High Ledges",
-            "access_rules": [],
+            "access_rules": ["rod_charge"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -3427,13 +3298,7 @@
             "y": 51
           }
         ]
-      }
-    ]
-  },
-  { "name": "Giant Elevator",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "080",
         "access_rules": [],
         "sections": [
@@ -3450,13 +3315,7 @@
             "y": 35
           }
         ]
-      }
-    ]
-  },
-  { "name": "Giant Elevator",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "054",
         "access_rules": [],
         "sections": [
@@ -3473,13 +3332,7 @@
             "y": 49
           }
         ]
-      }
-    ]
-  },
-  { "name": "Giant Elevator",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "122",
         "access_rules": [],
         "sections": [
@@ -3496,18 +3349,12 @@
             "y": 852
           }
         ]
-      }
-    ]
-  },
-  { "name": "Giant Elevator",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "027",
         "access_rules": [],
         "sections": [
             { "name": "1st Descent Bottom Left Breakable",
-            "access_rules": [],
+            "access_rules": ["rod_charge"],
             "visibility_rules": [],
             "item_count": 1
             }
@@ -3519,22 +3366,21 @@
             "y": 1556
           }
         ]
-      }
-    ]
-  },
-  { "name": "Giant Elevator",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
-      { "name": "088",
+      },
+      { "name": "Miniboss",
         "access_rules": [],
         "sections": [
-            { "name": "Miniboss Kill",
+            { "name": "Spearook",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            },
+            { "name": "088: Miniboss Kill",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
             }
-          ],
+        ],
         "map_locations": [
           {
             "map": "Giant Elevator",
@@ -3542,13 +3388,52 @@
             "y": 1389
           }
         ]
+      },
+      { "name": "1-UP",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Passage High Ledges",
+            "access_rules": ["double_jump","ultima","rod_charge"],
+            "visibility_rules": [],
+            "item_count": 1
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 915,
+            "y": 77
+          }
+        ]
       }
     ]
   },
+
+
   { "name": "Sub Arcadia",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["subarcadia_access"],
     "children": [
+      { "name": "Complete Sub Arcadia",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+          "chest_opened_img": "images/items/rank_a.png",
+          "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Sub Arcadia",
+          "x": 3340,
+          "y": 1518
+          }
+        ]
+      },
       { "name": "5th Cannonhopper Kill",
         "access_rules": [],
         "sections": [
@@ -3565,13 +3450,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sub Arcadia",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "3rd Petatria Kill",
         "access_rules": [],
         "sections": [
@@ -3588,13 +3467,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sub Arcadia",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "5th Claveker Kill",
         "access_rules": [],
         "sections": [
@@ -3611,13 +3484,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sub Arcadia",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "036",
         "access_rules": [],
         "sections": [
@@ -3634,13 +3501,7 @@
             "y": 233
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sub Arcadia",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "081",
         "access_rules": [],
         "sections": [
@@ -3657,13 +3518,7 @@
             "y": 1010
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sub Arcadia",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "038",
         "access_rules": [],
         "sections": [
@@ -3680,22 +3535,21 @@
             "y": 898
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sub Arcadia",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
-      { "name": "006",
+      },
+      { "name": "Miniboss",
         "access_rules": [],
         "sections": [
-            { "name": "Phantom Kill (Platforms Top Left, in Cyberspace)",
+            { "name": "Phantom",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            },
+            { "name": "006: Phantom Kill",
             "access_rules": [],
             "visibility_rules": [],
             "item_count": 1
             }
-          ],
+        ],
         "map_locations": [
           {
             "map": "Sub Arcadia",
@@ -3703,13 +3557,7 @@
             "y": 882
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sub Arcadia",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "180",
         "access_rules": [],
         "sections": [
@@ -3726,13 +3574,7 @@
             "y": 1476
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sub Arcadia",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "087",
         "access_rules": [],
         "sections": [
@@ -3749,13 +3591,7 @@
             "y": 1555
           }
         ]
-      }
-    ]
-  },
-  { "name": "Sub Arcadia",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "083",
         "access_rules": [],
         "sections": [
@@ -3772,13 +3608,52 @@
             "y": 1108
           }
         ]
+      },
+      { "name": "1-UP",
+        "access_rules": [],
+        "sections": [
+            { "name": "Above Exit Door in Spike Room",
+            "access_rules": [],
+            "visibility_rules": [],
+            "item_count": 1
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 831,
+            "y": 1403
+          }
+        ]
       }
     ]
   },
+
+
   { "name": "Abandoned Research Laboratory",
     "chest_opened_img": "images/items/disk.png",
     "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["spacecraft_access,volcano_access,oceanic_access,factory_access,residential_access,missile_access,desert_access,forest_access,ice_base_access,areax_access,energy_access,snowy_access,library_access,elevator_access,subarcadia_access"],
     "children": [
+      { "name": "Complete Abandoned Research Laboratory",
+      "access_rules": [],
+      "sections": [
+          { "name": "A+ Rank Clear",
+          "chest_opened_img": "images/items/rank_a.png",
+          "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+      "map_locations": [
+          {
+          "map": "Abandoned Research Laboratory",
+          "x": 2201,
+          "y": 2417
+          }
+        ]
+      },
       { "name": "5th Pantheon Hunter Kill",
         "access_rules": [],
         "sections": [
@@ -3795,13 +3670,7 @@
             "y": 10
           }
         ]
-      }
-    ]
-  },
-  { "name": "Abandoned Research Laboratory",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "097",
         "access_rules": [],
         "sections": [
@@ -3818,13 +3687,7 @@
             "y": 260
           }
         ]
-      }
-    ]
-  },
-  { "name": "Abandoned Research Laboratory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "177",
         "access_rules": [],
         "sections": [
@@ -3841,13 +3704,7 @@
             "y": 153
           }
         ]
-      }
-    ]
-  },
-  { "name": "Abandoned Research Laboratory",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "151",
         "access_rules": [],
         "sections": [
@@ -3864,13 +3721,7 @@
             "y": 701
           }
         ]
-      }
-    ]
-  },
-  { "name": "Abandoned Research Laboratory",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "019",
         "access_rules": [],
         "sections": [
@@ -3887,13 +3738,7 @@
             "y": 733
           }
         ]
-      }
-    ]
-  },
-  { "name": "Abandoned Research Laboratory",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "020",
         "access_rules": [],
         "sections": [
@@ -3910,13 +3755,7 @@
             "y": 909
           }
         ]
-      }
-    ]
-  },
-  { "name": "Abandoned Research Laboratory",
-    "chest_opened_img": "images/items/disk.png",
-    "chest_unopened_img": "images/items/disabled/disk.png",
-    "children": [
+      },
       { "name": "178",
         "access_rules": [],
         "sections": [
@@ -3933,13 +3772,7 @@
             "y": 1025
           }
         ]
-      }
-    ]
-  },
-  { "name": "Abandoned Research Laboratory",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "164",
         "access_rules": [],
         "sections": [
@@ -3956,13 +3789,7 @@
             "y": 1213
           }
         ]
-      }
-    ]
-  },
-  { "name": "Abandoned Research Laboratory",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "179",
         "access_rules": [],
         "sections": [
@@ -3979,13 +3806,7 @@
             "y": 1498
           }
         ]
-      }
-    ]
-  },
-  { "name": "Abandoned Research Laboratory",
-    "chest_opened_img": "images/items/box.png",
-    "chest_unopened_img": "images/items/disabled/box.png",
-    "children": [
+      },
       { "name": "011",
         "access_rules": [],
         "sections": [
@@ -4000,422 +3821,6 @@
             "map": "Abandoned Research Laboratory",
             "x": 1740,
             "y": 1658
-          }
-        ]
-      }
-    ]
-  },
-
-
-  { "name": "Complete Derelict Spacecraft",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-      "chest_opened_img": "images/items/rank_a.png",
-      "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Derelict Spacecraft",
-      "x": 2816,
-      "y": 75
-      }
-    ]
-  },
-  { "name": "Complete Aegis Volcano Base",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-            "chest_opened_img": "images/items/rank_a.png",
-            "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      },
-      { "name": "Collect Flame Body Chip",
-      "chest_opened_img": "images/items/flame.png",
-      "chest_unopened_img": "images/items/disabled/chest.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Aegis Volcano Base",
-      "x": 3959,
-      "y": 1339
-      }
-    ]
-  },
-  { "name": "Complete Oceanic Highway Ruins",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-      "chest_opened_img": "images/items/rank_a.png",
-      "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      },
-      { "name": "Collect Ice Body Chip",
-      "chest_opened_img": "images/items/ice.png",
-      "chest_unopened_img": "images/items/disabled/chest.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Oceanic Highway Ruins",
-      "x": 5520,
-      "y": 1343
-      }
-    ]
-  },
-  { "name": "Complete Weapons Repair Factory",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-            "chest_opened_img": "images/items/rank_a.png",
-            "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      },
-      { "name": "Collect Thunder Body Chip",
-      "chest_opened_img": "images/items/thunder.png",
-      "chest_unopened_img": "images/items/disabled/chest.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Weapons Repair Factory",
-      "x": 3420,
-      "y": 1530
-      }
-    ]
-  },
-  { "name": "Complete Old Residential",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-            "chest_opened_img": "images/items/rank_a.png",
-            "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      },
-      { "name": "Collect Light Body Chip",
-      "chest_opened_img": "images/items/light.png",
-      "chest_unopened_img": "images/items/disabled/chest.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Old Residential",
-      "x": 3720,
-      "y": 1721
-      }
-    ]
-  },
-  { "name": "Complete Missile Factory",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-            "chest_opened_img": "images/items/rank_a.png",
-            "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Missile Factory",
-      "x": 3143,
-      "y": 2264
-      }
-    ]
-  },
-  { "name": "Complete Twilight Desert",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-            "chest_opened_img": "images/items/rank_a.png",
-            "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Twilight Desert",
-      "x": 2588,
-      "y": 965
-      }
-    ]
-  },
-  { "name": "Complete Forest of Anatre",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-            "chest_opened_img": "images/items/rank_a.png",
-            "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Forest of Anatre",
-      "x": 2348,
-      "y": 1265
-      }
-    ]
-  },
-  { "name": "Complete Frontline Ice Base",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-            "chest_opened_img": "images/items/rank_a.png",
-            "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Frontline Ice Base",
-      "x": 4165,
-      "y": 1084
-      }
-    ]
-  },
-  { "name": "Complete Area X-2",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-            "chest_opened_img": "images/items/rank_a.png",
-            "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      },
-      { "name": "Collect Quick Foot Chip",
-      "chest_opened_img": "images/items/swift.png",
-      "chest_unopened_img": "images/items/disabled/foot.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Area X-2",
-      "x": 4024,
-      "y": 262
-      }
-    ]
-  },
-  { "name": "Complete Energy Facility",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-            "chest_opened_img": "images/items/rank_a.png",
-            "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      },
-      { "name": "Collect Double Jump Foot Chip",
-      "chest_opened_img": "images/items/double_jump.png",
-      "chest_unopened_img": "images/items/disabled/foot.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Energy Facility",
-      "x": 5519,
-      "y": 1091
-      }
-    ]
-  },
-  { "name": "Complete Snowy Plains",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-            "chest_opened_img": "images/items/rank_a.png",
-            "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      },
-      { "name": "Collect Spike Foot Chip",
-      "chest_opened_img": "images/items/no_slip.png",
-      "chest_unopened_img": "images/items/disabled/foot.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Snowy Plains",
-      "x": 6598,
-      "y": 3031
-      }
-    ]
-  },
-  { "name": "Complete Sunken Library",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-            "chest_opened_img": "images/items/rank_a.png",
-            "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      },
-      { "name": "Collect Shadow Dash Foot Chip",
-      "chest_opened_img": "images/items/shadow.png",
-      "chest_unopened_img": "images/items/disabled/foot.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Sunken Library",
-      "x": 3433,
-      "y": 1117
-      }
-    ]
-  },
-  { "name": "Complete Giant Elevator",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-            "chest_opened_img": "images/items/rank_a.png",
-            "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      },
-      { "name": "Collect Absorber Body Chip",
-      "chest_opened_img": "images/items/heavy.png",
-      "chest_unopened_img": "images/items/disabled/chest.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Giant Elevator",
-      "x": 2616,
-      "y": 3648
-      }
-    ]
-  },
-  { "name": "Complete Sub Arcadia",
-    "access_rules": [],
-    "sections": [
-      { "name": "A+ Rank Clear",
-      "chest_opened_img": "images/items/rank_a.png",
-      "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-      "map": "Sub Arcadia",
-      "x": 3340,
-      "y": 1518
-      }
-    ]
-  },
-  { "name": "Complete Abandoned Research Laboratory",
-  "access_rules": [],
-  "sections": [
-      { "name": "A+ Rank Clear",
-      "chest_opened_img": "images/items/rank_a.png",
-      "chest_unopened_img": "images/items/disabled/rank_a.png",
-      "access_rules": [],
-      "visibility_rules": [],
-      "item_count": 1
-      }
-    ],
-  "map_locations": [
-      {
-      "map": "Abandoned Research Laboratory",
-      "x": 2201,
-      "y": 2417
-      }
-    ]
-  },
-
-  { "name": "Old Residential",
-    "chest_opened_img": "images/items/subtank.png",
-    "chest_unopened_img": "images/items/disabled/subtank.png",
-    "children": [
-      { "name": "Subtank",
-        "access_rules": [],
-        "sections": [
-            { "name": "Subtank",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-            }
-        ],
-        "map_locations": [
-          {
-            "map": "Old Residential",
-            "x": 791,
-            "y": 1065
-          }
-        ]
-      }
-    ]
-  },
-  { "name": "Forest of Anatre",
-    "chest_opened_img": "images/items/subtank.png",
-    "chest_unopened_img": "images/items/disabled/subtank.png",
-    "children": [
-      { "name": "Subtank",
-        "access_rules": [],
-        "sections": [
-            { "name": "Subtank",
-            "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
-            }
-        ],
-        "map_locations": [
-          {
-            "map": "Forest of Anatre",
-            "x": 659,
-            "y": 1264
           }
         ]
       }

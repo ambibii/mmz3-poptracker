@@ -55,7 +55,7 @@
         {
           "type": "group",
           "header": "Weapons",
-          "dock": "top",
+          "dock": "left",
           "content": {
             "type": "layout",
             "key": "weapons_grid"
@@ -64,7 +64,7 @@
         {
           "type": "group",
           "header": "Chips",
-          "dock": "top",
+          "dock": "left",
           "content": {
             "type": "layout",
             "key": "chips_grid"
@@ -73,19 +73,10 @@
         {
           "type": "group",
           "header": "Disks",
-          "dock": "top",
+          "dock": "left",
           "content": {
             "type": "layout",
             "key": "disks_grid"
-          }
-        },
-        {
-          "type": "group",
-          "header": "Access Codes",
-          "dock": "top",
-          "content": {
-            "type": "layout",
-            "key": "access_grid"
           }
         }
       ]
