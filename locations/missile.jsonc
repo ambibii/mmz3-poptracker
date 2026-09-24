@@ -1,0 +1,282 @@
+[
+  { "name": "Missile Factory",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["missile_access"],
+    "children": [
+      { "name": "Complete Missile Factory",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Missile Factory",
+          "x": 3143,
+          "y": 2264
+          }
+        ]
+      },
+      { "name": "4th Eye Cannon Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "4th Pantheon Guardian Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 200,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "4th Generator Cannon Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 300,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "6th Generator Cannon Spawn Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 400,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "057",
+        "access_rules": [],
+        "sections": [
+            { "name": "Spiky Side Room",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 721,
+            "y": 1685
+          }
+        ]
+      },
+      { "name": "030",
+        "access_rules": [],
+        "sections": [
+            { "name": "By Cyber Door",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 961,
+            "y": 1334
+          }
+        ]
+      },
+      { "name": "090",
+        "access_rules": [],
+        "sections": [
+            { "name": "2nd Conveyor Slopes Ledge",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 2205,
+            "y": 1014
+          }
+        ]
+      },
+      { "name": "055",
+        "access_rules": [],
+        "sections": [
+            { "name": "Left of 2nd Conveyor Slope",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 1698,
+            "y": 1014
+          }
+        ]
+      },
+      { "name": "117",
+        "access_rules": [],
+        "sections": [
+            { "name": "Above 2nd Conveyor Slope",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 2011,
+            "y": 930
+          }
+        ]
+      },
+      { "name": "021",
+        "access_rules": [],
+        "sections": [
+            { "name": "Top Left Ledge",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 1735,
+            "y": 432
+          }
+        ]
+      },
+      { "name": "Towards End Of Missile",
+        "access_rules": [],
+        "sections": [
+            { "name": "1-UP",
+            "chest_opened_img": "images/items/1up.png",
+            "chest_unopened_img": "images/items/disabled/1up.png",
+            "access_rules": [],
+            "visibility_rules": ["1upsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 2338,
+            "y": 2254
+          }
+        ]
+      },
+
+
+      
+      { "name": "Pit Under Ladder",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"],
+            "item_count": 2
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 1752,
+            "y": 757
+          }
+        ]
+      },
+      { "name": "Missile Top Path",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 2072,
+            "y": 2247
+          }
+        ]
+      },
+      { "name": "Missile Bottom Path",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 2072,
+            "y": 2394
+          }
+        ]
+      },
+      { "name": "Missile Top Right",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Missile Factory",
+            "x": 2536,
+            "y": 2231
+          }
+        ]
+      }
+    ]
+  }
+]

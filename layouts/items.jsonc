@@ -238,5 +238,59 @@
 				]
 			}
 		]
+	},
+	"settings_grid_vertical": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content": [
+		{
+			"type": "array",
+			"orientation": "horizontal",
+			"margin": "0,0",
+			"content": [
+			{
+				"type": "itemgrid",
+				"item_margin": "5,5",
+				"h_alignment": "left",
+				"rows": [
+				[
+					"itemsanity"
+				],
+				[
+					"1upsanity"
+				],
+				[
+					"cerveaushop"
+				]
+				]
+			}
+			]
+		}
+		]
+	},
+	"settings_grid_horizontal": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content": [
+		{
+			"type": "array",
+			"orientation": "horizontal",
+			"margin": "0,0",
+			"content": [
+			{
+				"type": "itemgrid",
+				"item_margin": "5,5",
+				"h_alignment": "left",
+				"rows": [
+				[
+					"itemsanity", "1upsanity", "cerveaushop"
+				]
+				]
+			}
+			]
+		}
+		]
 	}
 }

@@ -1,0 +1,188 @@
+[
+  { "name": "Abandoned Research Laboratory",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["spacecraft_access,volcano_access,oceanic_access,factory_access,residential_access,missile_access,desert_access,forest_access,ice_base_access,areax_access,energy_access,snowy_access,library_access,elevator_access,subarcadia_access"],
+    "children": [
+      { "name": "Complete Abandoned Research Laboratory",
+      "access_rules": [],
+      "sections": [
+          { "name": "Game Complete!",
+          "chest_opened_img": "images/items/rank_a.png",
+          "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+      "map_locations": [
+          {
+          "map": "Abandoned Research Laboratory",
+          "x": 2201,
+          "y": 2417
+          }
+        ]
+      },
+      { "name": "5th Pantheon Hunter Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Abandoned Research Laboratory",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "097",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Box",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Abandoned Research Laboratory",
+            "x": 932,
+            "y": 260
+          }
+        ]
+      },
+      { "name": "177",
+        "access_rules": [],
+        "sections": [
+            { "name": "Ledge Above Spike Zone",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Abandoned Research Laboratory",
+            "x": 2216,
+            "y": 153
+          }
+        ]
+      },
+      { "name": "151",
+        "access_rules": [],
+        "sections": [
+            { "name": "Ice Zone Box",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Abandoned Research Laboratory",
+            "x": 852,
+            "y": 701
+          }
+        ]
+      },
+      { "name": "019",
+        "access_rules": [],
+        "sections": [
+            { "name": "Ice Zone Box",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Abandoned Research Laboratory",
+            "x": 1851,
+            "y": 733
+          }
+        ]
+      },
+      { "name": "020",
+        "access_rules": [],
+        "sections": [
+            { "name": "Ice Zone Box",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Abandoned Research Laboratory",
+            "x": 2276,
+            "y": 909
+          }
+        ]
+      },
+      { "name": "178",
+        "access_rules": [],
+        "sections": [
+            { "name": "Ice Zone Alarm Ledge",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Abandoned Research Laboratory",
+            "x": 2328,
+            "y": 1025
+          }
+        ]
+      },
+      { "name": "164",
+        "access_rules": [],
+        "sections": [
+            { "name": "Ice Zone Box",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Abandoned Research Laboratory",
+            "x": 2730,
+            "y": 1213
+          }
+        ]
+      },
+      { "name": "179",
+        "access_rules": [],
+        "sections": [
+            { "name": "Final Section Box",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Abandoned Research Laboratory",
+            "x": 1436,
+            "y": 1498
+          }
+        ]
+      },
+      { "name": "011",
+        "access_rules": [],
+        "sections": [
+            { "name": "Final Section Box",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Abandoned Research Laboratory",
+            "x": 1740,
+            "y": 1658
+          }
+        ]
+      }
+    ]
+  }
+]

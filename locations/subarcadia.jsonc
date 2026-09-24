@@ -1,0 +1,249 @@
+[
+  { "name": "Sub Arcadia",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["subarcadia_access"],
+    "children": [
+      { "name": "Complete Sub Arcadia",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+          "chest_opened_img": "images/items/rank_a.png",
+          "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Sub Arcadia",
+          "x": 3340,
+          "y": 1518
+          }
+        ]
+      },
+      { "name": "5th Cannonhopper Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "3rd Petatria Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 200,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "5th Claveker Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 300,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "036",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Descent Ledge",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 743,
+            "y": 233
+          }
+        ]
+      },
+      { "name": "081",
+        "access_rules": [],
+        "sections": [
+            { "name": "Platforms Room Under Start",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 612,
+            "y": 1010
+          }
+        ]
+      },
+      { "name": "038",
+        "access_rules": [],
+        "sections": [
+            { "name": "Platforms Room Top Left",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 48,
+            "y": 898
+          }
+        ]
+      },
+      { "name": "Miniboss",
+        "access_rules": [],
+        "sections": [
+            { "name": "Phantom",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "006: Phantom Kill",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 120,
+            "y": 882
+          }
+        ]
+      },
+      { "name": "180",
+        "access_rules": [],
+        "sections": [
+            { "name": "Platforms Room Bottom",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 511,
+            "y": 1476
+          }
+        ]
+      },
+      { "name": "087",
+        "access_rules": [],
+        "sections": [
+            { "name": "Box Past 1st Door",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 1564,
+            "y": 1555
+          }
+        ]
+      },
+      { "name": "083",
+        "access_rules": [],
+        "sections": [
+            { "name": "Final Descent Left",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 2174,
+            "y": 1108
+          }
+        ]
+      },
+      { "name": "Above Exit Door in Spike Room",
+        "access_rules": [],
+        "sections": [
+            { "name": "1-UP",
+            "chest_opened_img": "images/items/1up.png",
+            "chest_unopened_img": "images/items/disabled/1up.png",
+            "access_rules": [],
+            "visibility_rules": ["1upsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 831,
+            "y": 1403
+          }
+        ]
+      },
+
+
+      
+      { "name": "Pit Near Start",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 584,
+            "y": 135
+          }
+        ]
+      },
+      { "name": "Final Descent Near Top",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sub Arcadia",
+            "x": 2172,
+            "y": 746
+          }
+        ]
+      }
+    ]
+  }
+]

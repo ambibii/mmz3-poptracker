@@ -1,0 +1,351 @@
+[
+  { "name": "Resistance Base",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "children": [
+      { "name": "Rocinolle",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Near Rocinolle",
+            "access_rules": [],
+            "visibility_rules": []
+          },
+          {
+            "name": "Talk to Rocinolle",
+            "access_rules": [],
+            "visibility_rules": []
+          },
+          {
+            "name": "Talk to Rocinolle - 2 Story Progress",
+            "access_rules": ["sp2"],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 1184,
+            "y": 690
+          }
+        ]
+      },
+      { "name": "Hibou",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Talk to Hibou - 1 Story Progress",
+            "access_rules": ["sp1"],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 552,
+            "y": 1010
+          }
+        ]
+      },
+      { "name": "Cerveau",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Near Cerveau",
+            "access_rules": [],
+            "visibility_rules": []
+          },
+          {
+            "name": "Talk to Cerveau",
+            "access_rules": [],
+            "visibility_rules": []
+          },
+          { "name": "Collect Recoil Rod",
+            "access_rules": [],
+            "visibility_rules": []
+          },
+          { "name": "Collect Shield Boomerang",
+            "access_rules": [],
+            "visibility_rules": []
+          },
+          //figure out how to adjust number of items in shop
+          { "name": "Cerveaus Shop",
+            "chest_opened_img": "images/items/disabled/crystal.png",
+            "chest_unopened_img": "images/items/cerveau.png",
+            "access_rules": ["{}"],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 1718,
+            "y": 690
+          }
+        ]
+      },
+      { "name": "Hirondelle",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Talk to Hirondelle - 1 Story Progress",
+            "access_rules": ["sp1"],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 188,
+            "y": 690
+          }
+        ]
+      },
+      { "name": "Alouette",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Near Alouette",
+            "access_rules": [],
+            "visibility_rules": []
+          },
+          {
+            "name": "Talk to Alouette - 1 Story Progress",
+            "access_rules": ["sp1"],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 1815,
+            "y": 690
+          }
+        ]
+      },
+      { "name": "Andrew",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Talk to Andrew - 1 Story Progress",
+            "access_rules": ["sp1"],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 530,
+            "y": 850
+          }
+        ]
+      },
+      { "name": "Doigt",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Talk to Doigt - 1 Story Progress",
+            "access_rules": ["sp1"],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 1550,
+            "y": 690
+          }
+        ]
+      },
+      { "name": "Menart",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Talk to Menart",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 1518,
+            "y": 1170
+          }
+        ]
+      },
+      { "name": "Pic",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Near Pic",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 525,
+            "y": 690
+          }
+        ]
+      },
+      { "name": "Second Floor",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Room 02D - 1 Story Progress",
+            "access_rules": ["sp1"],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 1300,
+            "y": 1010
+          }
+        ]
+      },
+      { "name": "Second Floor Hall",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Second Floor Hall",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 430,
+            "y": 1010
+          }
+        ]
+      },
+      { "name": "Third Floor",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Room 03D",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 1280,
+            "y": 850
+          }
+        ]
+      },
+      { "name": "Right Tower",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Talk to Right Tower Soldier",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 1289,
+            "y": 205
+          }
+        ]
+      },
+      { "name": "First Floor Left",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Left Room on 1st Floor",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 464,
+            "y": 1170
+          }
+        ]
+      },
+      { "name": "First Floor Right",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Right Room on 1st Floor",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 1264,
+            "y": 1170
+          }
+        ]
+      },
+      { "name": "Rooftop",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Left Corner of Rooftop",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 505,
+            "y": 384
+          }
+        ]
+      },
+      { "name": "Locked Room by Andrew",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "1-UP",
+            "chest_opened_img": "images/items/1up.png",
+            "chest_unopened_img": "images/items/disabled/1up.png",
+            "access_rules": ["120"],
+            "visibility_rules": ["1upsanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 327,
+            "y": 817
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,213 @@
+[
+  { "name": "Twilight Desert",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["desert_access"],
+    "children": [
+      { "name": "Complete Twilight Desert",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Twilight Desert",
+          "x": 2588,
+          "y": 965
+          }
+        ]
+      },
+      { "name": "5th Shrimpolin Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Twilight Desert",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "5th Flopper Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Twilight Desert",
+            "x": 200,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "5th PurpleNerple Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Twilight Desert",
+            "x": 300,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "085",
+        "access_rules": [],
+        "sections": [
+            { "name": "After Long Quicksand",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Twilight Desert",
+            "x": 920,
+            "y": 587
+          }
+        ]
+      },
+      { "name": "Miniboss",
+        "access_rules": [],
+        "sections": [
+            { "name": "Or Wormer",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "089: Miniboss Kill",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Twilight Desert",
+            "x": 1297,
+            "y": 634
+          }
+        ]
+      },
+      { "name": "031",
+        "access_rules": [],
+        "sections": [
+            { "name": "Above 1st Pillar Cannon",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Twilight Desert",
+            "x": 2099,
+            "y": 578
+          }
+        ]
+      },
+      { "name": "022",
+        "access_rules": [],
+        "sections": [
+            { "name": "Above 2nd Cyber Door",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Twilight Desert",
+            "x": 2403,
+            "y": 495
+          }
+        ]
+      },
+      { "name": "105",
+        "access_rules": [],
+        "sections": [
+            { "name": "After 1st Helicopter",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Twilight Desert",
+            "x": 255,
+            "y": 917
+          }
+        ]
+      },
+      { "name": "118",
+        "access_rules": [],
+        "sections": [
+            { "name": "After 1st Helicopter",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Twilight Desert",
+            "x": 174,
+            "y": 867
+          }
+        ]
+      },
+      { "name": "065",
+        "access_rules": [],
+        "sections": [
+            { "name": "2nd Helicopter Kill",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Twilight Desert",
+            "x": 1165,
+            "y": 1068
+          }
+        ]
+      },
+
+
+      
+      { "name": "Above 2nd Pillar Cannon",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Twilight Desert",
+            "x": 2212,
+            "y": 535
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,277 @@
+[
+  { "name": "Aegis Volcano Base",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["volcano_access"],
+    "children": [
+      { "name": "Complete Aegis Volcano Base",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Flame Body Chip",
+          "chest_opened_img": "images/items/flame.png",
+          "chest_unopened_img": "images/items/disabled/chest.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Aegis Volcano Base",
+          "x": 3959,
+          "y": 1339
+          }
+        ]
+      },
+      { "name": "3rd Volcaire Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Aegis Volcano Base",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "4th Lamplort Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Aegis Volcano Base",
+            "x": 200,
+            "y": 10
+          }
+        ]
+      },
+      //location link
+      { "name": "Ledge Above Lava",
+        "access_rules": [],
+        "sections": [
+            { "name": "047",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Aegis Volcano Base",
+            "x": 1238,
+            "y": 726
+          }
+        ]
+      },
+      { "name": "102",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Box Inside",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Aegis Volcano Base",
+            "x": 1690,
+            "y": 915
+          }
+        ]
+      },
+      //LL
+      { "name": "Platform Above First Room",
+        "access_rules": ["double_jump","ultima","rod_charge"],
+        "sections": [
+            { "name": "026",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Aegis Volcano Base",
+            "x": 2022,
+            "y": 759
+          }
+        ]
+      },
+      { "name": "Push 1st Container",
+        "access_rules": ["rod_charge"],
+        "sections": [
+            { "name": "114",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"],
+            "item_count": 2
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Aegis Volcano Base",
+            "x": 375,
+            "y": 1541
+          }
+        ]
+      },
+      { "name": "073",
+        "access_rules": [],
+        "sections": [
+            { "name": "Container Before Miniboss, Platform After",
+            "access_rules": ["double_jump","ultima","rod_charge"],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Aegis Volcano Base",
+            "x": 823,
+            "y": 1317
+          }
+        ]
+      },
+      { "name": "Miniboss",
+        "access_rules": [],
+        "sections": [
+            { "name": "Crossbynes",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "152: 10th Crossbyne Kill",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Aegis Volcano Base",
+            "x": 1080,
+            "y": 1834
+          }
+        ]
+      },
+      { "name": "072",
+        "access_rules": [],
+        "sections": [
+            { "name": "Lamplort Box",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Aegis Volcano Base",
+            "x": 1034,
+            "y": 1552
+          }
+        ]
+      },
+      { "name": "008",
+        "access_rules": [],
+        "sections": [
+            { "name": "Top Gabyoall Box",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Aegis Volcano Base",
+            "x": 1371,
+            "y": 1392
+          }
+        ]
+      },
+
+
+      
+      { "name": "After Mini Boss",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Aegis Volcano Base",
+            "x": 1576,
+            "y": 1797
+          }
+        ]
+      },
+      { "name": "Ascent After Mini Boss",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Aegis Volcano Base",
+            "x": 1656,
+            "y": 1476
+          }
+        ]
+      },
+      { "name": "After Second Lava Blocks",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Aegis Volcano Base",
+            "x": 3272,
+            "y": 1365
+          }
+        ]
+      }
+    ]
+  }
+]

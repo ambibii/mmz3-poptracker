@@ -1,0 +1,331 @@
+[
+  { "name": "Weapons Repair Factory",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["factory_access"],
+    "children": [
+      { "name": "Complete Weapons Repair Factory",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+          "chest_opened_img": "images/items/rank_a.png",
+          "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Thunder Body Chip",
+          "chest_opened_img": "images/items/thunder.png",
+          "chest_unopened_img": "images/items/disabled/chest.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Weapons Repair Factory",
+          "x": 3420,
+          "y": 1530
+          }
+        ]
+      },
+      { "name": "5th Lemmingles Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "5th Deathlock Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 200,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "3rd Lemmingles Generator Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 300,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "012",
+        "access_rules": [],
+        "sections": [
+            { "name": "Below 3rd Hammer",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 1843,
+            "y": 212
+          }
+        ]
+      },
+      { "name": "115",
+        "access_rules": [],
+        "sections": [
+            { "name": "Hit 3rd Hammer",
+            "access_rules": ["rod_charge"],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 1783,
+            "y": 55
+          }
+        ]
+      },
+      { "name": "104",
+        "access_rules": [],
+        "sections": [
+            { "name": "Past 4th Hammer",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 3431,
+            "y": 87
+          }
+        ]
+      },
+      { "name": "Miniboss",
+        "access_rules": [],
+        "sections": [
+            { "name": "Bee Server",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "093: Miniboss Kill",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 247,
+            "y": 1538
+          }
+        ]
+      },
+      { "name": "100",
+        "access_rules": [],
+        "sections": [
+            { "name": "Behind Lemmingles Generator",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 1623,
+            "y": 876
+          }
+        ]
+      },
+      { "name": "084",
+        "access_rules": [],
+        "sections": [
+            { "name": "Conveyor Descent Ledge",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 1832,
+            "y": 1436
+          }
+        ]
+      },
+      { "name": "053",
+        "access_rules": [],
+        "sections": [
+            { "name": "Ladder Into Junk",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 2554,
+            "y": 1896
+          }
+        ]
+      },
+
+
+
+      { "name": "Before 1st Junk Pit",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 808,
+            "y": 218
+          }
+        ]
+      },
+      { "name": "Hit 3rd Hammer",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"],
+            "item_count": 2
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 1680,
+            "y": 54
+          }
+        ]
+      },
+      { "name": "In Junk Pit",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 2616,
+            "y": 107
+          }
+        ]
+      },
+      { "name": "Before Miniboss Door",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"],
+            "item_count": 2
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 2616,
+            "y": 107
+          }
+        ]
+      },
+      { "name": "After Miniboss",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 760,
+            "y": 1519
+          }
+        ]
+      },
+      { "name": "Before Conveyor Descent",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"],
+            "item_count": 2
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 2016,
+            "y": 874
+          }
+        ]
+      },
+      { "name": "Ladder into Junk",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Weapons Repair Factory",
+            "x": 2631,
+            "y": 1788
+          }
+        ]
+      }
+    ]
+  }
+]

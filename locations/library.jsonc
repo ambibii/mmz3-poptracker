@@ -1,0 +1,294 @@
+[
+  { "name": "Sunken Library",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["library_access"],
+    "children": [
+      { "name": "Complete Sunken Library",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Shadow Dash Foot Chip",
+          "chest_opened_img": "images/items/shadow.png",
+          "chest_unopened_img": "images/items/disabled/foot.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Sunken Library",
+          "x": 3433,
+          "y": 1117
+          }
+        ]
+      },
+      { "name": "Ledge Above First Pool",
+        "access_rules": [],
+        "sections": [
+            { "name": "125",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 1250,
+            "y": 81
+          }
+        ]
+      },
+      { "name": "051",
+        "access_rules": [],
+        "sections": [
+            { "name": "Under Second Pool",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 1605,
+            "y": 291
+          }
+        ]
+      },
+      { "name": "043",
+        "access_rules": [],
+        "sections": [
+            { "name": "Last Exposed Wire",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 3475,
+            "y": 261
+          }
+        ]
+      },
+      { "name": "033",
+        "access_rules": [],
+        "sections": [
+            { "name": "Past Exposed Wires",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 194,
+            "y": 920
+          }
+        ]
+      },
+      { "name": "094",
+        "access_rules": [],
+        "sections": [
+            { "name": "End of 1st Passage",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 1208,
+            "y": 931
+          }
+        ]
+      },
+      { "name": "096",
+        "access_rules": [],
+        "sections": [
+            { "name": "Above 1st Door",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 1211,
+            "y": 553
+          }
+        ]
+      },
+      { "name": "Dr. Weil Data",
+        "access_rules": [],
+        "sections": [
+          { "name": "Labyrinth Data Check",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 2949,
+            "y": 916
+          }
+        ]
+      },
+      { "name": "Omega Data",
+        "access_rules": [],
+        "sections": [
+          { "name": "Labyrinth Data Check",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 3030,
+            "y": 916
+          }
+        ]
+      },
+      { "name": "Dark Elf Data",
+        "access_rules": [],
+        "sections": [
+          { "name": "Labyrinth Data Check",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 3109,
+            "y": 916
+          }
+        ]
+      },
+      { "name": "Elf Wars Data",
+        "access_rules": [],
+        "sections": [
+          { "name": "Labyrinth Data Check",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 3190,
+            "y": 916
+          }
+        ]
+      },
+
+
+
+      { "name": "Right of First Pool",
+        "access_rules": [],
+        "sections": [
+          { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 1400,
+            "y": 298
+          }
+        ]
+      },
+      { "name": "Incorrect Room 1",
+        "access_rules": [],
+        "sections": [
+          { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 2949,
+            "y": 850
+          }
+        ]
+      },
+      { "name": "Incorrect Room 2",
+        "access_rules": [],
+        "sections": [
+          { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 3030,
+            "y": 850
+          }
+        ]
+      },
+      { "name": "Incorrect Room 3",
+        "access_rules": [],
+        "sections": [
+          { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 3109,
+            "y": 850
+          }
+        ]
+      },
+      { "name": "Incorrect Room 4",
+        "access_rules": [],
+        "sections": [
+          { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sunken Library",
+            "x": 3190,
+            "y": 850
+          }
+        ]
+      }
+    ]
+  }
+]

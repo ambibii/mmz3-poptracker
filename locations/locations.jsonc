@@ -10,20 +10,17 @@
           {
             "name": "Near Rocinolle",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           },
           {
             "name": "Talk to Rocinolle",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           },
           {
             "name": "Talk to Rocinolle - 2 Story Progress",
             "access_rules": ["sp2"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -41,8 +38,7 @@
           {
             "name": "Talk to Hibou - 1 Story Progress",
             "access_rules": ["sp1"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -60,24 +56,20 @@
           {
             "name": "Near Cerveau",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           },
           {
             "name": "Talk to Cerveau",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           },
           { "name": "Collect Recoil Rod",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           },
           { "name": "Collect Shield Boomerang",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -88,6 +80,41 @@
           }
         ]
       },
+
+      
+      { "name": "Cerveau's Shop",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Row 1",
+            "hosted_item": "cerveau_1, cerveau_2, cerveau_3, cerveau_4, cerveau_5",
+            "access_rules": [],
+            "visibility_rules": []
+          },
+          {
+            "name": "Row T",
+            "access_rules": [],
+            "visibility_rules": []
+          },
+          { "name": "Row 3",
+            "access_rules": [],
+            "visibility_rules": []
+          },
+          { "name": "Row 4",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Resistance Base",
+            "x": 1750,
+            "y": 690
+          }
+        ]
+      },
+
       { "name": "Hirondelle",
         "access_rules": [
         ],
@@ -95,8 +122,7 @@
           {
             "name": "Talk to Hirondelle - 1 Story Progress",
             "access_rules": ["sp1"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -114,14 +140,12 @@
           {
             "name": "Near Alouette",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           },
           {
             "name": "Talk to Alouette - 1 Story Progress",
             "access_rules": ["sp1"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -139,8 +163,7 @@
           {
             "name": "Talk to Andrew - 1 Story Progress",
             "access_rules": ["sp1"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -158,8 +181,7 @@
           {
             "name": "Talk to Doigt - 1 Story Progress",
             "access_rules": ["sp1"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -177,8 +199,7 @@
           {
             "name": "Talk to Menart",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -196,8 +217,7 @@
           {
             "name": "Near Pic",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -215,8 +235,7 @@
           {
             "name": "Room 02D - 1 Story Progress",
             "access_rules": ["sp1"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -234,8 +253,7 @@
           {
             "name": "Second Floor Hall",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -253,8 +271,7 @@
           {
             "name": "Room 03D",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -272,8 +289,7 @@
           {
             "name": "Talk to Right Tower Soldier",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -291,8 +307,7 @@
           {
             "name": "Left Room on 1st Floor",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -310,8 +325,7 @@
           {
             "name": "Right Room on 1st Floor",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -329,8 +343,7 @@
           {
             "name": "Left Corner of Rooftop",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -348,8 +361,7 @@
           {
             "name": "1-UP",
             "access_rules": ["120"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -395,8 +407,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -412,8 +423,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -429,8 +439,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -446,8 +455,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -463,8 +471,7 @@
         "sections": [
             { "name": "1st Pit Secret Wall",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -480,8 +487,7 @@
         "sections": [
             { "name": "Ledge Past Entrance",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -497,8 +503,7 @@
         "sections": [
             { "name": "Ice Side Room",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -514,8 +519,7 @@
         "sections": [
             { "name": "Ledge in Top Right",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -531,8 +535,7 @@
         "sections": [
             { "name": "Final Ascent Bottom",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -548,8 +551,7 @@
         "sections": [
             { "name": "Final Ascent Ledge",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -600,8 +602,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -617,8 +618,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -634,8 +634,7 @@
         "sections": [
             { "name": "Ledge Above Lava",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -651,8 +650,7 @@
         "sections": [
             { "name": "1st Box Inside",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -668,8 +666,7 @@
         "sections": [
             { "name": "Platform Above First Room",
             "access_rules": ["double_jump","ultima","rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -685,8 +682,7 @@
         "sections": [
             { "name": "Push 1st Container",
             "access_rules": ["rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -702,8 +698,7 @@
         "sections": [
             { "name": "Container Before Miniboss, Platform After",
             "access_rules": ["double_jump","ultima","rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -719,13 +714,11 @@
         "sections": [
             { "name": "Crossbynes",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             },
             { "name": "152: 10th Crossbyne Kill",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -741,8 +734,7 @@
         "sections": [
             { "name": "Lamplort Box",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -758,8 +750,7 @@
         "sections": [
             { "name": "Top Gabyoall Box",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -811,8 +802,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -828,8 +818,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -845,8 +834,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -862,8 +850,7 @@
         "sections": [
             { "name": "1st Pit Breakable",
             "access_rules": ["rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -879,8 +866,7 @@
         "sections": [
             { "name": "1st Underwater Pit",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -896,8 +882,7 @@
         "sections": [
             { "name": "Above Cyber Door",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -913,8 +898,7 @@
         "sections": [
             { "name": "Above 1st Spike Wall",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -930,13 +914,11 @@
         "sections": [
             { "name": "Modified Pantheon",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             },
             { "name": "079: Miniboss Kill",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -952,8 +934,7 @@
         "sections": [
             { "name": "Spiked Platforms",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -969,8 +950,7 @@
         "sections": [
             { "name": "Left of Final Button",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -986,8 +966,7 @@
         "sections": [
             { "name": "1st Section Floating Platforms",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1039,8 +1018,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1056,8 +1034,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1073,8 +1050,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1090,8 +1066,7 @@
         "sections": [
             { "name": "Below 3rd Hammer",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1107,8 +1082,7 @@
         "sections": [
             { "name": "Hit 3rd Hammer",
             "access_rules": ["rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1124,8 +1098,7 @@
         "sections": [
             { "name": "Past 4th Hammer",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1141,13 +1114,11 @@
         "sections": [
             { "name": "Bee Server",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             },
             { "name": "093: Miniboss Kill",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1163,8 +1134,7 @@
         "sections": [
             { "name": "Behind Lemmingles Generator",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1180,8 +1150,7 @@
         "sections": [
             { "name": "Conveyor Descent Ledge",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1197,8 +1166,7 @@
         "sections": [
             { "name": "Ladder Into Junk",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1250,8 +1218,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1267,8 +1234,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1284,8 +1250,7 @@
         "sections": [
             { "name": "1st Door",
             "access_rules": ["rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1301,8 +1266,7 @@
         "sections": [
             { "name": "Stump Door",
             "access_rules": ["flame,rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1318,8 +1282,7 @@
         "sections": [
             { "name": "Floor Breakables",
             "access_rules": ["rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1335,13 +1298,11 @@
         "sections": [
             { "name": "074",
             "access_rules": ["flame"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             },
             { "name": "1-UP",
             "access_rules": ["flame"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1357,13 +1318,11 @@
         "sections": [
             { "name": "Megamilpa",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             },
             { "name": "067: Miniboss Kill",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1379,8 +1338,7 @@
         "sections": [
             { "name": "Box After Bombers",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1396,8 +1354,7 @@
         "sections": [
             { "name": "Top Right Secret Door",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1413,8 +1370,7 @@
         "sections": [
             { "name": "2 Pits Left of Secret Door Exit",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1430,8 +1386,7 @@
         "sections": [
             { "name": "Right of Fork",
             "access_rules": ["flame"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1449,8 +1404,7 @@
             "chest_opened_img": "images/items/subtank.png",
             "chest_unopened_img": "images/items/disabled/subtank.png",
             "access_rules": ["double_jump","ultima","rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1495,8 +1449,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1512,8 +1465,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1529,8 +1481,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1546,8 +1497,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1563,8 +1513,7 @@
         "sections": [
             { "name": "Spiky Side Room",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1580,8 +1529,7 @@
         "sections": [
             { "name": "By Cyber Door",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1597,8 +1545,7 @@
         "sections": [
             { "name": "2nd Conveyor Slopes Ledge",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1614,8 +1561,7 @@
         "sections": [
             { "name": "Left of 2nd Conveyor Slope",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1631,8 +1577,7 @@
         "sections": [
             { "name": "Above 2nd Conveyor Slope",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1648,8 +1593,7 @@
         "sections": [
             { "name": "Top Left Ledge",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1665,8 +1609,7 @@
         "sections": [
             { "name": "Towards End Of Missile",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1710,8 +1653,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1727,8 +1669,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1744,8 +1685,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1761,8 +1701,7 @@
         "sections": [
             { "name": "After Long Quicksand",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1778,13 +1717,11 @@
         "sections": [
             { "name": "Or Wormer",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             },
             { "name": "089: Miniboss Kill",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1800,8 +1737,7 @@
         "sections": [
             { "name": "Above 1st Pillar Cannon",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1817,8 +1753,7 @@
         "sections": [
             { "name": "Above 2nd Cyber Door",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1834,8 +1769,7 @@
         "sections": [
             { "name": "After 1st Helicopter",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1851,8 +1785,7 @@
         "sections": [
             { "name": "After 1st Helicopter",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1868,8 +1801,7 @@
         "sections": [
             { "name": "2nd Helicopter Kill",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1914,8 +1846,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1931,8 +1862,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -1948,13 +1878,11 @@
         "sections": [
             { "name": "063",
             "access_rules": ["flame"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             },
             { "name": "1-UP",
             "access_rules": ["flame"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1970,8 +1898,7 @@
         "sections": [
             { "name": "Ledge Above 1st Door",
             "access_rules": ["flame"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -1987,8 +1914,7 @@
         "sections": [
             { "name": "3rd Button Lower Path",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2004,8 +1930,7 @@
         "sections": [
             { "name": "Above 7th Button",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2021,8 +1946,7 @@
         "sections": [
             { "name": "7th Button Lower Path",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2038,8 +1962,7 @@
         "sections": [
             { "name": "8th Button Spike Pit",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2055,8 +1978,7 @@
         "sections": [
             { "name": "Above 9th Button",
             "access_rules": ["double_jump","ultima","rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2072,8 +1994,7 @@
         "sections": [
             { "name": "Breakables Below Boss Room",
             "access_rules": ["rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2091,8 +2012,7 @@
             "chest_opened_img": "images/items/subtank.png",
             "chest_unopened_img": "images/items/disabled/subtank.png",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -2137,8 +2057,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -2154,8 +2073,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -2171,8 +2089,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -2188,8 +2105,7 @@
         "sections": [
             { "name": "Top Route Tower",
             "access_rules": ["double_jump","ultima","rod_charge","splash"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2205,8 +2121,7 @@
         "sections": [
             { "name": "Top Route Indoor Ledge",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2222,8 +2137,7 @@
         "sections": [
             { "name": "Top Route Pipe Passage",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2239,8 +2153,7 @@
         "sections": [
             { "name": "Ledge Before 2nd Door",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2256,8 +2169,7 @@
         "sections": [
             { "name": "Ledge After 2nd Door",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2273,8 +2185,7 @@
         "sections": [
             { "name": "Heavy Cannon Box",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2290,8 +2201,7 @@
         "sections": [
             { "name": "Final Ascent",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2343,8 +2253,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -2360,8 +2269,7 @@
         "sections": [
             { "name": "1st Descent Ledge",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2377,8 +2285,7 @@
         "sections": [
             { "name": "1st Descent Bottom",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2394,8 +2301,7 @@
         "sections": [
             { "name": "Ledge Above Platforms",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2411,8 +2317,7 @@
         "sections": [
             { "name": "1st Ascent Top",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2428,8 +2333,7 @@
         "sections": [
             { "name": "Spiky Ascent Bottom",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2445,8 +2349,7 @@
         "sections": [
             { "name": "Spiky Ascent Middle",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2462,8 +2365,7 @@
         "sections": [
             { "name": "Spiky Ascent Top",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2479,8 +2381,7 @@
         "sections": [
             { "name": "Platforms Side Room (Lower)",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2496,8 +2397,7 @@
         "sections": [
             { "name": "Platforms Side Room (Upper)",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2549,8 +2449,7 @@
         "sections": [
             { "name": "Reactor Core",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -2566,8 +2465,7 @@
         "sections": [
             { "name": "Reactor Core",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -2583,8 +2481,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -2600,8 +2497,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -2617,8 +2513,7 @@
         "sections": [
             { "name": "Box Past 1st Cyber Door",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2634,8 +2529,7 @@
         "sections": [
             { "name": "1st Ascent Right Path",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2651,8 +2545,7 @@
         "sections": [
             { "name": "Box After 1st Ascent",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2668,13 +2561,11 @@
         "sections": [
             { "name": "Locomo-If",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             },
             { "name": "149: Miniboss Kill",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -2690,8 +2581,7 @@
         "sections": [
             { "name": "Girder Ride Left",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2707,8 +2597,7 @@
         "sections": [
             { "name": "Girder Ride Right",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2724,8 +2613,7 @@
         "sections": [
             { "name": "Snakecord Guarded Secret Wall",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2741,13 +2629,11 @@
         "sections": [
             { "name": "004",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             },
             { "name": "1-UP",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2799,8 +2685,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -2816,8 +2701,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -2833,8 +2717,7 @@
         "sections": [
             { "name": "2nd Slope Secret Wall",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2850,8 +2733,7 @@
         "sections": [
             { "name": "1st Rail Set Start",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2867,8 +2749,7 @@
         "sections": [
             { "name": "1st Rail Set Middle",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2884,8 +2765,7 @@
         "sections": [
             { "name": "1st Rail Set 2nd Pit Secret Wall",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2901,18 +2781,15 @@
         "sections": [
             { "name": "Blanc Wormer",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             },
             { "name": "060: Miniboss Kill",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             },
             { "name": "046: 5th Miniboss Snowball Kill",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2928,8 +2805,7 @@
         "sections": [
             { "name": "2nd Rail Set Start",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2945,8 +2821,7 @@
         "sections": [
             { "name": "2nd Rail Set Middle",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -2962,8 +2837,7 @@
         "sections": [
             { "name": "Pit Before 2nd Rail Set",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3014,8 +2888,7 @@
         "sections": [
             { "name": "Ledge Above First Pool",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3031,8 +2904,7 @@
         "sections": [
             { "name": "Under Second Pool",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3048,8 +2920,7 @@
         "sections": [
             { "name": "Last Exposed Wire",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3065,8 +2936,7 @@
         "sections": [
             { "name": "Past Exposed Wires",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3082,8 +2952,7 @@
         "sections": [
             { "name": "End of 1st Passage",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3099,8 +2968,7 @@
         "sections": [
             { "name": "Above 1st Door",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3116,8 +2984,7 @@
         "sections": [
           { "name": "Labyrinth Data Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -3133,8 +3000,7 @@
         "sections": [
           { "name": "Labyrinth Data Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -3150,8 +3016,7 @@
         "sections": [
           { "name": "Labyrinth Data Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -3167,8 +3032,7 @@
         "sections": [
           { "name": "Labyrinth Data Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -3219,8 +3083,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -3236,8 +3099,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -3253,8 +3115,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -3270,8 +3131,7 @@
         "sections": [
             { "name": "1st Passage High Ledges",
             "access_rules": ["double_jump,rod_charge","ultima,rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3287,8 +3147,7 @@
         "sections": [
             { "name": "1st Passage High Ledges",
             "access_rules": ["rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3304,8 +3163,7 @@
         "sections": [
             { "name": "1st Passage High Ledges",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3321,8 +3179,7 @@
         "sections": [
             { "name": "1st Passage High Ledges",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3338,8 +3195,7 @@
         "sections": [
             { "name": "1st Descent Ledge",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3355,8 +3211,7 @@
         "sections": [
             { "name": "1st Descent Bottom Left Breakable",
             "access_rules": ["rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3372,13 +3227,11 @@
         "sections": [
             { "name": "Spearook",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             },
             { "name": "088: Miniboss Kill",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -3394,8 +3247,7 @@
         "sections": [
             { "name": "1st Passage High Ledges",
             "access_rules": ["double_jump","ultima","rod_charge"],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3439,8 +3291,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -3456,8 +3307,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -3473,8 +3323,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -3490,8 +3339,7 @@
         "sections": [
             { "name": "1st Descent Ledge",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3507,8 +3355,7 @@
         "sections": [
             { "name": "Platforms Room Under Start",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3524,8 +3371,7 @@
         "sections": [
             { "name": "Platforms Room Top Left",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3541,13 +3387,11 @@
         "sections": [
             { "name": "Phantom",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             },
             { "name": "006: Phantom Kill",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -3563,8 +3407,7 @@
         "sections": [
             { "name": "Platforms Room Bottom",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3580,8 +3423,7 @@
         "sections": [
             { "name": "Box Past 1st Door",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3597,8 +3439,7 @@
         "sections": [
             { "name": "Final Descent Left",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3614,8 +3455,7 @@
         "sections": [
             { "name": "Above Exit Door in Spike Room",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3638,7 +3478,7 @@
       { "name": "Complete Abandoned Research Laboratory",
       "access_rules": [],
       "sections": [
-          { "name": "A+ Rank Clear",
+          { "name": "Game Complete!",
           "chest_opened_img": "images/items/rank_a.png",
           "chest_unopened_img": "images/items/disabled/rank_a.png",
           "access_rules": [],
@@ -3659,8 +3499,7 @@
         "sections": [
             { "name": "Kill Check",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
         ],
         "map_locations": [
@@ -3676,8 +3515,7 @@
         "sections": [
             { "name": "1st Box",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3693,8 +3531,7 @@
         "sections": [
             { "name": "Ledge Above Spike Zone",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3710,8 +3547,7 @@
         "sections": [
             { "name": "Ice Zone Box",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3727,8 +3563,7 @@
         "sections": [
             { "name": "Ice Zone Box",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3744,8 +3579,7 @@
         "sections": [
             { "name": "Ice Zone Box",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3761,8 +3595,7 @@
         "sections": [
             { "name": "Ice Zone Alarm Ledge",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3778,8 +3611,7 @@
         "sections": [
             { "name": "Ice Zone Box",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3795,8 +3627,7 @@
         "sections": [
             { "name": "Final Section Box",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [
@@ -3812,8 +3643,7 @@
         "sections": [
             { "name": "Final Section Box",
             "access_rules": [],
-            "visibility_rules": [],
-            "item_count": 1
+            "visibility_rules": []
             }
           ],
         "map_locations": [

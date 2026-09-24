@@ -1,0 +1,262 @@
+[
+  { "name": "Giant Elevator",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["elevator_access"],
+    "children": [
+      { "name": "Complete Giant Elevator",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Absorber Body Chip",
+          "chest_opened_img": "images/items/heavy.png",
+          "chest_unopened_img": "images/items/disabled/chest.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Giant Elevator",
+          "x": 2616,
+          "y": 3648
+          }
+        ]
+      },
+      { "name": "5th Cattatank Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "6th Shotloid Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 200,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "4th Pantheon Fist Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 300,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "045",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Passage High Ledges",
+            "access_rules": ["double_jump,rod_charge","ultima,rod_charge"],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 39,
+            "y": 33
+          }
+        ]
+      },
+      { "name": "041",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Passage High Ledges",
+            "access_rules": ["rod_charge"],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 293,
+            "y": 51
+          }
+        ]
+      },
+      { "name": "080",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Passage High Ledges",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 2056,
+            "y": 35
+          }
+        ]
+      },
+      { "name": "1st Passage High Ledges",
+        "access_rules": [],
+        "sections": [
+            { "name": "054",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 2840,
+            "y": 49
+          }
+        ]
+      },
+      { "name": "122",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Descent Ledge",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 2840,
+            "y": 852
+          }
+        ]
+      },
+      { "name": "027",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Descent Bottom Left Breakable",
+            "access_rules": ["rod_charge"],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 2528,
+            "y": 1556
+          }
+        ]
+      },
+      { "name": "Miniboss",
+        "access_rules": [],
+        "sections": [
+            { "name": "Spearook",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "088: Miniboss Kill",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 720,
+            "y": 1389
+          }
+        ]
+      },
+      { "name": "1st Passage High Ledges",
+        "access_rules": [],
+        "sections": [
+            { "name": "1-UP",
+            "chest_opened_img": "images/items/1up.png",
+            "chest_unopened_img": "images/items/disabled/1up.png",
+            "access_rules": ["double_jump","ultima","rod_charge"],
+            "visibility_rules": ["1upsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 915,
+            "y": 77
+          }
+        ]
+      },
+      
+      
+
+      { "name": "1st Descent Ledge",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 2840,
+            "y": 1174
+          }
+        ]
+      },
+      { "name": "Final Descent Ledge",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Giant Elevator",
+            "x": 1960,
+            "y": 3468
+          }
+        ]
+      }
+    ]
+  }
+]

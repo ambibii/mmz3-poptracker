@@ -1,0 +1,234 @@
+[
+  { "name": "Area X-2",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["areax_access"],
+    "children": [
+      { "name": "Complete Area X-2",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Quick Foot Chip",
+          "chest_opened_img": "images/items/swift.png",
+          "chest_unopened_img": "images/items/disabled/foot.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Area X-2",
+          "x": 4024,
+          "y": 262
+          }
+        ]
+      },
+      { "name": "4th Capsule Cannon Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Area X-2",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "1st Descent Ledge",
+        "access_rules": [],
+        "sections": [
+            { "name": "110",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Area X-2",
+            "x": 1303,
+            "y": 2297
+          }
+        ]
+      },
+      { "name": "121",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Descent Bottom",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Area X-2",
+            "x": 1275,
+            "y": 2516
+          }
+        ]
+      },
+      { "name": "062",
+        "access_rules": [],
+        "sections": [
+            { "name": "Ledge Above Platforms",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Area X-2",
+            "x": 1766,
+            "y": 2328
+          }
+        ]
+      },
+      { "name": "034",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Ascent Top",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Area X-2",
+            "x": 3224,
+            "y": 2181
+          }
+        ]
+      },
+      { "name": "042",
+        "access_rules": [],
+        "sections": [
+            { "name": "Spiky Ascent Bottom",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Area X-2",
+            "x": 3640,
+            "y": 1813
+          }
+        ]
+      },
+      { "name": "Spiky Ascent Middle",
+        "access_rules": [],
+        "sections": [
+            { "name": "070",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Area X-2",
+            "x": 3656,
+            "y": 1417
+          }
+        ]
+      },
+      { "name": "Spiky Ascent Top",
+        "access_rules": [],
+        "sections": [
+            { "name": "077",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Area X-2",
+            "x": 3688,
+            "y": 1097
+          }
+        ]
+      },
+      { "name": "069",
+        "access_rules": [],
+        "sections": [
+            { "name": "Platforms Side Room (Lower)",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Area X-2",
+            "x": 3144,
+            "y": 441
+          }
+        ]
+      },
+      { "name": "061",
+        "access_rules": [],
+        "sections": [
+            { "name": "Platforms Side Room (Upper)",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Area X-2",
+            "x": 3144,
+            "y": 216
+          }
+        ]
+      },
+
+
+
+      { "name": "1st Ascent Left",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Area X-2",
+            "x": 3144,
+            "y": 2392
+          }
+        ]
+      }
+    ]
+  }
+]

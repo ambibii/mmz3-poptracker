@@ -352,322 +352,306 @@
 
 // DISKS
   {
-        "name": "Chips", 
-        //disks 1-6
-        "type": "consumable",
-        "max_quantity": 6,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#A0000000",
-        "img": "images/items/headtwo.png",
-        "codes": "chip disk, chip"
-    },
+      "name": "Chips", 
+      //disks 1-6
+      "type": "consumable",
+      "max_quantity": 6,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 0,
+      "overlay_background": "#A0000000",
+      "img": "images/items/headtwo.png",
+      "codes": "chip disk, chip"
+  },
   {
-        "name": "Files", //disks 7-t0
-        "type": "consumable",
-        "max_quantity": 13,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#A0000000",
-        "img": "images/items/disk.png",
-        "codes": "files"
-    },
+      "name": "Files", //disks 7-t0
+      "type": "consumable",
+      "max_quantity": 13,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 0,
+      "overlay_background": "#A0000000",
+      "img": "images/items/disk.png",
+      "codes": "files"
+  },
 
 
   {
-        "name": "Nurse Elves", //disks t1-47
-        "type": "consumable",
-        "max_quantity": 26,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#A0000000",
-        "img": "images/items/nurse.png",
-        "codes": "nurse"
-    },
+      "name": "Nurse Elves", //disks t1-47
+      "type": "consumable",
+      "max_quantity": 26,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 0,
+      "overlay_background": "#A0000000",
+      "img": "images/items/nurse.png",
+      "codes": "nurse"
+  },
   {
-        "name": "Animal Elves", //disks 48-60
-        "type": "consumable",
-        "max_quantity": 12,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#A0000000",
-        "img": "images/items/animal.png",
-        "codes": "animal"
-    },
+      "name": "Animal Elves", //disks 48-60
+      "type": "consumable",
+      "max_quantity": 12,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 0,
+      "overlay_background": "#A0000000",
+      "img": "images/items/animal.png",
+      "codes": "animal"
+  },
   {
-        "name": "Hacker Elves", //disks 61-94
-        "type": "consumable",
-        "max_quantity": 33,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#A0000000",
-        "img": "images/items/hacker.png",
-        "codes": "hacker"
-    },
+      "name": "Hacker Elves", //disks 61-94
+      "type": "consumable",
+      "max_quantity": 33,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 0,
+      "overlay_background": "#A0000000",
+      "img": "images/items/hacker.png",
+      "codes": "hacker"
+  },
     
 
   {
-        "name": "E-Crystals", //disks 95-110
-        "type": "consumable",
-        "max_quantity": 15,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#A0000000",
-        "img": "images/items/crystal.png",
-        "codes": "ec"
-    },
+      "name": "E-Crystals", //disks 95-110
+      "type": "consumable",
+      "max_quantity": 15,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 0,
+      "overlay_background": "#A0000000",
+      "img": "images/items/crystal.png",
+      "codes": "ec"
+  },
   {
-        "name": "Boss Info", //disks 111-164
-        "type": "consumable",
-        "max_quantity": 53,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#A0000000",
-        "img": "images/items/omega.png",
-        "codes": "boss"
-    },
+      "name": "Boss Info", //disks 111-164
+      "type": "consumable",
+      "max_quantity": 53,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 0,
+      "overlay_background": "#A0000000",
+      "img": "images/items/omega.png",
+      "codes": "boss"
+  },
   {
-        "name": "NPC Lore File", //disks 165-180
-        "type": "consumable",
-        "max_quantity": 16,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#A0000000",
-        "img": "images/items/ciel.png",
-        "codes": "lore"
-    },
-    {
-        "name": "Victory", //disks 165-180
-        "type": "consumable",
-        "max_quantity": 15,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "img": "images/items/ciel.png",
-        "codes": "victory"
-    },
-    {
-        "name": "Extra Energen", //disks 165-180
-        "type": "consumable",
-        "max_quantity": 15,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "img": "images/items/ciel.png",
-        "codes": "100ec"
-    },
-    {
-      "name": "0 Story Progress",
-      "type": "progressive",
-      "codes": "storyprogress",
-      "allow_disabled": true,
-      "initial_stage_idx": 0,
-      "stages": [
-        {
-          "name": "1 Story Progress",
-          "img": "images/items/sp one.png",
-          "disabled_img": "images/items/sp zero.png",
-          "codes": "sp1",
-          "inherit_codes": true
-        },
-        {
-          "name": "2 Story Progress",
-          "img": "images/items/sp two.png",
-          "codes": "sp2",
-          "inherit_codes": true
-        }
-      ]
-    },
-    {
-        "name": "Count", //disks 1-180
-        "type": "consumable",
-        "max_quantity": 180,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_font_size": 15,
-        "overlay_align": "right",
-        "img": "images/items/total_count.png",
-        "codes": "disk"
-    },
-    
-    //Level Access 
-    {
-      "name": "Derelict Spacecraft Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/spacecraft.png",
-      "codes": "spacecraft_access"
-    },
-    {
-      "name": "Aegis Volcano Base Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/volcano.png",
-      "codes": "volcano_access"
-    },
-    {
-      "name": "Oceanic Highway Ruins Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/oceanic.png",
-      "codes": "oceanic_access"
-    },
-    {
-      "name": "Weapons Repair Factory Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/wrfactory.png",
-      "codes": "factory_access"
-    },
-    {
-      "name": "Old Residential Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/residential.png",
-      "codes": "residential_access"
-    },
-    {
-      "name": "Missile Factory Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/missile.png",
-      "codes": "missile_access"
-    },
-    {
-      "name": "Twilight Desert Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/desert.png",
-      "codes": "desert_access"
-    },
-    {
-      "name": "Forest of Anatre Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/forest.png",
-      "codes": "forest_access"
-    },
-    {
-      "name": "Frontline Ice Base Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/icebase.png",
-      "codes": "ice_base_access"
-    },
-    {
-      "name": "Area X-2 Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/areax.png",
-      "codes": "areax_access"
-    },
-    {
-      "name": "Energy Facility Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/energy.png",
-      "codes": "energy_access"
-    },
-    {
-      "name": "Snowy Plains Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/snowy.png",
-      "codes": "snowy_access"
-    },
-    {
-      "name": "Sunken Library Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/library.png",
-      "codes": "library_access"
-    },
-    {
-      "name": "Giant Elevator Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/elevator.png",
-      "codes": "elevator_access"
-    },
-    {
-      "name": "Sub Arcadia Access",
-      "type": "toggle",
-      "img": "images/items/mugshots/subarcadia.png",
-      "codes": "subarcadia_access"
-    },
+      "name": "NPC Lore File", //disks 165-180
+      "type": "consumable",
+      "max_quantity": 16,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 0,
+      "overlay_background": "#A0000000",
+      "img": "images/items/ciel.png",
+      "codes": "lore"
+  },
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
   {
-    "name": "Progressive",
+    "name": "Victory",
+    "type": "toggle",
+    "img": "images/items/saber.png",
+    "codes": "victory"
+  },
+  {
+      "name": "Extra Energen", //disks 165-180
+      "type": "consumable",
+      "max_quantity": 15,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 0,
+      "img": "images/items/ciel.png",
+      "codes": "100ec"
+  },
+  {
+    "name": "0 Story Progress",
     "type": "progressive",
+    "codes": "storyprogress",
     "allow_disabled": true,
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/items/progressive.png",
-        "codes": "progressive",
+        "name": "1 Story Progress",
+        "img": "images/items/sp one.png",
+        "disabled_img": "images/items/sp zero.png",
+        "codes": "sp1",
         "inherit_codes": true
       },
       {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_2",
+        "name": "2 Story Progress",
+        "img": "images/items/sp two.png",
+        "codes": "sp2",
         "inherit_codes": true
       }
     ]
   },
   {
-    "name": "Consumable",
-    "type": "consumable",
-    "img": "images/items/consumable.png",
-    "max_quantity": 8,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 1,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "consumable"
+      "name": "Count", //disks 1-180
+      "type": "consumable",
+      "max_quantity": 180,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 0,
+      "overlay_font_size": 15,
+      "overlay_align": "right",
+      "img": "images/items/total_count.png",
+      "codes": "disk, total_count"
+  },
+  
+  //Level Access 
+  {
+    "name": "Derelict Spacecraft Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/spacecraft.png",
+    "codes": "spacecraft_access"
   },
   {
-    "name": "Progressive Toggle",
-    "type": "progressive_toggle",
+    "name": "Aegis Volcano Base Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/volcano.png",
+    "codes": "volcano_access"
+  },
+  {
+    "name": "Oceanic Highway Ruins Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/oceanic.png",
+    "codes": "oceanic_access"
+  },
+  {
+    "name": "Weapons Repair Factory Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/wrfactory.png",
+    "codes": "factory_access"
+  },
+  {
+    "name": "Old Residential Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/residential.png",
+    "codes": "residential_access"
+  },
+  {
+    "name": "Missile Factory Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/missile.png",
+    "codes": "missile_access"
+  },
+  {
+    "name": "Twilight Desert Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/desert.png",
+    "codes": "desert_access"
+  },
+  {
+    "name": "Forest of Anatre Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/forest.png",
+    "codes": "forest_access"
+  },
+  {
+    "name": "Frontline Ice Base Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/icebase.png",
+    "codes": "ice_base_access"
+  },
+  {
+    "name": "Area X-2 Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/areax.png",
+    "codes": "areax_access"
+  },
+  {
+    "name": "Energy Facility Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/energy.png",
+    "codes": "energy_access"
+  },
+  {
+    "name": "Snowy Plains Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/snowy.png",
+    "codes": "snowy_access"
+  },
+  {
+    "name": "Sunken Library Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/library.png",
+    "codes": "library_access"
+  },
+  {
+    "name": "Giant Elevator Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/elevator.png",
+    "codes": "elevator_access"
+  },
+  {
+    "name": "Sub Arcadia Access",
+    "type": "toggle",
+    "img": "images/items/mugshots/subarcadia.png",
+    "codes": "subarcadia_access"
+  },
+
+
+  // SETTINGS
+  {
+    "name": "Itemsanity",
+    "type": "progressive",
+    "codes": "itemsanity",
+    "allow_disabled": false,
     "initial_stage_idx": 0,
+    "loop": true,
     "stages": [
       {
-        "img": "images/items/progressive.png",
-        "codes": "progressive_toggle",
-        "inherit_codes": true
+        "name": "Itemsanity Off",
+        "img": "images/items/disabled/energy.png",
+        "codes": "",
+        "inherit_codes": false
       },
       {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_toggle_2",
-        "inherit_codes": true
+        "name": "Itemsanity On",
+        "img": "images/items/energy.png",
+        "codes": "itemsanity",
+        "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "1-UPsanity",
+    "type": "progressive",
+    "codes": "1upsanity",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Extra Life Sanity Off",
+        "img": "images/items/disabled/1up.png",
+        "codes": "",
+        "inherit_codes": false
+      },
+      {
+        "name": "Extra Life Sanity On",
+        "img": "images/items/1up.png",
+        "codes": "1upsanity",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "120",
+    "type": "toggle",
+    "img": "images/items/extralife.png",
+    "codes": "120"
+  },
+  {
+      "name": "Cerveaus Shop", //disks 1-180
+      "type": "consumable",
+      "max_quantity": 48,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 0,
+      "overlay_font_size": 15,
+      "overlay_align": "right",
+      "overlay_background": "#A0000000",
+      "img": "images/items/cerveau.png",
+      "codes": "cerveaushop"
   }
 ]

@@ -1,0 +1,234 @@
+[
+  { "name": "Frontline Ice Base",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["ice_base_access"],
+    "children": [
+      { "name": "Complete Frontline Ice Base",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Frontline Ice Base",
+          "x": 4165,
+          "y": 1084
+          }
+        ]
+      },
+      { "name": "3rd Gyro Cannon Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Frontline Ice Base",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "3rd Pantheon Aqua Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Frontline Ice Base",
+            "x": 200,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "3rd Heavy Cannon Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Frontline Ice Base",
+            "x": 300,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "066",
+        "access_rules": [],
+        "sections": [
+            { "name": "Top Route Tower",
+            "access_rules": ["double_jump","ultima","rod_charge","splash"],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Frontline Ice Base",
+            "x": 1864,
+            "y": 137
+          }
+        ]
+      },
+      { "name": "109",
+        "access_rules": [],
+        "sections": [
+            { "name": "Top Route Indoor Ledge",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Frontline Ice Base",
+            "x": 3448,
+            "y": 71
+          }
+        ]
+      },
+      { "name": "015",
+        "access_rules": [],
+        "sections": [
+            { "name": "Top Route Pipe Passage",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Frontline Ice Base",
+            "x": 4020,
+            "y": 229
+          }
+        ]
+      },
+      { "name": "032",
+        "access_rules": [],
+        "sections": [
+            { "name": "Ledge Before 2nd Door",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Frontline Ice Base",
+            "x": 1259,
+            "y": 1455
+          }
+        ]
+      },
+      { "name": "Ledge After 2nd Door",
+        "access_rules": [],
+        "sections": [
+            { "name": "035",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Frontline Ice Base",
+            "x": 1789,
+            "y": 1296
+          }
+        ]
+      },
+      { "name": "120",
+        "access_rules": [],
+        "sections": [
+            { "name": "Heavy Cannon Box",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Frontline Ice Base",
+            "x": 3336,
+            "y": 1675
+          }
+        ]
+      },
+      { "name": "068",
+        "access_rules": [],
+        "sections": [
+            { "name": "Final Ascent",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Frontline Ice Base",
+            "x": 3710,
+            "y": 1519
+          }
+        ]
+      },
+
+
+      
+      { "name": "Top Route Tower",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Frontline Ice Base",
+            "x": 2344,
+            "y": 138
+          }
+        ]
+      },
+      { "name": "Bottom Route Cave",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"],
+            "item_count": 2
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Frontline Ice Base",
+            "x": 2752,
+            "y": 470
+          }
+        ]
+      }
+    ]
+  }
+]

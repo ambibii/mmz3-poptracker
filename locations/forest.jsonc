@@ -1,0 +1,257 @@
+[
+  { "name": "Forest of Anatre",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["forest_access"],
+    "children": [
+      { "name": "Complete Forest of Anatre",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Forest of Anatre",
+          "x": 2348,
+          "y": 1265
+          }
+        ]
+      },
+      { "name": "5th Mellnet Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "7th Tile Cannon Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 200,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "Treetops Above Start",
+        "access_rules": ["flame"],
+        "sections": [
+            { "name": "063",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "1-UP",
+            "chest_opened_img": "images/items/1up.png",
+            "chest_unopened_img": "images/items/disabled/1up.png",
+            "access_rules": [],
+            "visibility_rules": ["1upsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 323,
+            "y": 65
+          }
+        ]
+      },
+      { "name": "002",
+        "access_rules": [],
+        "sections": [
+            { "name": "Ledge Above 1st Door",
+            "access_rules": ["flame"],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 2057,
+            "y": 43
+          }
+        ]
+      },
+      { "name": "071",
+        "access_rules": [],
+        "sections": [
+            { "name": "3rd Button Lower Path",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 1054,
+            "y": 834
+          }
+        ]
+      },
+      { "name": "014",
+        "access_rules": [],
+        "sections": [
+            { "name": "Above 7th Button",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 2266,
+            "y": 671
+          }
+        ]
+      },
+      { "name": "119",
+        "access_rules": [],
+        "sections": [
+            { "name": "7th Button Lower Path",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 2478,
+            "y": 851
+          }
+        ]
+      },
+      { "name": "108",
+        "access_rules": [],
+        "sections": [
+            { "name": "8th Button Spike Pit",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 915,
+            "y": 1586
+          }
+        ]
+      },
+      { "name": "076",
+        "access_rules": [],
+        "sections": [
+            { "name": "Above 9th Button",
+            "access_rules": ["double_jump","ultima","rod_charge"],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 1011,
+            "y": 1218
+          }
+        ]
+      },
+      { "name": "Breakables Below Boss Room",
+        "access_rules": ["rod_charge"],
+        "sections": [
+            { "name": "040",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 1859,
+            "y": 1443
+          }
+        ]
+      },
+      { "name": "Subtank",
+        "access_rules": [],
+        "sections": [
+            { "name": "Subtank",
+            "chest_opened_img": "images/items/subtank.png",
+            "chest_unopened_img": "images/items/disabled/subtank.png",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 659,
+            "y": 1264
+          }
+        ]
+      },
+      
+
+
+      { "name": "Treetops Above Generator Cannon",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 1051,
+            "y": 75
+          }
+        ]
+      },
+      { "name": "7th Button Upper Path",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Forest of Anatre",
+            "x": 2510,
+            "y": 644
+          }
+        ]
+      }
+    ]
+  }
+]

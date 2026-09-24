@@ -1,0 +1,318 @@
+[
+  { "name": "Oceanic Highway Ruins",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["oceanic_access"],
+    "children": [
+      { "name": "Complete Oceanic Highway Ruins",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+          "chest_opened_img": "images/items/rank_a.png",
+          "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Ice Body Chip",
+          "chest_opened_img": "images/items/ice.png",
+          "chest_unopened_img": "images/items/disabled/chest.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Oceanic Highway Ruins",
+          "x": 5520,
+          "y": 1343
+          }
+        ]
+      },
+      { "name": "4th Sharkseal X Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "3rd Icebon Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 200,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "4th Shelluno Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 300,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "1st Pit Breakable",
+        "access_rules": ["rod_charge"],
+        "sections": [
+            { "name": "005",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"],
+            "item_count": 2
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 137,
+            "y": 280
+          }
+        ]
+      },
+      { "name": "1st Underwater Pit",
+        "access_rules": [],
+        "sections": [
+            { "name": "075",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"],
+            "item_count": 2
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 2095,
+            "y": 572
+          }
+        ]
+      },
+      { "name": "Above Cyber Door",
+        "access_rules": [],
+        "sections": [
+            { "name": "009",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 2513,
+            "y": 150
+          }
+        ]
+      },
+      { "name": "059",
+        "access_rules": [],
+        "sections": [
+            { "name": "Above 1st Spike Wall",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 3382,
+            "y": 330
+          }
+        ]
+      },
+      { "name": "Miniboss",
+        "access_rules": [],
+        "sections": [
+            { "name": "Modified Pantheon",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "079: Miniboss Kill",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 957,
+            "y": 1529
+          }
+        ]
+      },
+      { "name": "049",
+        "access_rules": [],
+        "sections": [
+            { "name": "Spiked Platforms",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 2293,
+            "y": 1105
+          }
+        ]
+      },
+      { "name": "113",
+        "access_rules": [],
+        "sections": [
+            { "name": "Left of Final Button",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 3398,
+            "y": 1529
+          }
+        ]
+      },
+      { "name": "1st Section Floating Platforms",
+        "access_rules": [],
+        "sections": [
+            { "name": "1-UP",
+            "chest_opened_img": "images/items/1up.png",
+            "chest_unopened_img": "images/items/disabled/1up.png",
+            "access_rules": [],
+            "visibility_rules": ["1upsanity"]
+            },
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 2380,
+            "y": 150
+          }
+        ]
+      },
+
+
+      
+      { "name": "1st Section Platforms",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 3688,
+            "y": 166
+          }
+        ]
+      },
+      { "name": "Destroy Box Using Boss",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 4360,
+            "y": 343
+          }
+        ]
+      },
+      { "name": "Platform after 2nd Pressure Pad",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 5288,
+            "y": 170
+          }
+        ]
+      },
+      { "name": "Spiked Platforms",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Oceanic Highway Ruins",
+            "x": 2303,
+            "y": 1232
+          }
+        ]
+      }
+    ]
+  }
+]

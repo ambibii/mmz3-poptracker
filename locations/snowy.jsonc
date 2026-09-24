@@ -1,0 +1,205 @@
+[
+  { "name": "Snowy Plains",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["snowy_access"],
+    "children": [
+      { "name": "Complete Snowy Plains",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Spike Foot Chip",
+          "chest_opened_img": "images/items/no_slip.png",
+          "chest_unopened_img": "images/items/disabled/foot.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Snowy Plains",
+          "x": 6598,
+          "y": 3031
+          }
+        ]
+      },
+      { "name": "4th Shellcrawler Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowy Plains",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "4th Pantheon Base Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowy Plains",
+            "x": 200,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "003",
+        "access_rules": [],
+        "sections": [
+            { "name": "2nd Slope Secret Wall",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Snowy Plains",
+            "x": 4245,
+            "y": 983
+          }
+        ]
+      },
+      { "name": "029",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Rail Set Start",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Snowy Plains",
+            "x": 5336,
+            "y": 1035
+          }
+        ]
+      },
+      { "name": "025",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Rail Set Middle",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Snowy Plains",
+            "x": 6366,
+            "y": 1182
+          }
+        ]
+      },
+      { "name": "103",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Rail Set 2nd Pit Secret Wall",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Snowy Plains",
+            "x": 6511,
+            "y": 1535
+          }
+        ]
+      },
+      { "name": "Miniboss",
+        "access_rules": [],
+        "sections": [
+            { "name": "Blanc Wormer",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "060: Miniboss Kill",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "046: 5th Miniboss Snowball Kill",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Snowy Plains",
+            "x": 1394,
+            "y": 2173
+          }
+        ]
+      },
+      { "name": "123",
+        "access_rules": [],
+        "sections": [
+            { "name": "2nd Rail Set Start",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Snowy Plains",
+            "x": 2528,
+            "y": 2408
+          }
+        ]
+      },
+      { "name": "086",
+        "access_rules": [],
+        "sections": [
+            { "name": "2nd Rail Set Middle",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Snowy Plains",
+            "x": 4265,
+            "y": 2609
+          }
+        ]
+      },
+      { "name": "Pit Before 2nd Rail Set",
+        "access_rules": [],
+        "sections": [
+            { "name": "1-UP",
+            "chest_opened_img": "images/items/1up.png",
+            "chest_unopened_img": "images/items/disabled/1up.png",
+            "access_rules": [],
+            "visibility_rules": ["1upsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Snowy Plains",
+            "x": 2182,
+            "y": 2421
+          }
+        ]
+      }
+    ]
+  }
+]

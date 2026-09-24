@@ -71,7 +71,7 @@ function incrementItem(item_code, item_type, multiplier)
 	if obj then
 		item_type = item_type or obj.Type
 		if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-			print(string.format("incrementItem: code: %s, type %s", item_code, item_type))
+			-- print(string.format("incrementItem: code: %s, type %s", item_code, item_type))
 		end
 		if item_type == "toggle" or item_type == "toggle_badged" then
 			obj.Active = true
@@ -95,12 +95,58 @@ function incrementItem(item_code, item_type, multiplier)
 			print(string.format("incrementItem: unknown item type %s for code %s", item_type, item_code))
 		end
 	elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print(string.format("incrementItem: could not find object for code %s", item_code))
+		-- print(string.format("incrementItem: could not find object for code %s", item_code))
 	end
 end
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
+	print(string.format("Slot_data required disks: %s", slot_data['required_secret_disks']))
+		local total_disks = Tracker:FindObjectForCode("total_count")
+		total_disks.MaxCount = slot_data['required_secret_disks']
+	print(string.format("Slot_data starting weapons: %s", slot_data['starting_weapons']))
+		for k,setting in pairs(slot_data["starting_weapons"]) do
+			if setting == "Buster" then
+				print(string.format("weapon setting: %s", setting))
+				local buster = Tracker:FindObjectForCode("buster")
+				buster.CurrentStage = (1)
+			end
+			if setting == "Z-Saber" then
+				print(string.format("weapon setting: %s", setting))
+				local saber = Tracker:FindObjectForCode("saber")
+				saber.CurrentStage = (1)
+			end
+			if setting == "Recoil Rod" then
+				print(string.format("weapon setting: %s", setting))
+				local rod = Tracker:FindObjectForCode("rod")
+				rod.CurrentStage = (1)
+			end
+			if setting == "Shield Boomerang" then
+				print(string.format("weapon setting: %s", setting))
+				local shield = Tracker:FindObjectForCode("shieldboomerang")
+				shield.CurrentStage = (1)
+			end
+		end
+	print(string.format("Slot_data itemsanity: %s", slot_data['itemsanity']))
+		local itemsanity = Tracker:FindObjectForCode("itemsanity")
+		itemsanity.CurrentStage = (slot_data['itemsanity'])
+	print(string.format("Slot_data lifesanity: %s", slot_data['extra_life_sanity']))
+		local lifesanity = Tracker:FindObjectForCode("1upsanity")
+		lifesanity.CurrentStage = (slot_data['extra_life_sanity'])
+
+		-- 		-- if setting == "Maxim Tomoato" then
+		-- 		-- 	local maxim_tomato = Tracker:FindObjectForCode("Maxim_Tomato"):SetOverlay("Maxim Tomato")
+		-- 		-- 	maxim_tomato.CurrentStage = (1)
+		-- 		-- end
+		-- 		-- if setting == "1-Up" then
+		-- 		-- 	local oneup = Tracker:FindObjectForCode("1-Up"):SetOverlay("1-Up")
+		-- 		-- 	one_up.CurrentStage = (1)
+		-- 		-- end
+		-- 		-- if setting == "Invincibility Candy" then
+		-- 		-- 	local candy = Tracker:FindObjectForCode("Invincibility_Candy"):SetOverlay("Invincibility Candy")
+		-- 		-- 	invincible_candy.CurrentStage = (1)
+		-- 		-- end
+		-- 	-- end
 	-- put any code here that slot_data should affect (toggling setting items for example)
 end
 
@@ -124,7 +170,7 @@ function onClear(slot_data)
 					if location_code:sub(1, 1) == "@" then
 						local obj = Tracker:FindObjectForCode(location_code)
 						if obj then
-							obj.AvailableChestCount = obj.ChestCount
+							-- obj.AvailableChestCount = obj.ChestCount
 							if obj.Highlight then
 								obj.Highlight = Highlight.None
 							end
@@ -144,6 +190,7 @@ function onClear(slot_data)
 			end
 		end
 	end
+
 	-- reset items
 	for _, mapping_entry in pairs(ITEM_MAPPING) do
 		for _, item_table in ipairs(mapping_entry) do
@@ -160,13 +207,11 @@ function onClear(slot_data)
 			end
 		end
 	end
+	
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
-	-- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
-	if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-		-- add snes interface functions here
-	end
+	
 	-- setup data storage tracking for hint tracking
 	local data_strorage_keys = {}
 	if PopVersion >= "0.32.0" then
@@ -184,7 +229,7 @@ end
 -- called when an item gets collected
 function onItem(index, item_id, item_name, player_number)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print(string.format("called onItem: %s, %s, %s, %s, %s", index, item_id, item_name, player_number, CUR_INDEX))
+		-- print(string.format("called onItem: %s, %s, %s, %s, %s", index, item_id, item_name, player_number, CUR_INDEX))
 	end
 	if not AUTOTRACKER_ENABLE_ITEM_TRACKING then
 		return
@@ -230,8 +275,8 @@ function onItem(index, item_id, item_name, player_number)
 		end
 	end
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
-		print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
+		--print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
+		--print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
 	end
 	-- track local items via snes interface
 	if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
@@ -242,7 +287,7 @@ end
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print(string.format("called onLocation: %s, %s", location_id, location_name))
+		-- print(string.format("called onLocation: %s, %s", location_id, location_name))
 	end
 	if not AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 		return
@@ -256,8 +301,8 @@ function onLocation(location_id, location_name)
 	end
 	for _, location_table in pairs(mapping_entry) do
 		if location_table then
-			print(location_table)
-			print(location_code)
+			-- print(location_table)
+			-- print(location_code)
 			local location_code = location_table[1]
 			if location_code then
 				local obj = Tracker:FindObjectForCode(location_code)

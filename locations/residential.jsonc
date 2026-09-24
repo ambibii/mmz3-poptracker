@@ -1,0 +1,439 @@
+[
+  { "name": "Old Residential",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["residential_access"],
+    "children": [
+      { "name": "Complete Old Residential",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Light Body Chip",
+          "chest_opened_img": "images/items/light.png",
+          "chest_unopened_img": "images/items/disabled/chest.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Old Residential",
+          "x": 3720,
+          "y": 1721
+          }
+        ]
+      },
+      { "name": "5th Seimeran Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "3rd Pillar Cannon Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 200,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "039",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Door",
+            "access_rules": ["rod_charge"],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 1088,
+            "y": 613
+          }
+        ]
+      },
+      { "name": "Stump Door",
+        "access_rules": ["flame,rod_charge"],
+        "sections": [
+            { "name": "001",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            },
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 1296,
+            "y": 421
+          }
+        ]
+      },
+      { "name": "112",
+        "access_rules": [],
+        "sections": [
+            { "name": "Floor Breakables",
+            "access_rules": ["rod_charge"],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 1839,
+            "y": 596
+          }
+        ]
+      },
+      { "name": "Left Fork Door",
+        "access_rules": ["flame"],
+        "sections": [
+            { "name": "074",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "1-UP",
+            "chest_opened_img": "images/items/1up.png",
+            "chest_unopened_img": "images/items/disabled/1up.png",
+            "access_rules": [],
+            "visibility_rules": ["1upsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 1551,
+            "y": 150
+          }
+        ]
+      },
+      { "name": "Miniboss",
+        "access_rules": [],
+        "sections": [
+            { "name": "Megamilpa",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "067: Miniboss Kill",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 565,
+            "y": 1718
+          }
+        ]
+      },
+      { "name": "028",
+        "access_rules": [],
+        "sections": [
+            { "name": "Box After Bombers",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 1407,
+            "y": 1225
+          }
+        ]
+      },
+      { "name": "Top Right Secret Door",
+        "access_rules": [],
+        "sections": [
+            { "name": "048",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"],
+            "item_count": 2
+            },
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 1824,
+            "y": 1068
+          }
+        ]
+      },
+      { "name": "013",
+        "access_rules": [],
+        "sections": [
+            { "name": "2 Pits Left of Secret Door Exit",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 1576,
+            "y": 1919
+          }
+        ]
+      },
+      { "name": "Right of Fork",
+        "access_rules": ["flame"],
+        "sections": [
+            { "name": "1-UP",
+            "chest_opened_img": "images/items/1up.png",
+            "chest_unopened_img": "images/items/disabled/1up.png",
+            "access_rules": [],
+            "visibility_rules": ["1upsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 2023,
+            "y": 267
+          }
+        ]
+      },
+      { "name": "Top Left Past Bombers",
+        "access_rules": ["double_jump","ultima","rod_charge"],
+        "sections": [
+            { "name": "Subtank",
+            "chest_opened_img": "images/items/subtank.png",
+            "chest_unopened_img": "images/items/disabled/subtank.png",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 791,
+            "y": 1065
+          }
+        ]
+      },
+
+
+      
+      { "name": "Above 1st Door",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal 1", //332
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 1048,
+            "y": 374
+          }
+        ]
+      },
+      { "name": "Above 1st Door",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal 2", //333
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 1048,
+            "y": 454
+          }
+        ]
+      },
+      { "name": "Door after Cutscene",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal", //334
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"],
+            "item_count": 3
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 3450,
+            "y": 40
+          }
+        ]
+      },
+      { "name": "Falling Platforms",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal 1", //34t
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 3784,
+            "y": 183
+          }
+        ]
+      },
+      { "name": "Falling Platforms",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal 2", //341
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 3737,
+            "y": 343
+          }
+        ]
+      },
+      { "name": "Falling Platforms",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal", //343
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"],
+            "item_count": 2
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 3808,
+            "y": 710
+          }
+        ]
+      },
+      { "name": "Climb after Miniboss",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 1160,
+            "y": 1378
+          }
+        ]
+      },
+      { "name": "Before Top Right Secret Door",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 1656,
+            "y": 1069
+          }
+        ]
+      },
+      { "name": "Breakable Blocks by Bombers",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 1880,
+            "y": 1200
+          }
+        ]
+      },
+    ]
+  }
+]

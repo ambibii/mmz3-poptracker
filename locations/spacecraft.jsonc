@@ -1,0 +1,228 @@
+[
+  { "name": "Derelict Spacecraft",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["spacecraft_access"],
+    
+    "children": [
+      { "name": "Complete Derelict Spacecraft",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+          "chest_opened_img": "images/items/rank_a.png",
+          "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Derelict Spacecraft",
+          "x": 2816,
+          "y": 75
+          }
+        ]
+      },
+      { "name": "5th Grand Cannon Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Derelict Spacecraft",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "3rd Shrimpolin Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Derelict Spacecraft",
+            "x": 200,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "4th Shotcounter Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Derelict Spacecraft",
+            "x": 300,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "4th Batring Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Derelict Spacecraft",
+            "x": 400,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "024",
+        "access_rules": [],
+        "sections": [
+            { "name": "1st Pit Secret Wall",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Derelict Spacecraft",
+            "x": 1575,
+            "y": 1413
+          }
+        ]
+      },
+      { "name": "037",
+        "access_rules": [],
+        "sections": [
+            { "name": "Ledge Past Entrance",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Derelict Spacecraft",
+            "x": 2424,
+            "y": 1176
+          }
+        ]
+      },
+      { "name": "050",
+        "access_rules": [],
+        "sections": [
+            { "name": "Ice Side Room",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Derelict Spacecraft",
+            "x": 2325,
+            "y": 850
+          }
+        ]
+      },
+      { "name": "101",
+        "access_rules": [],
+        "sections": [
+            { "name": "Ledge in Top Right",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Derelict Spacecraft",
+            "x": 2807,
+            "y": 694
+          }
+        ]
+      },
+      { "name": "111",
+        "access_rules": [],
+        "sections": [
+            { "name": "Final Ascent Bottom",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Derelict Spacecraft",
+            "x": 2350,
+            "y": 642
+          }
+        ]
+      },
+      { "name": "007",
+        "access_rules": [],
+        "sections": [
+            { "name": "Final Ascent Ledge",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Derelict Spacecraft",
+            "x": 2232,
+            "y": 480
+          }
+        ]
+      },
+
+
+
+      { "name": "Ice Side Room",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Derelict Spacecraft",
+            "x": 2248,
+            "y": 858
+          }
+        ]
+      },
+      { "name": "Ledge After Entrance",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Derelict Spacecraft",
+            "x": 2824,
+            "y": 1017
+          }
+        ]
+      }
+    ]
+  }
+]

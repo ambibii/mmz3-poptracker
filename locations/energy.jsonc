@@ -1,0 +1,319 @@
+[
+  { "name": "Energy Facility",
+    "chest_opened_img": "images/items/disk.png",
+    "chest_unopened_img": "images/items/disabled/disk.png",
+    "access_rules": ["energy_access"],
+    "children": [
+      { "name": "Complete Energy Facility",
+        "access_rules": [],
+        "sections": [
+          { "name": "A+ Rank Clear",
+                "chest_opened_img": "images/items/rank_a.png",
+                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          },
+          { "name": "Collect Double Jump Foot Chip",
+          "chest_opened_img": "images/items/double_jump.png",
+          "chest_unopened_img": "images/items/disabled/foot.png",
+          "access_rules": [],
+          "visibility_rules": [],
+          "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+          "map": "Energy Facility",
+          "x": 5519,
+          "y": 1091
+          }
+        ]
+      },
+      { "name": "Port Room 1",
+        "access_rules": [],
+        "sections": [
+            { "name": "Reactor Core",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 3480,
+            "y": 558
+          }
+        ]
+      },
+      { "name": "Port Room 2",
+        "access_rules": [],
+        "sections": [
+            { "name": "Reactor Core",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 2639,
+            "y": 1406
+          }
+        ]
+      },
+      { "name": "9th Mothjiro Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 100,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "4th Snakecord Kill",
+        "access_rules": [],
+        "sections": [
+            { "name": "Kill Check",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 200,
+            "y": 10
+          }
+        ]
+      },
+      { "name": "056",
+        "access_rules": [],
+        "sections": [
+            { "name": "Box Past 1st Cyber Door",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 915,
+            "y": 614
+          }
+        ]
+      },
+      { "name": "1st Ascent Right Path",
+        "access_rules": [],
+        "sections": [
+            { "name": "124",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 1336,
+            "y": 249
+          }
+        ]
+      },
+      { "name": "082",
+        "access_rules": [],
+        "sections": [
+            { "name": "Box After 1st Ascent",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 1547,
+            "y": 134
+          }
+        ]
+      },
+      { "name": "Miniboss",
+        "access_rules": [],
+        "sections": [
+            { "name": "Locomo-If",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "149: Miniboss Kill",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 5400,
+            "y": 240
+          }
+        ]
+      },
+      { "name": "064",
+        "access_rules": [],
+        "sections": [
+            { "name": "Girder Ride Left",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 495,
+            "y": 1133
+          }
+        ]
+      },
+      { "name": "095",
+        "access_rules": [],
+        "sections": [
+            { "name": "Girder Ride Right",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 1919,
+            "y": 1180
+          }
+        ]
+      },
+      { "name": "078",
+        "access_rules": [],
+        "sections": [
+            { "name": "Snakecord Guarded Secret Wall",
+            "access_rules": [],
+            "visibility_rules": []
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 3064,
+            "y": 1356
+          }
+        ]
+      },
+      { "name": "Girder Maze Top Left",
+        "access_rules": [],
+        "sections": [
+            { "name": "004",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "1-UP",
+            "chest_opened_img": "images/items/1up.png",
+            "chest_unopened_img": "images/items/disabled/1up.png",
+            "access_rules": [],
+            "visibility_rules": ["1upsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 4143,
+            "y": 1083
+          }
+        ]
+      },
+
+
+      
+      { "name": "Ladder Descent",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 2856,
+            "y": 425
+          }
+        ]
+      },
+      { "name": "Ascent After 1st Reactor",
+        "access_rules": [],
+        "sections": [
+            { "name": "E-Crystal",
+            "chest_opened_img": "images/items/crystal.png",
+            "chest_unopened_img": "images/items/disabled/crystal.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"],
+            "item_count": 2
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 4767,
+            "y": 614
+          }
+        ]
+      },
+      { "name": "Ascent After 1st Reactor",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 4584,
+            "y": 361
+          }
+        ]
+      },
+      { "name": "Before Second Reactor",
+        "access_rules": [],
+        "sections": [
+            { "name": "Energy",
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+          ],
+        "map_locations": [
+          {
+            "map": "Energy Facility",
+            "x": 2111,
+            "y": 1468
+          }
+        ]
+      }
+    ]
+  }
+]
