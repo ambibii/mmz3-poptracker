@@ -18,6 +18,7 @@ This tracker includes:
 
 # Known Issues
 This tracker is still a work-in-progress, so there are a few features that I intend to iterate and update in the future. However, I consider the tracker to be in a usable condition and helpful for playthroughs of the rando. Please feel free to reach out to @ambibii on the "Mega Man Zero 3" thread in the Archipelago discord if you notice anything not working as intended! That said, the points below are already on my list for improvements:
+
 Bugs:
 - Cerveau's Shop is not properly implemented; I have it showing as a permanent blue check that you can manually mark off when all items have been bought
 
