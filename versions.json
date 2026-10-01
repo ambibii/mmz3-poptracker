@@ -1,0 +1,28 @@
+{
+	"versions": [
+    {
+			"package_version": "3.5.2",
+			"download_url": "https://github.com/ambibii/mmz3-poptracker/releases/download/v3.5.2/mmz3_poptracker_3.5.2.zip",
+			"sha256": "e403623c0713316e4b0a5f96ac495c457f1b33cb9476dd2475c43e9775ef4e1a",
+			"changelog": ["Itemsanity checks properly track now"]
+		},
+    {
+			"package_version": "3.5.1",
+			"download_url": "https://github.com/ambibii/mmz3-poptracker/releases/download/v3.5.1/mmz3_poptracker_3.5.1.zip",
+			"sha256": "8c2054cef3f315ac1441cbd26bc59c88d20cd53dd81fff8735f0b986b7c7ca6a",
+			"changelog": ["Added apworld v0.3.5 checks (itemsanity), automatic settings, items no longer double count when AP slot connects. Version number now matches to apworld version"]
+		},
+    {
+			"package_version": "0.2.0",
+			"download_url": "https://github.com/ambibii/mmz3-poptracker/releases/download/v0.2.0/mmz3_poptracker_0.2.0.zip",
+			"sha256": "6a5226bc150ae7bc3b427ac64fe790c1896484c45f379cc672f117eef5af2108",
+			"changelog": ["Added progressive weapon tracking, location logic, apworld v0.3.4 checks"]
+		},
+    {
+			"package_version": "0.1.0",
+			"download_url": "https://github.com/ambibii/mmz3-poptracker/releases/download/v0.1.0/mmz3_poptracker_0.1.0.zip",
+			"sha256": "0a47304e7cd6547f7106b37749c13961b0c4f4fa717643b3e464f130bdba08ca",
+			"changelog": ["First version"]
+		}
+	]
+}
