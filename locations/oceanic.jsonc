@@ -31,6 +31,8 @@
         ]
       },
       { "name": "4th Sharkseal X Kill",
+          "chest_opened_img": "images/maps/enemies/sharkseal.png",
+          "chest_unopened_img": "images/maps/enemies/sharkseal.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -41,12 +43,15 @@
         "map_locations": [
           {
             "map": "Oceanic Highway Ruins",
-            "x": 100,
-            "y": 10
+            "x": 1692,
+            "y": 310,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "3rd Icebon Kill",
+          "chest_opened_img": "images/maps/enemies/icebon.png",
+          "chest_unopened_img": "images/maps/enemies/icebon.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -57,12 +62,15 @@
         "map_locations": [
           {
             "map": "Oceanic Highway Ruins",
-            "x": 200,
-            "y": 10
+            "x": 2311,
+            "y": 401,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "4th Shelluno Kill",
+          "chest_opened_img": "images/maps/enemies/shelluno.png",
+          "chest_unopened_img": "images/maps/enemies/shelluno.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -73,8 +81,9 @@
         "map_locations": [
           {
             "map": "Oceanic Highway Ruins",
-            "x": 300,
-            "y": 10
+            "x": 4231,
+            "y": 452,
+            "shape": "diamond"
           }
         ]
       },

@@ -24,6 +24,8 @@
         ]
       },
       { "name": "4th Eye Cannon Kill",
+          "chest_opened_img": "images/maps/enemies/eye cannon.png",
+          "chest_unopened_img": "images/maps/enemies/eye cannon.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -34,12 +36,15 @@
         "map_locations": [
           {
             "map": "Missile Factory",
-            "x": 100,
-            "y": 10
+            "x": 1038,
+            "y": 1471,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "4th Pantheon Guardian Kill",
+          "chest_opened_img": "images/maps/enemies/pantheon guardian.png",
+          "chest_unopened_img": "images/maps/enemies/pantheon guardian.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -50,12 +55,15 @@
         "map_locations": [
           {
             "map": "Missile Factory",
-            "x": 200,
-            "y": 10
+            "x": 1070,
+            "y": 1581,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "4th Generator Cannon Kill",
+          "chest_opened_img": "images/maps/enemies/generator cannon.png",
+          "chest_unopened_img": "images/maps/enemies/generator cannon.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -66,12 +74,15 @@
         "map_locations": [
           {
             "map": "Missile Factory",
-            "x": 300,
-            "y": 10
+            "x": 2096,
+            "y": 499,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "6th Generator Cannon Spawn Kill",
+          "chest_opened_img": "images/maps/enemies/generator cannon spawn.png",
+          "chest_unopened_img": "images/maps/enemies/generator cannon spawn.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -82,8 +93,9 @@
         "map_locations": [
           {
             "map": "Missile Factory",
-            "x": 400,
-            "y": 10
+            "x": 1600,
+            "y": 1393,
+            "shape": "diamond"
           }
         ]
       },

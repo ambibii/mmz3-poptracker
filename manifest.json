@@ -4,13 +4,14 @@
   // for more info on the manifest check: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#manifest
   "name": "MMZ3 Archipelago Tracker",
   "game_name": "Mega Man Zero 3",
-  "package_version": "3.5.2",
+  "package_version": "4.1.0",
   "package_uid": "mmz3",
-  // enables SNES memory autotracking interface - remove/change if not needed
   "platform": "gba",
   "author": "ambibii",
+
+  // "versions_url": "https://github.com/ambibii/mmz3-poptracker/blob/versions/versions.json",
+
   "min_poptracker_version": "0.25.9",
-  // put the version you tested against here!
   "target_poptracker_version": "0.32.0",
   "variants": {
     "standard": {

@@ -24,6 +24,8 @@
         ]
       },
       { "name": "5th Mellnet Kill",
+          "chest_opened_img": "images/maps/enemies/mellnet.png",
+          "chest_unopened_img": "images/maps/enemies/mellnet.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -34,12 +36,15 @@
         "map_locations": [
           {
             "map": "Forest of Anatre",
-            "x": 100,
-            "y": 10
+            "x": 1467,
+            "y": 115,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "7th Tile Cannon Kill",
+          "chest_opened_img": "images/maps/enemies/tile cannon.png",
+          "chest_unopened_img": "images/maps/enemies/tile cannon.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -50,13 +55,14 @@
         "map_locations": [
           {
             "map": "Forest of Anatre",
-            "x": 200,
-            "y": 10
+            "x": 946,
+            "y": 1375,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "Treetops Above Start",
-        "access_rules": ["flame"],
+        "access_rules": [["flame"]],
         "sections": [
             { "name": "063",
             "access_rules": [],
@@ -81,7 +87,7 @@
         "access_rules": [],
         "sections": [
             { "name": "Ledge Above 1st Door",
-            "access_rules": ["flame"],
+            "access_rules": [["flame"]],
             "visibility_rules": []
             }
           ],
@@ -222,7 +228,7 @@
             { "name": "Energy",
             "chest_opened_img": "images/items/energy.png",
             "chest_unopened_img": "images/items/disabled/energy.png",
-            "access_rules": [],
+            "access_rules": [["flame"]],
             "visibility_rules": ["itemsanity"]
             }
           ],

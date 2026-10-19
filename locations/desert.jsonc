@@ -24,6 +24,8 @@
         ]
       },
       { "name": "5th Shrimpolin Kill",
+          "chest_opened_img": "images/maps/enemies/desert shrimpolin.png",
+          "chest_unopened_img": "images/maps/enemies/desert shrimpolin.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -34,12 +36,15 @@
         "map_locations": [
           {
             "map": "Twilight Desert",
-            "x": 100,
-            "y": 10
+            "x": 2543,
+            "y": 207,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "5th Flopper Kill",
+          "chest_opened_img": "images/maps/enemies/flopper.png",
+          "chest_unopened_img": "images/maps/enemies/flopper.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -50,12 +55,15 @@
         "map_locations": [
           {
             "map": "Twilight Desert",
-            "x": 200,
-            "y": 10
+            "x": 67,
+            "y": 630,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "5th PurpleNerple Kill",
+          "chest_opened_img": "images/maps/enemies/purple nerple.png",
+          "chest_unopened_img": "images/maps/enemies/purple nerple.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -66,8 +74,9 @@
         "map_locations": [
           {
             "map": "Twilight Desert",
-            "x": 300,
-            "y": 10
+            "x": 2325,
+            "y": 543,
+            "shape": "diamond"
           }
         ]
       },
@@ -172,6 +181,8 @@
         ]
       },
       { "name": "065",
+          "chest_opened_img": "images/maps/enemies/helicopter.png",
+          "chest_unopened_img": "images/maps/enemies/helicopter.png",
         "access_rules": [],
         "sections": [
             { "name": "2nd Helicopter Kill",
@@ -183,7 +194,8 @@
           {
             "map": "Twilight Desert",
             "x": 1165,
-            "y": 1068
+            "y": 1068,
+            "shape": "diamond"
           }
         ]
       },

@@ -31,6 +31,8 @@
         ]
       },
       { "name": "4th Shellcrawler Kill",
+          "chest_opened_img": "images/maps/enemies/shellcrawler.png",
+          "chest_unopened_img": "images/maps/enemies/shellcrawler.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -41,12 +43,15 @@
         "map_locations": [
           {
             "map": "Snowy Plains",
-            "x": 100,
-            "y": 10
+            "x": 375,
+            "y": 2331,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "4th Pantheon Base Kill",
+          "chest_opened_img": "images/maps/enemies/pantheon base.png",
+          "chest_unopened_img": "images/maps/enemies/pantheon base.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -57,8 +62,9 @@
         "map_locations": [
           {
             "map": "Snowy Plains",
-            "x": 200,
-            "y": 10
+            "x": 4376,
+            "y": 931,
+            "shape": "diamond"
           }
         ]
       },

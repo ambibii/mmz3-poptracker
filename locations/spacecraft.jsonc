@@ -25,6 +25,8 @@
         ]
       },
       { "name": "5th Grand Cannon Kill",
+          "chest_opened_img": "images/maps/enemies/grand cannon.png",
+          "chest_unopened_img": "images/maps/enemies/grand cannon.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -35,12 +37,15 @@
         "map_locations": [
           {
             "map": "Derelict Spacecraft",
-            "x": 100,
-            "y": 10
+            "x": 1192,
+            "y": 1399,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "3rd Shrimpolin Kill",
+          "chest_opened_img": "images/maps/enemies/shrimpolin.png",
+          "chest_unopened_img": "images/maps/enemies/shrimpolin.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -51,12 +56,15 @@
         "map_locations": [
           {
             "map": "Derelict Spacecraft",
-            "x": 200,
-            "y": 10
+            "x": 1609,
+            "y": 1286,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "4th Shotcounter Kill",
+          "chest_opened_img": "images/maps/enemies/shotcounter.png",
+          "chest_unopened_img": "images/maps/enemies/shotcounter.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -67,12 +75,15 @@
         "map_locations": [
           {
             "map": "Derelict Spacecraft",
-            "x": 300,
-            "y": 10
+            "x": 2600,
+            "y": 757,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "4th Batring Kill",
+          "chest_opened_img": "images/maps/enemies/batring.png",
+          "chest_unopened_img": "images/maps/enemies/batring.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -83,8 +94,9 @@
         "map_locations": [
           {
             "map": "Derelict Spacecraft",
-            "x": 400,
-            "y": 10
+            "x": 2311,
+            "y": 293,
+            "shape": "diamond"
           }
         ]
       },

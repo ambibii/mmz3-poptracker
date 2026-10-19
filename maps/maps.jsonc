@@ -20,7 +20,7 @@
   },
   {
     "name": "Oceanic Highway Ruins",
-    "location_size": 60,  
+    "location_size": 70,  
     "location_border_thickness": 4,
     "img": "images/maps/highway-ruins.png"
   },
@@ -56,7 +56,7 @@
   },
   {
     "name": "Forest of Anatre",
-    "location_size": 30,
+    "location_size": 40,
     "location_border_thickness": 4,
     "img": "images/maps/forest-of-anatre.png"
   },
@@ -86,7 +86,7 @@
   },
   {
     "name": "Giant Elevator",
-    "location_size": 60,
+    "location_size": 80,
     "location_border_thickness": 4,
     "img": "images/maps/giant-elevator.png"
   },
@@ -98,7 +98,7 @@
   },
   {
     "name": "Abandoned Research Laboratory",
-    "location_size": 30,
+    "location_size": 50,
     "location_border_thickness": 4,
     "img": "images/maps/research-lab.png"
   }

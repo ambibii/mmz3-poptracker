@@ -31,6 +31,8 @@
         ]
       },
       { "name": "5th Seimeran Kill",
+          "chest_opened_img": "images/maps/enemies/seimeran.png",
+          "chest_unopened_img": "images/maps/enemies/seimeran.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -41,12 +43,15 @@
         "map_locations": [
           {
             "map": "Old Residential",
-            "x": 100,
-            "y": 10
+            "x": 1799,
+            "y": 1438,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "3rd Pillar Cannon Kill",
+          "chest_opened_img": "images/maps/enemies/pillar cannon.png",
+          "chest_unopened_img": "images/maps/enemies/pillar cannon.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -57,8 +62,9 @@
         "map_locations": [
           {
             "map": "Old Residential",
-            "x": 200,
-            "y": 10
+            "x": 2033,
+            "y": 1661,
+            "shape": "diamond"
           }
         ]
       },
@@ -288,7 +294,7 @@
           }
         ]
       },
-      { "name": "Above 1st Door",
+      { "name": "Above First Door",
         "access_rules": [],
         "sections": [
             { "name": "E-Crystal 2", //333
@@ -328,6 +334,24 @@
       { "name": "Falling Platforms",
         "access_rules": [],
         "sections": [
+            { "name": "Energy", 
+            "chest_opened_img": "images/items/energy.png",
+            "chest_unopened_img": "images/items/disabled/energy.png",
+            "access_rules": [],
+            "visibility_rules": ["itemsanity"]
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "Old Residential",
+            "x": 3640,
+            "y": 459
+          }
+        ]
+      },
+      { "name": "Falling Platforms Top",
+        "access_rules": [],
+        "sections": [
             { "name": "E-Crystal 1", //34t
             "chest_opened_img": "images/items/crystal.png",
             "chest_unopened_img": "images/items/disabled/crystal.png",
@@ -343,7 +367,7 @@
           }
         ]
       },
-      { "name": "Falling Platforms",
+      { "name": "Falling Platforms Middle",
         "access_rules": [],
         "sections": [
             { "name": "E-Crystal 2", //341
@@ -361,7 +385,7 @@
           }
         ]
       },
-      { "name": "Falling Platforms",
+      { "name": "Falling Platforms Bottom",
         "access_rules": [],
         "sections": [
             { "name": "E-Crystal", //343

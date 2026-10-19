@@ -24,6 +24,8 @@
         ]
       },
       { "name": "5th Cannonhopper Kill",
+          "chest_opened_img": "images/maps/enemies/cannonhopper.png",
+          "chest_unopened_img": "images/maps/enemies/cannonhopper.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -34,12 +36,15 @@
         "map_locations": [
           {
             "map": "Sub Arcadia",
-            "x": 100,
-            "y": 10
+            "x": 1579,
+            "y": 373,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "3rd Petatria Kill",
+          "chest_opened_img": "images/maps/enemies/petatria.png",
+          "chest_unopened_img": "images/maps/enemies/petatria.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -50,12 +55,15 @@
         "map_locations": [
           {
             "map": "Sub Arcadia",
-            "x": 200,
-            "y": 10
+            "x": 686,
+            "y": 895,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "5th Claveker Kill",
+          "chest_opened_img": "images/maps/enemies/claveker.png",
+          "chest_unopened_img": "images/maps/enemies/claveker.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -66,8 +74,9 @@
         "map_locations": [
           {
             "map": "Sub Arcadia",
-            "x": 300,
-            "y": 10
+            "x": 2267,
+            "y": 1308,
+            "shape": "diamond"
           }
         ]
       },

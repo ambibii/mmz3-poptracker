@@ -24,6 +24,8 @@
         ]
       },
       { "name": "3rd Gyro Cannon Kill",
+          "chest_opened_img": "images/maps/enemies/gyro cannon.png",
+          "chest_unopened_img": "images/maps/enemies/gyro cannon.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -34,12 +36,15 @@
         "map_locations": [
           {
             "map": "Frontline Ice Base",
-            "x": 100,
-            "y": 10
+            "x": 2649,
+            "y": 230,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "3rd Pantheon Aqua Kill",
+          "chest_opened_img": "images/maps/enemies/pantheon aqua.png",
+          "chest_unopened_img": "images/maps/enemies/pantheon aqua.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -50,12 +55,15 @@
         "map_locations": [
           {
             "map": "Frontline Ice Base",
-            "x": 200,
-            "y": 10
+            "x": 1511,
+            "y": 427,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "3rd Heavy Cannon Kill",
+          "chest_opened_img": "images/maps/enemies/heavy cannon.png",
+          "chest_unopened_img": "images/maps/enemies/heavy cannon.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -66,8 +74,9 @@
         "map_locations": [
           {
             "map": "Frontline Ice Base",
-            "x": 300,
-            "y": 10
+            "x": 3388,
+            "y": 1596,
+            "shape": "diamond"
           }
         ]
       },
@@ -75,7 +84,7 @@
         "access_rules": [],
         "sections": [
             { "name": "Top Route Tower",
-            "access_rules": ["double_jump","ultima","rod_charge","splash"],
+            "access_rules": [], //"double_jump","ultima","rod_charge","splash"
             "visibility_rules": []
             }
           ],

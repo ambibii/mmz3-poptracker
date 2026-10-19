@@ -114,20 +114,20 @@
                               ]
                           }
                       },
-                      { "title": "Frontline Ice Base",
-                          "content": {
-                              "type": "map",
-                              "maps": [
-                                  "Frontline Ice Base"
-                              ]
-                          }
-                      },
                       {
                           "title": "Forest of Anatre",
                           "content": {
                               "type": "map",
                               "maps": [
                                   "Forest of Anatre"
+                              ]
+                          }
+                      },
+                      { "title": "Frontline Ice Base",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Frontline Ice Base"
                               ]
                           }
                       },
@@ -372,20 +372,20 @@
                               ]
                           }
                       },
-                      { "title": "Frontline Ice Base",
-                          "content": {
-                              "type": "map",
-                              "maps": [
-                                  "Frontline Ice Base"
-                              ]
-                          }
-                      },
                       {
                           "title": "Forest of Anatre",
                           "content": {
                               "type": "map",
                               "maps": [
                                   "Forest of Anatre"
+                              ]
+                          }
+                      },
+                      { "title": "Frontline Ice Base",
+                          "content": {
+                              "type": "map",
+                              "maps": [
+                                  "Frontline Ice Base"
                               ]
                           }
                       },

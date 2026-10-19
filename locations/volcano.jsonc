@@ -31,6 +31,8 @@
         ]
       },
       { "name": "3rd Volcaire Kill",
+          "chest_opened_img": "images/maps/enemies/volcaire.png",
+          "chest_unopened_img": "images/maps/enemies/volcaire.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -41,12 +43,15 @@
         "map_locations": [
           {
             "map": "Aegis Volcano Base",
-            "x": 100,
-            "y": 10
+            "x": 3815,
+            "y": 236,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "4th Lamplort Kill",
+          "chest_opened_img": "images/maps/enemies/lamplort.png",
+          "chest_unopened_img": "images/maps/enemies/lamplort.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -57,12 +62,12 @@
         "map_locations": [
           {
             "map": "Aegis Volcano Base",
-            "x": 200,
-            "y": 10
+            "x": 1592,
+            "y": 1337,
+            "shape": "diamond"
           }
         ]
       },
-      //location link
       { "name": "Ledge Above Lava",
         "access_rules": [],
         "sections": [

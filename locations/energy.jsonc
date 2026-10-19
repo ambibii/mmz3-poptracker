@@ -63,6 +63,8 @@
         ]
       },
       { "name": "9th Mothjiro Kill",
+          "chest_opened_img": "images/maps/enemies/mothjiro.png",
+          "chest_unopened_img": "images/maps/enemies/mothjiro.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -73,12 +75,15 @@
         "map_locations": [
           {
             "map": "Energy Facility",
-            "x": 100,
-            "y": 10
+            "x": 1066,
+            "y": 516,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "4th Snakecord Kill",
+          "chest_opened_img": "images/maps/enemies/snakecord.png",
+          "chest_unopened_img": "images/maps/enemies/snakecord.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -89,8 +94,9 @@
         "map_locations": [
           {
             "map": "Energy Facility",
-            "x": 200,
-            "y": 10
+            "x": 3090,
+            "y": 1216,
+            "shape": "diamond"
           }
         ]
       },
@@ -278,7 +284,7 @@
           }
         ]
       },
-      { "name": "Ascent After 1st Reactor",
+      { "name": "Ascent After First Reactor",
         "access_rules": [],
         "sections": [
             { "name": "Energy",

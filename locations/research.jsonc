@@ -24,6 +24,8 @@
         ]
       },
       { "name": "5th Pantheon Hunter Kill",
+          "chest_opened_img": "images/maps/enemies/pantheon hunter.png",
+          "chest_unopened_img": "images/maps/enemies/pantheon hunter.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -34,8 +36,8 @@
         "map_locations": [
           {
             "map": "Abandoned Research Laboratory",
-            "x": 100,
-            "y": 10
+            "x": 2389,
+            "y": 330
           }
         ]
       },

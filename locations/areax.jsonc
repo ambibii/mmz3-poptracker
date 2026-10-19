@@ -8,18 +8,16 @@
         "access_rules": [],
         "sections": [
           { "name": "A+ Rank Clear",
-                "chest_opened_img": "images/items/rank_a.png",
-                "chest_unopened_img": "images/items/disabled/rank_a.png",
+          "chest_opened_img": "images/items/rank_a.png",
+          "chest_unopened_img": "images/items/disabled/rank_a.png",
           "access_rules": [],
-          "visibility_rules": [],
-          "item_count": 1
+          "visibility_rules": []
           },
           { "name": "Collect Quick Foot Chip",
           "chest_opened_img": "images/items/swift.png",
           "chest_unopened_img": "images/items/disabled/foot.png",
           "access_rules": [],
-          "visibility_rules": [],
-          "item_count": 1
+          "visibility_rules": []
           }
         ],
         "map_locations": [
@@ -31,6 +29,8 @@
         ]
       },
       { "name": "4th Capsule Cannon Kill",
+          "chest_opened_img": "images/maps/enemies/capsule cannon.png",
+          "chest_unopened_img": "images/maps/enemies/capsule cannon.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -41,8 +41,9 @@
         "map_locations": [
           {
             "map": "Area X-2",
-            "x": 100,
-            "y": 10
+            "x": 3702,
+            "y": 791,
+            "shape": "diamond"
           }
         ]
       },

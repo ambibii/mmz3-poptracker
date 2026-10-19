@@ -73,10 +73,10 @@
           },
           //figure out how to adjust number of items in shop
           { "name": "Cerveaus Shop",
-            "chest_opened_img": "images/items/disabled/crystal.png",
+            "chest_opened_img": "images/items/disabled/cerveau.png",
             "chest_unopened_img": "images/items/cerveau.png",
             "access_rules": ["{}"],
-            "visibility_rules": []
+            "visibility_rules": ["cerveaushop"]
           }
         ],
         "map_locations": [

@@ -31,6 +31,8 @@
         ]
       },
       { "name": "5th Lemmingles Kill",
+          "chest_opened_img": "images/maps/enemies/lemmingles.png",
+          "chest_unopened_img": "images/maps/enemies/lemmingles.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -41,12 +43,15 @@
         "map_locations": [
           {
             "map": "Weapons Repair Factory",
-            "x": 100,
-            "y": 10
+            "x": 897,
+            "y": 291,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "5th Deathlock Kill",
+          "chest_opened_img": "images/maps/enemies/deathlock.png",
+          "chest_unopened_img": "images/maps/enemies/deathlock.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -57,12 +62,15 @@
         "map_locations": [
           {
             "map": "Weapons Repair Factory",
-            "x": 200,
-            "y": 10
+            "x": 1942,
+            "y": 1107,
+            "shape": "diamond"
           }
         ]
       },
       { "name": "3rd Lemmingles Generator Kill",
+          "chest_opened_img": "images/maps/enemies/lemmingles generator.png",
+          "chest_unopened_img": "images/maps/enemies/lemmingles generator.png",
         "access_rules": [],
         "sections": [
             { "name": "Kill Check",
@@ -73,8 +81,9 @@
         "map_locations": [
           {
             "map": "Weapons Repair Factory",
-            "x": 300,
-            "y": 10
+            "x": 2603,
+            "y": 1700,
+            "shape": "diamond"
           }
         ]
       },
@@ -95,10 +104,10 @@
         ]
       },
       { "name": "115",
-        "access_rules": [],
+        "access_rules": ["rod_charge"],
         "sections": [
             { "name": "Hit 3rd Hammer",
-            "access_rules": ["rod_charge"],
+            "access_rules": [],
             "visibility_rules": []
             }
           ],
@@ -308,7 +317,7 @@
           }
         ]
       },
-      { "name": "Ladder into Junk",
+      { "name": "Ladder Into Junk",
         "access_rules": [],
         "sections": [
             { "name": "E-Crystal",

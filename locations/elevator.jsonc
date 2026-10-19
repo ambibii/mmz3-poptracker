@@ -30,10 +30,25 @@
           }
         ]
       },
-      { "name": "5th Cattatank Kill",
+      
+      { "name": "Enemy Kill Checks",
         "access_rules": [],
         "sections": [
-            { "name": "Kill Check",
+            { "name": "5th Cattatank Kill",
+          "chest_opened_img": "images/maps/enemies/cattatank.png",
+          "chest_unopened_img": "images/maps/enemies/cattatank.png",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "6th Shotloid Kill",
+          "chest_opened_img": "images/maps/enemies/shotloid.png",
+          "chest_unopened_img": "images/maps/enemies/shotloid.png",
+            "access_rules": [],
+            "visibility_rules": []
+            },
+            { "name": "4th Pantheon Fist Kill",
+          "chest_opened_img": "images/maps/enemies/pantheon fist.png",
+          "chest_unopened_img": "images/maps/enemies/pantheon fist.png",
             "access_rules": [],
             "visibility_rules": []
             }
@@ -41,40 +56,9 @@
         "map_locations": [
           {
             "map": "Giant Elevator",
-            "x": 100,
-            "y": 10
-          }
-        ]
-      },
-      { "name": "6th Shotloid Kill",
-        "access_rules": [],
-        "sections": [
-            { "name": "Kill Check",
-            "access_rules": [],
-            "visibility_rules": []
-            }
-        ],
-        "map_locations": [
-          {
-            "map": "Giant Elevator",
-            "x": 200,
-            "y": 10
-          }
-        ]
-      },
-      { "name": "4th Pantheon Fist Kill",
-        "access_rules": [],
-        "sections": [
-            { "name": "Kill Check",
-            "access_rules": [],
-            "visibility_rules": []
-            }
-        ],
-        "map_locations": [
-          {
-            "map": "Giant Elevator",
-            "x": 300,
-            "y": 10
+            "x": 720,
+            "y": 1510,
+            "shape": "diamond"
           }
         ]
       },
@@ -200,7 +184,7 @@
           }
         ]
       },
-      { "name": "1st Passage High Ledges",
+      { "name": "First Passage High Ledges",
         "access_rules": [],
         "sections": [
             { "name": "1-UP",

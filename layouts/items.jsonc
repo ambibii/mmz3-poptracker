@@ -21,10 +21,6 @@
                 "Saber",
 				"Rod",
 				"Shield"
-              ],
-              [
-                // "consumable",
-                // "progressive_toggle"
               ]
             ]
           }
@@ -206,31 +202,28 @@
 						"h_alignment": "left",
 						"item_h_alignment": "center",
 						"rows": [
-							// ["Sub Tank","Sub Tank","Sub Tank"],
-							// ["Sub Tank","Sub Tank","Sub Tank"],
-							// ["Sub Tank","Sub Tank","Sub Tank"]
 							[
-								"volcano_access",
-								"oceanic_access",
-								"factory_access",
-								"residential_access"
+								"volcano",
+								"oceanic",
+								"factory",
+								"residential"
 							],
 							[
-								"desert_access",
-								"ice_base_access",
-								"forest_access",
-								"areax_access"
+								"desert",
+								"forest",
+								"icebase",
+								"areax"
 							],
 							[
-								"energy_access",
-								"snowy_access",
-								"library_access",
-								"elevator_access"
+								"energy",
+								"snowy",
+								"library",
+								"elevator"
 							],
 							[
-								"spacecraft_access",
-								"missile_access",
-								"subarcadia_access",
+								"spacecraft",
+								"missile",
+								"subarcadia",
 								"storyprogress"
 							]
 						]
@@ -262,6 +255,9 @@
 				],
 				[
 					"cerveaushop"
+				],
+				[
+					"tab_switch"
 				]
 				]
 			}
@@ -285,7 +281,7 @@
 				"h_alignment": "left",
 				"rows": [
 				[
-					"itemsanity", "1upsanity", "cerveaushop"
+					"itemsanity", "1upsanity", "cerveaushop","tab_switch"
 				]
 				]
 			}

@@ -6,6 +6,7 @@
 -- if you run into issues when touching A LOT of items/locations here, see the comment about Tracker.AllowDeferredLogicUpdate in autotracking.lua
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 -- used for hint tracking to quickly map hint status to a value from the Highlight enum
 HINT_STATUS_MAPPING = {}
 if Highlight then
@@ -21,6 +22,8 @@ end
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+EVENT_ID = ""
+TAB_ID = ""
 
 -- gets the data storage key for hints for the current player
 -- returns nil when not connected to AP
@@ -134,21 +137,9 @@ function apply_slot_data(slot_data)
 		local lifesanity = Tracker:FindObjectForCode("1upsanity")
 		lifesanity.CurrentStage = (slot_data['extra_life_sanity'])
 
-		-- 		-- if setting == "Maxim Tomoato" then
-		-- 		-- 	local maxim_tomato = Tracker:FindObjectForCode("Maxim_Tomato"):SetOverlay("Maxim Tomato")
-		-- 		-- 	maxim_tomato.CurrentStage = (1)
-		-- 		-- end
-		-- 		-- if setting == "1-Up" then
-		-- 		-- 	local oneup = Tracker:FindObjectForCode("1-Up"):SetOverlay("1-Up")
-		-- 		-- 	one_up.CurrentStage = (1)
-		-- 		-- end
-		-- 		-- if setting == "Invincibility Candy" then
-		-- 		-- 	local candy = Tracker:FindObjectForCode("Invincibility_Candy"):SetOverlay("Invincibility Candy")
-		-- 		-- 	invincible_candy.CurrentStage = (1)
-		-- 		-- end
-		-- 	-- end
 	-- put any code here that slot_data should affect (toggling setting items for example)
 end
+
 
 -- called right after an AP slot is connected
 function onClear(slot_data)
@@ -224,6 +215,24 @@ function onClear(slot_data)
 	-- triggers callback in the Retrieved handler when result is received
 	Archipelago:Get(data_strorage_keys)
 	Tracker.BulkUpdate = false
+
+	-- auto tabbing from MLSS
+	PLAYER_ID = Archipelago.PlayerNumber or -1
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
+        
+        if Archipelago.PlayerNumber>-1 then
+            updateEvents(0)
+            updateTabs(0)
+            EVENT_ID = "mlss_flag".."_"..TEAM_NUMBER.."_".. PLAYER_ID
+            TAB_ID = "mmz3_stage_"..TEAM_NUMBER.."_"..PLAYER_ID
+            print(string.format("SET NOTIFY %s",TAB_ID))
+            Archipelago:SetNotify({EVENT_ID})
+            Archipelago:Get({EVENT_ID})
+            Archipelago:SetNotify({TAB_ID})
+            Archipelago:Get({TAB_ID})
+        end
+    
+        Tracker:FindObjectForCode("tab_switch").Active = 1
 end
 
 -- called when an item gets collected
@@ -306,6 +315,7 @@ function onLocation(location_id, location_name)
 			local location_code = location_table[1]
 			if location_code then
 				local obj = Tracker:FindObjectForCode(location_code)
+				print(string.format("ONLOCATION: %s", obj))
 				if obj then
 					if location_code:sub(1, 1) == "@" then
 						obj.AvailableChestCount = obj.AvailableChestCount - 1
@@ -342,6 +352,82 @@ function onBounce(json)
 	end
 	-- your code goes here
 end
+
+
+-- auto-map tab from MLSS
+
+function onNotify(key, value, old_value)
+	if value ~= old_value then
+		if key == TAB_ID then
+		  updateTabs(value)
+        end
+        -- if key == EVENT_ID then
+        --     updateEvents(value)
+		-- end
+	end
+end
+
+function onNotifyLaunch(key, value)
+    if key == TAB_ID then
+        updateTabs(value)
+    end
+    --   if key == EVENT_ID then
+    --       updateEvents(value)
+    --   end
+end
+
+local lastRoomID = nil
+
+function updateTabs(value)
+    if value ~= nil then
+        print(string.format("updateTabs %x", value))
+        local tabswitch = Tracker:FindObjectForCode("tab_switch")
+        Tracker:FindObjectForCode("cur_level_id").CurrentStage = value
+		print(string.format("current level %x", value))
+        if tabswitch.Active then
+            if value ~= lastRoomID then
+				print(string.format("current level %x", value))
+                if TAB_MAPPING[value] then
+                    local roomTabs = {}
+                    for str in string.gmatch(TAB_MAPPING[value], "([^/]+)") do
+                        table.insert(roomTabs, str)
+                    end
+                    if #roomTabs > 0 then
+                        for _, tab in ipairs(roomTabs) do
+                            print(string.format("Updating ID %x to Tab %s", value, tab))
+                            Tracker:UiHint("ActivateTab", tab)
+                        end
+                        lastRoomID = value
+                    else
+                        print(string.format("Failed to find tabs for ID %x", value))
+                    end
+                else
+                    print(string.format("Failed to find Tab ID %x", value))
+                end
+            else
+            end
+        end
+    end
+end
+
+function updateEvents(value)
+    -- if value ~= nil then
+    -- 	for _, event in pairs(EVENT_FLAG_MAPPING) do
+    -- 		for _, code in pairs(event.codes) do
+	-- 			if code.setting == nil or has(code.setting) then
+	-- 				if code.code == "harbor_mail" then
+	-- 				Tracker:FindObjectForCode(code.code).Active = Tracker:FindObjectForCode(code.code).Active or value & event.bitmask ~= 0
+	-- 				else
+	-- 				Tracker:FindObjectForCode(code.code).Active = value & event.bitmask ~= 0
+	-- 				end
+	-- 			end
+    --     	end
+    -- 	end
+    -- end
+end
+
+
+
 
 -- called whenever Archipelago:Get returns data from the data storage or
 -- whenever a subscribed to (via Archipelago:SetNotify) key in data storgae is updated
@@ -446,5 +532,11 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 end
 Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
 Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
+
+
+
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+

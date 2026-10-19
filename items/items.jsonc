@@ -10,29 +10,34 @@
     //6 stages
     "stages": [
       {
-        "img": "images/items/weapons/buster.png",
+        "img": "images/items/weapons/buster first.png",
         "disabled_img": "images/items/weapons/buster.png",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/buster t.png",
+        "img": "images/items/weapons/buster second.png",
+        "name": "Half-Charged Buster",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/buster 3.png",
+        "img": "images/items/weapons/buster.png",
+        "name": "Charged Buster",
         "codes": "buster_charge",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/buster 4.png",
+        "img": "images/items/weapons/buster p1.png",
+        "name": "+1 Charged Buster",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/buster 5.png",
+        "img": "images/items/weapons/buster pt.png",
+        "name": "+2 Charged Buster",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/buster max.png",
+        "img": "images/items/weapons/buster p3.png",
+        "name": "+3 Charged Buster",
         "inherit_codes": true
       }
     ]
@@ -45,33 +50,40 @@
     //7 stages
     "stages": [
       {
-        "img": "images/items/weapons/saber.png",
+        "img": "images/items/weapons/saber first.png",
+        "name": "Z-Saber",
         "disabled_img": "images/items/weapons/saber.png",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/saber t.png",
+        "img": "images/items/weapons/saber second.png",
+        "name": "Two Combo Z-Saber",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/saber 3.png",
+        "img": "images/items/weapons/saber third.png",
+        "name": "Three Combo Z-Saber",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/saber 4.png",
+        "img": "images/items/weapons/saber.png",
+        "name": "Charged Z-Saber",
         "codes": "saber_charge",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/saber 5.png",
+        "img": "images/items/weapons/saber p1.png",
+        "name": "+1 Charged Z-Saber",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/saber 6.png",
+        "img": "images/items/weapons/saber pt.png",
+        "name": "+2 Charged Z-Saber",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/saber max.png",
+        "img": "images/items/weapons/saber p3.png",
+        "name": "+3 Charged Z-Saber",
         "inherit_codes": true
       }
     ]
@@ -84,25 +96,29 @@
     //5 stages
     "stages": [
       {
-        "img": "images/items/weapons/rod.png",
+        "img": "images/items/weapons/rod first.png",
         "disabled_img": "images/items/weapons/rod.png",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/rod t.png",
+        "img": "images/items/weapons/rod.png",
+        "name": "Charged Recoil Rod",
         "codes": "rod_charge",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/rod 3.png",
+        "img": "images/items/weapons/rod p1.png",
+        "name": "+1 Charged Recoil Rod",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/rod 4.png",
+        "img": "images/items/weapons/rod pt.png",
+        "name": "+2 Charged Recoil Rod",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/rod max.png",
+        "img": "images/items/weapons/rod p3.png",
+        "name": "+3 Charged Recoil Rod",
         "inherit_codes": true
       }
     ]
@@ -115,29 +131,29 @@
     //5 stages
     "stages": [
       {
-        "img": "images/items/weapons/shield.png",
+        "img": "images/items/weapons/shield first.png",
         "disabled_img": "images/items/weapons/shield.png",
         "inherit_codes": true
       },
       {
-        "img": "images/items/weapons/shield t.png",
+        "img": "images/items/weapons/shield.png",
         "name": "Charged Shield Boomerang",
         "codes": "shield_charge",
         "inherit_codes": true
       },
       {
         "name": "+1 Charged Shield Boomerang",
-        "img": "images/items/weapons/shield 3.png",
+        "img": "images/items/weapons/shield p1.png",
         "inherit_codes": true
       },
       {
         "name": "+2 Charged Shield Boomerang",
-        "img": "images/items/weapons/shield 4.png",
+        "img": "images/items/weapons/shield pt.png",
         "inherit_codes": true
       },
       {
         "name": "+3 Charged Shield Boomerang",
-        "img": "images/items/weapons/shield max.png",
+        "img": "images/items/weapons/shield p3.png",
         "inherit_codes": true
       }
     ]
@@ -341,7 +357,7 @@
   {
         "name": "Sub Tank",
         "type": "consumable",
-        "max_quantity": 2,
+        "max_quantity": 4,
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
@@ -590,6 +606,358 @@
   },
 
 
+
+  
+  { "name": "Derelict Spacecraft Access",
+    "type": "progressive",
+    "codes": "spacecraft",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Derelict Spacecraft Access",
+        "img": "images/items/mugshots/spacecraft.png",
+        "codes": "spacecraft",
+        "inherit_codes": true
+      },
+      {
+        "name": "Derelict Spacecraft Cleared",
+        "img": "images/items/mugshots/clear/spacecraft.png",
+        "codes": "spacecraft",
+        "inherit_codes": true
+      },
+      {
+        "name": "Derelict Spacecraft EX Skill",
+        "img": "images/items/mugshots/clear/spacecraft_a.png",
+        "codes": "spacecraft",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Aegis Volcano Base Access",
+    "type": "progressive",
+    "codes": "volcano",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Aegis Volcano Base Access",
+        "img": "images/items/mugshots/volcano.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Aegis Volcano Base Cleared",
+        "img": "images/items/mugshots/clear/volcano.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Aegis Volcano Base EX Skill",
+        "img": "images/items/mugshots/clear/volcano_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Oceanic Highway Ruins Access",
+    "type": "progressive",
+    "codes": "oceanic",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Oceanic Highway Ruins Access",
+        "img": "images/items/mugshots/oceanic.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Oceanic Highway Ruins Cleared",
+        "img": "images/items/mugshots/clear/oceanic.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Oceanic Highway Ruins EX Skill",
+        "img": "images/items/mugshots/clear/oceanic_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Weapons Repair Factory Access",
+    "type": "progressive",
+    "codes": "factory",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Weapons Repair Factory Access",
+        "img": "images/items/mugshots/wrfactory.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Weapons Repair Factory Cleared",
+        "img": "images/items/mugshots/clear/wrfactory.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Weapons Repair Factory EX Skill",
+        "img": "images/items/mugshots/clear/wrfactory_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Old Residential Access",
+    "type": "progressive",
+    "codes": "residential",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Old Residential Access",
+        "img": "images/items/mugshots/residential.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Old Residential Cleared",
+        "img": "images/items/mugshots/clear/residential.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Old Residential EX Skill",
+        "img": "images/items/mugshots/clear/residential_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Missile Factory Access",
+    "type": "progressive",
+    "codes": "missile",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Missile Factory Access",
+        "img": "images/items/mugshots/missile.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Missile Factory Cleared",
+        "img": "images/items/mugshots/clear/missile.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Missile Factory EX Skill",
+        "img": "images/items/mugshots/clear/missile_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Twilight Desert Access",
+    "type": "progressive",
+    "codes": "desert",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Twilight Desert Access",
+        "img": "images/items/mugshots/desert.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Twilight Desert Cleared",
+        "img": "images/items/mugshots/clear/desert.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Twilight Desert EX Skill",
+        "img": "images/items/mugshots/clear/desert_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Forest of Anatre Access",
+    "type": "progressive",
+    "codes": "forest",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Forest of Anatre Access",
+        "img": "images/items/mugshots/forest.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Forest of Anatre Cleared",
+        "img": "images/items/mugshots/clear/forest.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Forest of Anatre EX Skill",
+        "img": "images/items/mugshots/clear/forest_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Frontline Ice Base Access",
+    "type": "progressive",
+    "codes": "icebase",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Frontline Ice Base Access",
+        "img": "images/items/mugshots/icebase.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Frontline Ice Base Cleared",
+        "img": "images/items/mugshots/clear/icebase.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Frontline Ice Base EX Skill",
+        "img": "images/items/mugshots/clear/icebase_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Area X-2 Access",
+    "type": "progressive",
+    "codes": "areax",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Area X-2 Access",
+        "img": "images/items/mugshots/areax.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Area X-2 Cleared",
+        "img": "images/items/mugshots/clear/areax.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Area X-2 EX Skill",
+        "img": "images/items/mugshots/clear/areax_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Energy Facility Access",
+    "type": "progressive",
+    "codes": "energy",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Energy Facility Access",
+        "img": "images/items/mugshots/energy.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Energy Facility Cleared",
+        "img": "images/items/mugshots/clear/energy.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Energy Facility EX Skill",
+        "img": "images/items/mugshots/clear/energy_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Snowy Plains Access",
+    "type": "progressive",
+    "codes": "snowy",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Snowy Plains Access",
+        "img": "images/items/mugshots/snowy.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Snowy Plains Cleared",
+        "img": "images/items/mugshots/clear/snowy.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Snowy Plains EX Skill",
+        "img": "images/items/mugshots/clear/snowy_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Sunken Library Access",
+    "type": "progressive",
+    "codes": "library",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Sunken Library Access",
+        "img": "images/items/mugshots/library.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Sunken Library Cleared",
+        "img": "images/items/mugshots/clear/library.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Sunken Library EX Skill",
+        "img": "images/items/mugshots/clear/library_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Giant Elevator Access",
+    "type": "progressive",
+    "codes": "elevator",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Giant Elevator Access",
+        "img": "images/items/mugshots/elevator.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Giant Elevator Cleared",
+        "img": "images/items/mugshots/clear/elevator.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Giant Elevator EX Skill",
+        "img": "images/items/mugshots/clear/elevator_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  { "name": "Sub Arcadia Access",
+    "type": "progressive",
+    "codes": "subarcadia",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Sub Arcadia Access",
+        "img": "images/items/mugshots/subarcadia.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Sub Arcadia Cleared",
+        "img": "images/items/mugshots/clear/subarcadia.png",
+        "inherit_codes": true
+      },
+      {
+        "name": "Sub Arcadia EX Skill",
+        "img": "images/items/mugshots/clear/subarcadia_a.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+
+
   // SETTINGS
   {
     "name": "Itemsanity",
@@ -642,16 +1010,77 @@
     "codes": "120"
   },
   {
-      "name": "Cerveaus Shop", //disks 1-180
-      "type": "consumable",
-      "max_quantity": 48,
-      "increment": 1,
-      "decrement": 1,
-      "initial_quantity": 0,
-      "overlay_font_size": 15,
-      "overlay_align": "right",
-      "overlay_background": "#A0000000",
-      "img": "images/items/cerveau.png",
-      "codes": "cerveaushop"
-  }
+    "name": "Cerveaus Shop",
+    "type": "progressive",
+    "codes": "cerveaushop",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Cerveau's Shop Indicator Off",
+        "img": "images/items/disabled/cerveau.png",
+        "codes": "",
+        "inherit_codes": false
+      },
+      {
+        "name": "Cerveau's Shop Indicator On",
+        "img": "images/items/cerveau.png",
+        "codes": "cerveaushop",
+        "inherit_codes": false
+      }
+    ]
+  },
+  // {
+  //     "name": "Cerveaus Shop", 
+  //     "type": "consumable",
+  //     "max_quantity": 48,
+  //     "increment": 1,
+  //     "decrement": 1,
+  //     "initial_quantity": 16,
+  //     "overlay_font_size": 15,
+  //     "overlay_align": "right",
+  //     "overlay_background": "#A0000000",
+  //     "img": "images/items/cerveau.png",
+  //     "codes": "cerveaushop"
+  // },
+
+  
+	{
+        "name": "Current Level",
+        "type": "progressive",
+        "img": "",
+        "disabled_img": "",
+        "codes": "cur_level_id"
+	},
+	{
+        "name": "Auto-Tab Switch",
+        "type": "toggle",
+        "img": "images/items/autotab.png",
+        "disabled_img": "images/items/disabled/autotab.png",
+        "codes": "tab_switch"
+	}
+  
+  // {
+  //   "name": "Auto-Tab",
+  //   "type": "progressive",
+  //   "codes": "tab_switch",
+  //   "allow_disabled": false,
+  //   "initial_stage_idx": 1,
+  //   "loop": true,
+  //   "stages": [
+  //     {
+  //       "name": "Auto-Tab Switching Off",
+  //       "img": "images/items/disabled/autotab.png",
+  //       "codes": "",
+  //       "inherit_codes": false
+  //     },
+  //     {
+  //       "name": "Auto-Tab Switching On",
+  //       "img": "images/items/autotab.png",
+  //       "codes": "tab_switch",
+  //       "inherit_codes": false
+  //     }
+  //   ]
+  // }
 ]
